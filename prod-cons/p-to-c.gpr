@@ -1,22 +1,2 @@
-<gxl><graph>
-	<node id="node1">
-		<attr name="Label">
-			<string>root</string>
-		</attr>
-	</node>
-	<node id="node0">
-		<attr name="Label">
-			<string>     </string>
-		</attr>
-	</node>
-	<edge id="edge0" from="node1" to="">
-		<attr name="Label">
-			<string>not:c</string>
-		</attr>
-	</edge>
-	<edge id="edge1" from="node1" to="node0">
-		<attr name="Label">
-			<string>del:p | new:c</string>
-		</attr>
-	</edge>
-</graph></gxl>
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl><graph><node id="n68"/><node id="n70"/><node id="n69"/><edge id="n68 --del:p--&gt; n69" from="n68" to="n69"><attr name="label"><string>del:p</string></attr></edge><edge id="n68 --new:c--&gt; n69" from="n68" to="n69"><attr name="label"><string>new:c</string></attr></edge><edge id="n70 --not:--&gt; n70" from="n70" to="n70"><attr name="label"><string>not:</string></attr></edge><edge id="n68 --not:c--&gt; n70" from="n68" to="n70"><attr name="label"><string>not:c</string></attr></edge><edge id="n68 --root--&gt; n68" from="n68" to="n68"><attr name="label"><string>root</string></attr></edge></graph></gxl>
