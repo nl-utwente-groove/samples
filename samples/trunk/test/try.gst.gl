@@ -1,8 +1,0 @@
-# Layout information for .\test\.new\try.gst
-# Each line contains layout information about a node or edge
-# Node Format: n <node id> <bounds>
-# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
-n n106 500 500 0 0 
-n n103 500 500 0 0 
-n n105 500 500 0 0 
-n n104 500 500 0 0 
