@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n236"/>
+        <node id="n234"/>
+        <node id="n235"/>
+        <edge from="n234" to="n234">
+            <attr name="label">
+                <string>del:empty</string>
+            </attr>
+        </edge>
+        <edge from="n234" to="n235">
+            <attr name="label">
+                <string>val</string>
+            </attr>
+        </edge>
+        <edge from="n236" to="n234">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge from="n235" to="n235">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

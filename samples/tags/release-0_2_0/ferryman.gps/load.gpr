@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n190"/>
+        <node id="n192"/>
+        <node id="n191"/>
+        <node id="n193"/>
+        <edge from="n190" to="n190">
+            <attr name="label">
+                <string>boat</string>
+            </attr>
+        </edge>
+        <edge from="n193" to="n191">
+            <attr name="label">
+                <string>del:on</string>
+            </attr>
+        </edge>
+        <edge from="n190" to="n192">
+            <attr name="label">
+                <string>new:go</string>
+            </attr>
+        </edge>
+        <edge from="n193" to="n190">
+            <attr name="label">
+                <string>new:in</string>
+            </attr>
+        </edge>
+        <edge from="n192" to="n191">
+            <attr name="label">
+                <string>not:=</string>
+            </attr>
+        </edge>
+        <edge from="n190" to="n191">
+            <attr name="label">
+                <string>del:moored</string>
+            </attr>
+        </edge>
+        <edge from="n192" to="n192">
+            <attr name="label">
+                <string>bank</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
