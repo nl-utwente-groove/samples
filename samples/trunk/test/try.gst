@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gxl><graph><node id="n0"/><node id="n1"/><edge id="n0 --a--&gt; n0" from="n0" to="n0"><attr name="label"><string>a</string></attr></edge><edge id="n0 --edge--&gt; n1" from="n0" to="n1"><attr name="label"><string>edge</string></attr></edge><edge id="n1 --c--&gt; n1" from="n1" to="n1"><attr name="label"><string>c</string></attr></edge></graph></gxl>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n4"/>
+        <node id="n5"/>
+        <node id="n2"/>
+        <node id="n3"/>
+        <edge from="n5" to="n4">
+            <attr name="label">
+                <string>a</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
