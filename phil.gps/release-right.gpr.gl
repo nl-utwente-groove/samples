@@ -1,6 +1,9 @@
-# Layout information for C:\Eclipse\groove\samples\phil.gps\release-right.gpr
+# Layout information for C:\Program Files\Groove\samples-1_0\phil.gps\release-right.gpr
 # Each line contains layout information about a node or edge
 # Node Format: n <node id> <bounds>
 # Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
-n n393 108 162 79 50 
-n n394 240 78 18 18 
+e n82 n83 "del:hold" 130 432 122 171 141 107 213 83 12
+n n83 197 74 18 18 
+n n82 108 162 18 18 
+e n82 n82 "new:think" 162 429 122 171 65 198 66 139 122 171 12
+e n82 n82 "del:hasRight" 827 484 122 171 191 195 191 145 122 171 12

@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n94"/>
-        <node id="n92"/>
-        <node id="n95"/>
-        <node id="n96"/>
-        <node id="n93"/>
-        <edge from="n93" to="n95">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n95" to="n96">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n94" to="n94">
+        <node id="n289"/>
+        <node id="n290"/>
+        <node id="n288"/>
+        <node id="n287"/>
+        <node id="n286"/>
+        <edge from="n287" to="n287">
             <attr name="label">
                 <string>List</string>
             </attr>
         </edge>
-        <edge from="n92" to="n92">
+        <edge from="n289" to="n286">
             <attr name="label">
-                <string>1 | 2 | 3</string>
+                <string>next</string>
             </attr>
         </edge>
-        <edge from="n93" to="n96">
+        <edge from="n289" to="n288">
             <attr name="label">
-                <string>new:next</string>
+                <string>val</string>
             </attr>
         </edge>
-        <edge from="n95" to="n95">
-            <attr name="label">
-                <string>del:</string>
-            </attr>
-        </edge>
-        <edge from="n94" to="n93">
+        <edge from="n287" to="n290">
             <attr name="label">
                 <string>next*</string>
             </attr>
         </edge>
-        <edge from="n95" to="n92">
+        <edge from="n290" to="n286">
             <attr name="label">
-                <string>val</string>
+                <string>new:next</string>
+            </attr>
+        </edge>
+        <edge from="n289" to="n289">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n290" to="n289">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n288" to="n288">
+            <attr name="label">
+                <string>1|2|3</string>
             </attr>
         </edge>
     </graph>

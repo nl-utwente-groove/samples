@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n13"/>
-        <node id="n14"/>
-        <node id="n15"/>
-        <edge from="n15" to="n13">
+        <node id="n329"/>
+        <node id="n331"/>
+        <node id="n330"/>
+        <edge from="n331" to="n331">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n330" to="n329">
             <attr name="label">
                 <string>del:go</string>
             </attr>
         </edge>
-        <edge from="n15" to="n15">
+        <edge from="n330" to="n330">
             <attr name="label">
                 <string>boat</string>
             </attr>
         </edge>
-        <edge from="n13" to="n13">
-            <attr name="label">
-                <string>bank</string>
-            </attr>
-        </edge>
-        <edge from="n14" to="n15">
-            <attr name="label">
-                <string>not:in</string>
-            </attr>
-        </edge>
-        <edge from="n15" to="n13">
+        <edge from="n330" to="n329">
             <attr name="label">
                 <string>new:moored</string>
             </attr>
         </edge>
-        <edge from="n14" to="n14">
+        <edge from="n329" to="n329">
             <attr name="label">
-                <string>not:</string>
+                <string>bank</string>
+            </attr>
+        </edge>
+        <edge from="n331" to="n330">
+            <attr name="label">
+                <string>in</string>
             </attr>
         </edge>
     </graph>
