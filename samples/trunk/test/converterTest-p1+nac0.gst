@@ -1,32 +1,38 @@
-<gxl><graph>
-	<node id="node2">
-		<attr name="Label">
-			<string>use</string>
-		</attr>
-	</node>
-	<node id="node1">
-		<attr name="Label">
-			<string>del</string>
-		</attr>
-	</node>
-	<node id="node0">
-		<attr name="Label">
-			<string>new</string>
-		</attr>
-	</node>
-	<edge id="edge0" from="node2" to="node0">
-		<attr name="Label">
-			<string>new:b</string>
-		</attr>
-	</edge>
-	<edge id="edge1" from="node2" to="node1">
-		<attr name="Label">
-			<string>del:a</string>
-		</attr>
-	</edge>
-	<edge id="edge2" from="node2" to="node1">
-		<attr name="Label">
-			<string>not</string>
-		</attr>
-	</edge>
-</graph></gxl>
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n86"/>
+        <node id="n87"/>
+        <node id="n88"/>
+        <edge from="n86" to="n86">
+            <attr name="label">
+                <string>use</string>
+            </attr>
+        </edge>
+        <edge from="n87" to="n87">
+            <attr name="label">
+                <string>del</string>
+            </attr>
+        </edge>
+        <edge from="n86" to="n87">
+            <attr name="label">
+                <string>not</string>
+            </attr>
+        </edge>
+        <edge from="n86" to="n88">
+            <attr name="label">
+                <string>new:b</string>
+            </attr>
+        </edge>
+        <edge from="n88" to="n88">
+            <attr name="label">
+                <string>new</string>
+            </attr>
+        </edge>
+        <edge from="n86" to="n87">
+            <attr name="label">
+                <string>del:a</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

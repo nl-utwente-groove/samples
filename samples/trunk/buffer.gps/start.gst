@@ -1,42 +1,44 @@
-<gxl><graph>
-	<node id="node3">
-		<attr name="Label">
-			<string>     </string>
-		</attr>
-	</node>
-	<node id="node2">
-		<attr name="Label">
-			<string>empty</string>
-		</attr>
-	</node>
-	<node id="node1">
-		<attr name="Label">
-			<string>empty</string>
-		</attr>
-	</node>
-	<node id="node0">
-		<attr name="Label">
-			<string>empty</string>
-		</attr>
-	</node>
-	<edge id="edge0" from="node0" to="node1">
-		<attr name="Label">
-			<string>next</string>
-		</attr>
-	</edge>
-	<edge id="edge1" from="node1" to="node2">
-		<attr name="Label">
-			<string>next</string>
-		</attr>
-	</edge>
-	<edge id="edge2" from="node3" to="node0">
-		<attr name="Label">
-			<string>first</string>
-		</attr>
-	</edge>
-	<edge id="edge3" from="node3" to="node2">
-		<attr name="Label">
-			<string>last</string>
-		</attr>
-	</edge>
-</graph></gxl>
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n241"/>
+        <node id="n243"/>
+        <node id="n240"/>
+        <node id="n242"/>
+        <edge from="n241" to="n241">
+            <attr name="label">
+                <string>empty</string>
+            </attr>
+        </edge>
+        <edge from="n243" to="n243">
+            <attr name="label">
+                <string>empty</string>
+            </attr>
+        </edge>
+        <edge from="n240" to="n241">
+            <attr name="label">
+                <string>last</string>
+            </attr>
+        </edge>
+        <edge from="n242" to="n241">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n242" to="n242">
+            <attr name="label">
+                <string>empty</string>
+            </attr>
+        </edge>
+        <edge from="n243" to="n242">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n240" to="n243">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

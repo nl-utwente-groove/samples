@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n162"/>
-        <node id="n160"/>
-        <node id="n161"/>
-        <node id="n159"/>
-        <edge from="n162" to="n159">
-            <attr name="label">
-                <string>sig</string>
-            </attr>
-        </edge>
-        <edge from="n162" to="n162">
-            <attr name="label">
-                <string>M</string>
-            </attr>
-        </edge>
-        <edge from="n162" to="n161">
-            <attr name="label">
-                <string>in</string>
-            </attr>
-        </edge>
-        <edge from="n160" to="n162">
-            <attr name="label">
-                <string>new:type</string>
-            </attr>
-        </edge>
-        <edge from="n160" to="n159">
-            <attr name="label">
-                <string>sig</string>
-            </attr>
-        </edge>
-        <edge from="n160" to="n161">
+        <node id="n7"/>
+        <node id="n8"/>
+        <node id="n5"/>
+        <node id="n6"/>
+        <edge from="n7" to="n6">
             <attr name="label">
                 <string>del:lookup</string>
             </attr>
         </edge>
-        <edge from="n160" to="n160">
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>M</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n8">
+            <attr name="label">
+                <string>sig</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n6">
+            <attr name="label">
+                <string>in</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n5">
+            <attr name="label">
+                <string>new:type</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n7">
             <attr name="label">
                 <string>MI</string>
             </attr>
         </edge>
-        <edge from="n161" to="n161">
-            <attr name="label">
-                <string>C</string>
-            </attr>
-        </edge>
-        <edge from="n159" to="n159">
+        <edge from="n8" to="n8">
             <attr name="label">
                 <string>MS</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n8">
+            <attr name="label">
+                <string>sig</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n6">
+            <attr name="label">
+                <string>C</string>
             </attr>
         </edge>
     </graph>

@@ -1,27 +1,28 @@
-<gxl><graph>
-	<node id="node2">
-		<attr name="Label">
-			<string>new:empty</string>
-		</attr>
-	</node>
-	<node id="node1">
-		<attr name="Label">
-			<string>     </string>
-		</attr>
-	</node>
-	<node id="node0">
-		<attr name="Label">
-			<string>del:</string>
-		</attr>
-	</node>
-	<edge id="edge0" from="node2" to="node0">
-		<attr name="Label">
-			<string>val</string>
-		</attr>
-	</edge>
-	<edge id="edge1" from="node1" to="node2">
-		<attr name="Label">
-			<string>last</string>
-		</attr>
-	</edge>
-</graph></gxl>
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n231"/>
+        <node id="n232"/>
+        <node id="n233"/>
+        <edge from="n232" to="n231">
+            <attr name="label">
+                <string>last</string>
+            </attr>
+        </edge>
+        <edge from="n231" to="n231">
+            <attr name="label">
+                <string>new:empty</string>
+            </attr>
+        </edge>
+        <edge from="n231" to="n233">
+            <attr name="label">
+                <string>val</string>
+            </attr>
+        </edge>
+        <edge from="n233" to="n233">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

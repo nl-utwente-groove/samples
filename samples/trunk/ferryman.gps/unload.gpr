@@ -1,37 +1,38 @@
-<gxl><graph>
-	<node id="node0">
-		<attr name="Label">
-			<string>boat</string>
-		</attr>
-	</node>
-	<node id="node2">
-		<attr name="Label">
-			<string>     </string>
-		</attr>
-	</node>
-	<node id="node1">
-		<attr name="Label">
-			<string>bank</string>
-		</attr>
-	</node>
-	<edge id="edge0" from="node0" to="node1">
-		<attr name="Label">
-			<string>del:go</string>
-		</attr>
-	</edge>
-	<edge id="edge1" from="node0" to="node1">
-		<attr name="Label">
-			<string>new:moored</string>
-		</attr>
-	</edge>
-	<edge id="edge2" from="node2" to="node1">
-		<attr name="Label">
-			<string>new:on</string>
-		</attr>
-	</edge>
-	<edge id="edge3" from="node2" to="node0">
-		<attr name="Label">
-			<string>del:in</string>
-		</attr>
-	</edge>
-</graph></gxl>
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n194"/>
+        <node id="n195"/>
+        <node id="n196"/>
+        <edge from="n195" to="n196">
+            <attr name="label">
+                <string>new:on</string>
+            </attr>
+        </edge>
+        <edge from="n196" to="n196">
+            <attr name="label">
+                <string>bank</string>
+            </attr>
+        </edge>
+        <edge from="n194" to="n196">
+            <attr name="label">
+                <string>new:moored</string>
+            </attr>
+        </edge>
+        <edge from="n194" to="n194">
+            <attr name="label">
+                <string>boat</string>
+            </attr>
+        </edge>
+        <edge from="n195" to="n194">
+            <attr name="label">
+                <string>del:in</string>
+            </attr>
+        </edge>
+        <edge from="n194" to="n196">
+            <attr name="label">
+                <string>del:go</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
