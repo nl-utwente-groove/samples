@@ -1,75 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n231"/>
-        <node id="n228"/>
-        <node id="n226"/>
-        <node id="n230"/>
-        <node id="n229"/>
-        <node id="n227"/>
-        <edge from="n230" to="n227">
-            <attr name="label">
-                <string>caller</string>
-            </attr>
-        </edge>
-        <edge from="n227" to="n229">
+        <node id="n195"/>
+        <node id="n192"/>
+        <node id="n193"/>
+        <node id="n196"/>
+        <node id="n194"/>
+        <edge from="n194" to="n195">
             <attr name="label">
                 <string>this</string>
             </attr>
         </edge>
-        <edge from="n227" to="n227">
-            <attr name="label">
-                <string>del:control</string>
-            </attr>
-        </edge>
-        <edge from="n227" to="n228">
-            <attr name="label">
-                <string>not:x</string>
-            </attr>
-        </edge>
-        <edge from="n227" to="n231">
-            <attr name="label">
-                <string>x</string>
-            </attr>
-        </edge>
-        <edge from="n230" to="n230">
+        <edge from="n194" to="n194">
             <attr name="label">
                 <string>control</string>
             </attr>
         </edge>
-        <edge from="n230" to="n231">
+        <edge from="n193" to="n193">
             <attr name="label">
-                <string>x</string>
+                <string>append</string>
             </attr>
         </edge>
-        <edge from="n229" to="n226">
+        <edge from="n196" to="n195">
             <attr name="label">
                 <string>next</string>
             </attr>
         </edge>
-        <edge from="n230" to="n230">
+        <edge from="n193" to="n192">
             <attr name="label">
-                <string>append</string>
+                <string>x</string>
             </attr>
         </edge>
-        <edge from="n230" to="n230">
+        <edge from="n194" to="n193">
+            <attr name="label">
+                <string>caller</string>
+            </attr>
+        </edge>
+        <edge from="n194" to="n194">
             <attr name="label">
                 <string>new:</string>
             </attr>
         </edge>
-        <edge from="n230" to="n226">
-            <attr name="label">
-                <string>this</string>
-            </attr>
-        </edge>
-        <edge from="n229" to="n228">
-            <attr name="label">
-                <string>val</string>
-            </attr>
-        </edge>
-        <edge from="n227" to="n227">
+        <edge from="n194" to="n194">
             <attr name="label">
                 <string>append</string>
+            </attr>
+        </edge>
+        <edge from="n194" to="n192">
+            <attr name="label">
+                <string>x</string>
+            </attr>
+        </edge>
+        <edge from="n196" to="n192">
+            <attr name="label">
+                <string>not:val</string>
+            </attr>
+        </edge>
+        <edge from="n193" to="n193">
+            <attr name="label">
+                <string>del:control</string>
+            </attr>
+        </edge>
+        <edge from="n193" to="n196">
+            <attr name="label">
+                <string>this</string>
             </attr>
         </edge>
     </graph>

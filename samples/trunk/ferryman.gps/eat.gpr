@@ -1,38 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n29"/>
-        <node id="n31"/>
-        <node id="n32"/>
-        <node id="n30"/>
-        <edge from="n30" to="n29">
-            <attr name="label">
-                <string>likes</string>
-            </attr>
-        </edge>
-        <edge from="n30" to="n31">
-            <attr name="label">
-                <string>on</string>
-            </attr>
-        </edge>
-        <edge from="n29" to="n29">
-            <attr name="label">
-                <string>del:</string>
-            </attr>
-        </edge>
-        <edge from="n32" to="n31">
-            <attr name="label">
-                <string>moored</string>
-            </attr>
-        </edge>
-        <edge from="n32" to="n32">
+        <node id="n136"/>
+        <node id="n138"/>
+        <node id="n137"/>
+        <node id="n139"/>
+        <edge from="n139" to="n139">
             <attr name="label">
                 <string>not:</string>
             </attr>
         </edge>
-        <edge from="n29" to="n31">
+        <edge from="n139" to="n139">
+            <attr name="label">
+                <string>boat</string>
+            </attr>
+        </edge>
+        <edge from="n136" to="n138">
             <attr name="label">
                 <string>on</string>
+            </attr>
+        </edge>
+        <edge from="n138" to="n138">
+            <attr name="label">
+                <string>bank</string>
+            </attr>
+        </edge>
+        <edge from="n139" to="n138">
+            <attr name="label">
+                <string>moored</string>
+            </attr>
+        </edge>
+        <edge from="n136" to="n136">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n137" to="n138">
+            <attr name="label">
+                <string>on</string>
+            </attr>
+        </edge>
+        <edge from="n137" to="n136">
+            <attr name="label">
+                <string>likes</string>
             </attr>
         </edge>
     </graph>

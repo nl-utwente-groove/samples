@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n162"/>
-        <node id="n160"/>
-        <node id="n161"/>
-        <edge from="n161" to="n160">
-            <attr name="label">
-                <string>not:p</string>
-            </attr>
-        </edge>
-        <edge from="n162" to="n162">
-            <attr name="label">
-                <string>new:</string>
-            </attr>
-        </edge>
-        <edge from="n161" to="n162">
+        <node id="n426"/>
+        <node id="n427"/>
+        <node id="n425"/>
+        <edge from="n425" to="n427">
             <attr name="label">
                 <string>p</string>
             </attr>
         </edge>
-        <edge from="n161" to="n161">
+        <edge from="n427" to="n427">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge from="n426" to="n426">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n425" to="n425">
             <attr name="label">
                 <string>root</string>
             </attr>
         </edge>
-        <edge from="n160" to="n160">
+        <edge from="n425" to="n426">
             <attr name="label">
-                <string>not:</string>
+                <string>not:p</string>
             </attr>
         </edge>
     </graph>

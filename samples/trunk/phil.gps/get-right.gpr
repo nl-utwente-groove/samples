@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n5"/>
-        <node id="n4"/>
-        <node id="n3"/>
-        <edge from="n4" to="n4">
+        <node id="n356"/>
+        <node id="n358"/>
+        <node id="n357"/>
+        <edge from="n357" to="n357">
             <attr name="label">
                 <string>Phil</string>
             </attr>
         </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>Phil </string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n4">
-            <attr name="label">
-                <string>new:eat</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n4">
-            <attr name="label">
-                <string>del:hasLeft</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n3">
+        <edge from="n357" to="n356">
             <attr name="label">
                 <string>left</string>
             </attr>
         </edge>
-        <edge from="n3" to="n3">
+        <edge from="n358" to="n356">
             <attr name="label">
-                <string>Fork</string>
+                <string>new:hold</string>
             </attr>
         </edge>
-        <edge from="n5" to="n3">
-            <attr name="label">
-                <string>not:hold</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n3">
+        <edge from="n358" to="n356">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n4" to="n3">
+        <edge from="n358" to="n358">
             <attr name="label">
-                <string>new:hold</string>
+                <string>Phil</string>
+            </attr>
+        </edge>
+        <edge from="n357" to="n356">
+            <attr name="label">
+                <string>not:hold</string>
+            </attr>
+        </edge>
+        <edge from="n358" to="n358">
+            <attr name="label">
+                <string>new:eat</string>
+            </attr>
+        </edge>
+        <edge from="n358" to="n358">
+            <attr name="label">
+                <string>del:hasLeft</string>
+            </attr>
+        </edge>
+        <edge from="n356" to="n356">
+            <attr name="label">
+                <string>Fork</string>
             </attr>
         </edge>
     </graph>

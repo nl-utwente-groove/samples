@@ -1,0 +1,8 @@
+# Layout information for C:\Eclipse\groove\samples\circular-buffer.gps\start.gst
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+n n89 157 41 30 18 
+n n90 245 200 30 18 
+n n88 46 198 30 18 
+n n87 150 138 40 18 

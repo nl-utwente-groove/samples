@@ -2,9 +2,9 @@
 # Each line contains layout information about a node or edge
 # Node Format: n <node id> <bounds>
 # Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
-n n11 426 120 38 34 
-n n9 58 33 56 18 
-n n6 298 129 32 18 
-n n7 168 121 38 34 
-n n10 66 126 32 18 
-n n8 68 227 30 18 
+n n147 402 120 36 34 
+n n149 286 45 32 18 
+n n148 68 35 30 18 
+n n146 66 126 32 18 
+n n151 58 231 56 18 
+n n150 168 121 38 34 

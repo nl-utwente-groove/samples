@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n221"/>
-        <node id="n223"/>
-        <node id="n222"/>
-        <node id="n224"/>
-        <edge from="n222" to="n223">
+        <node id="n89"/>
+        <node id="n90"/>
+        <node id="n88"/>
+        <node id="n87"/>
+        <edge from="n88" to="n89">
             <attr name="label">
                 <string>next</string>
             </attr>
         </edge>
-        <edge from="n223" to="n221">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n223" to="n223">
-            <attr name="label">
-                <string>Cell</string>
-            </attr>
-        </edge>
-        <edge from="n224" to="n224">
+        <edge from="n87" to="n87">
             <attr name="label">
                 <string>Buffer</string>
             </attr>
         </edge>
-        <edge from="n221" to="n222">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n222" to="n222">
+        <edge from="n90" to="n90">
             <attr name="label">
                 <string>Cell</string>
             </attr>
         </edge>
-        <edge from="n224" to="n223">
+        <edge from="n87" to="n89">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge from="n87" to="n88">
             <attr name="label">
                 <string>last</string>
             </attr>
         </edge>
-        <edge from="n221" to="n221">
+        <edge from="n89" to="n90">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n90" to="n88">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n88" to="n88">
             <attr name="label">
                 <string>Cell</string>
             </attr>
         </edge>
-        <edge from="n224" to="n221">
+        <edge from="n89" to="n89">
             <attr name="label">
-                <string>first</string>
+                <string>Cell</string>
             </attr>
         </edge>
     </graph>

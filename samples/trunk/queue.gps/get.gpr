@@ -1,38 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n137"/>
-        <node id="n136"/>
-        <node id="n134"/>
-        <node id="n135"/>
-        <edge from="n136" to="n134">
+        <node id="n625"/>
+        <node id="n626"/>
+        <node id="n627"/>
+        <node id="n628"/>
+        <edge from="n628" to="n628">
             <attr name="label">
-                <string>del:previous</string>
+                <string>Buffer</string>
             </attr>
         </edge>
-        <edge from="n135" to="n134">
+        <edge from="n625" to="n625">
             <attr name="label">
-                <string>new:last</string>
+                <string>Object</string>
             </attr>
         </edge>
-        <edge from="n136" to="n137">
+        <edge from="n627" to="n627">
             <attr name="label">
-                <string>val</string>
+                <string>new:slot</string>
             </attr>
         </edge>
-        <edge from="n135" to="n136">
+        <edge from="n626" to="n626">
             <attr name="label">
-                <string>del:last</string>
+                <string>Cell</string>
             </attr>
         </edge>
-        <edge from="n137" to="n137">
+        <edge from="n625" to="n625">
             <attr name="label">
                 <string>del:</string>
             </attr>
         </edge>
-        <edge from="n136" to="n136">
+        <edge from="n628" to="n626">
             <attr name="label">
-                <string>new:slot</string>
+                <string>new:last</string>
+            </attr>
+        </edge>
+        <edge from="n627" to="n626">
+            <attr name="label">
+                <string>del:previous</string>
+            </attr>
+        </edge>
+        <edge from="n627" to="n625">
+            <attr name="label">
+                <string>val</string>
+            </attr>
+        </edge>
+        <edge from="n628" to="n627">
+            <attr name="label">
+                <string>del:last</string>
+            </attr>
+        </edge>
+        <edge from="n627" to="n627">
+            <attr name="label">
+                <string>Cell</string>
             </attr>
         </edge>
     </graph>

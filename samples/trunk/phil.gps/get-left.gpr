@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n0"/>
-        <node id="n2"/>
-        <node id="n1"/>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>Phil </string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n0">
-            <attr name="label">
-                <string>new:hold</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>del:hungry</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n0">
+        <node id="n336"/>
+        <node id="n338"/>
+        <node id="n337"/>
+        <edge from="n337" to="n336">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n1" to="n1">
+        <edge from="n338" to="n336">
             <attr name="label">
-                <string>Phil</string>
+                <string>new:hold</string>
             </attr>
         </edge>
-        <edge from="n1" to="n0">
-            <attr name="label">
-                <string>left</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>new:hasLeft</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n0">
+        <edge from="n337" to="n336">
             <attr name="label">
                 <string>not:hold</string>
             </attr>
         </edge>
-        <edge from="n0" to="n0">
+        <edge from="n337" to="n337">
+            <attr name="label">
+                <string>Phil</string>
+            </attr>
+        </edge>
+        <edge from="n336" to="n336">
             <attr name="label">
                 <string>Fork</string>
+            </attr>
+        </edge>
+        <edge from="n338" to="n336">
+            <attr name="label">
+                <string>left</string>
+            </attr>
+        </edge>
+        <edge from="n338" to="n338">
+            <attr name="label">
+                <string>new:hasLeft</string>
+            </attr>
+        </edge>
+        <edge from="n338" to="n338">
+            <attr name="label">
+                <string>Phil</string>
+            </attr>
+        </edge>
+        <edge from="n338" to="n338">
+            <attr name="label">
+                <string>del:hungry</string>
             </attr>
         </edge>
     </graph>
