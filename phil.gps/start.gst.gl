@@ -1,0 +1,24 @@
+# Layout information for .\.new\start.gst
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+e n31 n28 "right" 500 500 11
+e n33 n33 "Phil" 500 500 11
+e n34 n34 "Phil" 500 500 11
+e n34 n34 "think" 500 500 11
+e n33 n33 "think" 500 500 11
+e n28 n28 "Fork" 500 500 11
+e n30 n30 "Fork" 500 500 11
+e n34 n29 "left" 500 500 11
+e n32 n28 "left" 500 500 11
+e n31 n27 "left" 500 500 11
+e n27 n27 "Fork" 500 500 11
+e n32 n29 "right" 500 500 11
+e n32 n32 "Phil" 500 500 11
+e n32 n32 "think" 500 500 11
+e n33 n27 "right" 500 500 11
+e n31 n31 "Phil" 500 500 11
+e n33 n30 "left" 500 500 11
+e n29 n29 "Fork" 500 500 11
+e n31 n31 "think" 500 500 11
+e n34 n30 "right" 500 500 11

@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n12"/>
-        <node id="n14"/>
-        <node id="n13"/>
-        <edge from="n12" to="n14">
+        <node id="n9"/>
+        <node id="n10"/>
+        <edge from="n9" to="n9">
             <attr name="label">
-                <string>a</string>
+                <string>Phil</string>
             </attr>
         </edge>
-        <edge from="n12" to="n12">
+        <edge from="n9" to="n9">
             <attr name="label">
-                <string>c</string>
+                <string>del:hasRight</string>
             </attr>
         </edge>
-        <edge from="n13" to="n13">
+        <edge from="n9" to="n10">
             <attr name="label">
-                <string>d</string>
+                <string>right</string>
             </attr>
         </edge>
-        <edge from="n14" to="n13">
+        <edge from="n9" to="n10">
             <attr name="label">
-                <string>b</string>
+                <string>del:hold</string>
             </attr>
         </edge>
-        <edge from="n13" to="n12">
+        <edge from="n9" to="n9">
             <attr name="label">
-                <string>c</string>
+                <string>new:think</string>
             </attr>
         </edge>
     </graph>
