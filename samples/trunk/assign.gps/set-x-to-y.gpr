@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n286"/>
-        <node id="n287"/>
-        <node id="n288"/>
-        <edge from="n287" to="n286">
+        <node id="n122"/>
+        <node id="n123"/>
+        <node id="n121"/>
+        <edge from="n122" to="n123">
             <attr name="label">
                 <string>new:x</string>
             </attr>
         </edge>
-        <edge from="n287" to="n288">
-            <attr name="label">
-                <string>del:x</string>
-            </attr>
-        </edge>
-        <edge from="n287" to="n286">
+        <edge from="n122" to="n123">
             <attr name="label">
                 <string>y</string>
+            </attr>
+        </edge>
+        <edge from="n122" to="n121">
+            <attr name="label">
+                <string>del:x</string>
             </attr>
         </edge>
     </graph>

@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n443"/>
-        <node id="n442"/>
-        <node id="n441"/>
-        <edge from="n442" to="n442">
-            <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge from="n443" to="n441">
-            <attr name="label">
-                <string>new:c</string>
-            </attr>
-        </edge>
-        <edge from="n443" to="n443">
+        <node id="n49"/>
+        <node id="n47"/>
+        <node id="n48"/>
+        <edge from="n47" to="n47">
             <attr name="label">
                 <string>root</string>
             </attr>
         </edge>
-        <edge from="n443" to="n441">
-            <attr name="label">
-                <string>p</string>
-            </attr>
-        </edge>
-        <edge from="n443" to="n443">
-            <attr name="label">
-                <string>not:trans</string>
-            </attr>
-        </edge>
-        <edge from="n443" to="n443">
+        <edge from="n47" to="n47">
             <attr name="label">
                 <string>new:trans</string>
             </attr>
         </edge>
-        <edge from="n443" to="n442">
+        <edge from="n47" to="n48">
             <attr name="label">
-                <string>not:c</string>
+                <string>new:c</string>
+            </attr>
+        </edge>
+        <edge from="n47" to="n49">
+            <attr name="label">
+                <string>c</string>
+            </attr>
+        </edge>
+        <edge from="n49" to="n49">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n47" to="n47">
+            <attr name="label">
+                <string>not:trans</string>
+            </attr>
+        </edge>
+        <edge from="n47" to="n48">
+            <attr name="label">
+                <string>p</string>
             </attr>
         </edge>
     </graph>

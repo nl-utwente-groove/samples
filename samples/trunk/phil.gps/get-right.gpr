@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n356"/>
-        <node id="n358"/>
-        <node id="n357"/>
-        <edge from="n357" to="n357">
-            <attr name="label">
-                <string>Phil</string>
-            </attr>
-        </edge>
-        <edge from="n357" to="n356">
+        <node id="n51"/>
+        <node id="n53"/>
+        <node id="n52"/>
+        <edge from="n53" to="n52">
             <attr name="label">
                 <string>left</string>
             </attr>
         </edge>
-        <edge from="n358" to="n356">
-            <attr name="label">
-                <string>new:hold</string>
-            </attr>
-        </edge>
-        <edge from="n358" to="n356">
+        <edge from="n51" to="n52">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n358" to="n358">
-            <attr name="label">
-                <string>Phil</string>
-            </attr>
-        </edge>
-        <edge from="n357" to="n356">
+        <edge from="n53" to="n52">
             <attr name="label">
                 <string>not:hold</string>
             </attr>
         </edge>
-        <edge from="n358" to="n358">
+        <edge from="n51" to="n52">
+            <attr name="label">
+                <string>new:hold</string>
+            </attr>
+        </edge>
+        <edge from="n51" to="n51">
             <attr name="label">
                 <string>new:eat</string>
             </attr>
         </edge>
-        <edge from="n358" to="n358">
+        <edge from="n53" to="n53">
+            <attr name="label">
+                <string>Phil</string>
+            </attr>
+        </edge>
+        <edge from="n51" to="n51">
             <attr name="label">
                 <string>del:hasLeft</string>
             </attr>
         </edge>
-        <edge from="n356" to="n356">
+        <edge from="n51" to="n51">
+            <attr name="label">
+                <string>Phil</string>
+            </attr>
+        </edge>
+        <edge from="n52" to="n52">
             <attr name="label">
                 <string>Fork</string>
             </attr>

@@ -1,5 +1,7 @@
-# Layout information for C:\Eclipse\groove\samples\phil.gps\go-hungry.gpr
+# Layout information for C:\Program Files\Groove\samples-1_0\phil.gps\go-hungry.gpr
 # Each line contains layout information about a node or edge
 # Node Format: n <node id> <bounds>
 # Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
-n n364 90 84 74 50 
+n n59 90 84 18 18 
+e n59 n59 "new:hungry" 158 493 104 93 43 120 40 74 104 93 12
+e n59 n59 "del:think" 892 456 104 93 172 118 172 70 104 93 12

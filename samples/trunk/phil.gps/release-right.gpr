@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n393"/>
-        <node id="n394"/>
-        <edge from="n393" to="n393">
-            <attr name="label">
-                <string>Phil</string>
-            </attr>
-        </edge>
-        <edge from="n393" to="n393">
-            <attr name="label">
-                <string>new:think</string>
-            </attr>
-        </edge>
-        <edge from="n393" to="n394">
+        <node id="n83"/>
+        <node id="n82"/>
+        <edge from="n82" to="n83">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n394" to="n394">
+        <edge from="n82" to="n82">
             <attr name="label">
-                <string>Fork</string>
+                <string>new:think</string>
             </attr>
         </edge>
-        <edge from="n393" to="n394">
+        <edge from="n82" to="n82">
+            <attr name="label">
+                <string>Phil</string>
+            </attr>
+        </edge>
+        <edge from="n82" to="n83">
             <attr name="label">
                 <string>del:hold</string>
             </attr>
         </edge>
-        <edge from="n393" to="n393">
+        <edge from="n83" to="n83">
+            <attr name="label">
+                <string>Fork</string>
+            </attr>
+        </edge>
+        <edge from="n82" to="n82">
             <attr name="label">
                 <string>del:hasRight</string>
             </attr>
