@@ -1,0 +1,27 @@
+<gxl><graph>
+	<node id="node0">
+		<attr name="Label">
+			<string>new:empty</string>
+		</attr>
+	</node>
+	<node id="node2">
+		<attr name="Label">
+			<string>del:</string>
+		</attr>
+	</node>
+	<node id="node1">
+		<attr name="Label">
+			<string>new:slot</string>
+		</attr>
+	</node>
+	<edge id="edge0" from="node1" to="node2">
+		<attr name="Label">
+			<string>val</string>
+		</attr>
+	</edge>
+	<edge id="edge1" from="node0" to="node1">
+		<attr name="Label">
+			<string>del:first | del:last</string>
+		</attr>
+	</edge>
+</graph></gxl>
