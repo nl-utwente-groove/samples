@@ -1,0 +1,30 @@
+class Test1 extends java.lang.Object
+filename		Test1
+compiled from		test1.java
+compiler version	46.0
+access flags		32
+constant pool		17 entries
+ACC_SUPER flag		true
+
+Attribute(s):
+	SourceFile(test1.java)
+
+1 fields:
+	public int testvar
+
+1 methods:
+	void <init>()
+
+void <init>()
+Code(max_stack = 2, max_locals = 1, code_length = 10)
+0:    aload_0
+1:    invokespecial	java.lang.Object.<init> ()V (1)
+4:    aload_0
+5:    iconst_1
+6:    putfield		Test1.testvar I (2)
+9:    return
+
+Attribute(s) = 
+LineNumber(0, 6), LineNumber(4, 7), LineNumber(9, 8)
+
+Ooops
