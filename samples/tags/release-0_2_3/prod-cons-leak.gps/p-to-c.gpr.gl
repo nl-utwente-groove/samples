@@ -1,0 +1,7 @@
+# Layout information for C:\Eclipse\groove\samples\prod-cons-leak.gps\p-to-c.gpr
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+n n443 106 94 65 50 
+n n442 79 216 28 18 
+n n441 186 221 18 18 
