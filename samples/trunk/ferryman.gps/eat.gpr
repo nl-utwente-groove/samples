@@ -1,43 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n197"/>
-        <node id="n199"/>
-        <node id="n198"/>
-        <node id="n200"/>
-        <edge from="n200" to="n197">
+        <node id="n29"/>
+        <node id="n31"/>
+        <node id="n32"/>
+        <node id="n30"/>
+        <edge from="n30" to="n29">
+            <attr name="label">
+                <string>likes</string>
+            </attr>
+        </edge>
+        <edge from="n30" to="n31">
             <attr name="label">
                 <string>on</string>
             </attr>
         </edge>
-        <edge from="n198" to="n198">
+        <edge from="n29" to="n29">
             <attr name="label">
                 <string>del:</string>
             </attr>
         </edge>
-        <edge from="n200" to="n200">
+        <edge from="n32" to="n31">
             <attr name="label">
-                <string>wolf</string>
+                <string>moored</string>
             </attr>
         </edge>
-        <edge from="n198" to="n198">
-            <attr name="label">
-                <string>goat</string>
-            </attr>
-        </edge>
-        <edge from="n199" to="n199">
+        <edge from="n32" to="n32">
             <attr name="label">
                 <string>not:</string>
             </attr>
         </edge>
-        <edge from="n198" to="n197">
+        <edge from="n29" to="n31">
             <attr name="label">
                 <string>on</string>
-            </attr>
-        </edge>
-        <edge from="n199" to="n197">
-            <attr name="label">
-                <string>not:moored</string>
             </attr>
         </edge>
     </graph>
