@@ -1,0 +1,7 @@
+# Layout information for C:\Eclipse\groove\samples\ferryman.gps\unload.gpr
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+n n216 270 83 18 18 
+n n215 166 198 35 18 
+n n217 89 130 32 18 
