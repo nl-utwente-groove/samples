@@ -1,0 +1,3 @@
+Opties:
+
+input_directory output_directory  MyLinkedList MyDoubleLinkedList MyDoubleLinkedListNode MyLinkedListNode java.lang.Object MyLinkedListApplication

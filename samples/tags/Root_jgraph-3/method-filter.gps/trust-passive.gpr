@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n192"/>
+        <node id="n190"/>
+        <node id="n191"/>
+        <edge from="n192" to="n192">
+            <attr name="label">
+                <string>MI</string>
+            </attr>
+        </edge>
+        <edge from="n192" to="n190">
+            <attr name="label">
+                <string>del:filter</string>
+            </attr>
+        </edge>
+        <edge from="n192" to="n191">
+            <attr name="label">
+                <string>new:filter</string>
+            </attr>
+        </edge>
+        <edge from="n190" to="n190">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge from="n190" to="n190">
+            <attr name="label">
+                <string>trust</string>
+            </attr>
+        </edge>
+        <edge from="n190" to="n191">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
