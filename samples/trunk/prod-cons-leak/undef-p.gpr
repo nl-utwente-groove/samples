@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<gxl><graph><node id="n94"/><node id="n93"/><edge id="n94 --del:--&gt; n94" from="n94" to="n94"><attr name="label"><string>del:</string></attr></edge><edge id="n93 --root--&gt; n93" from="n93" to="n93"><attr name="label"><string>root</string></attr></edge><edge id="n93 --del:p--&gt; n94" from="n93" to="n94"><attr name="label"><string>del:p</string></attr></edge><edge id="n93 --del:trans--&gt; n93" from="n93" to="n93"><attr name="label"><string>del:trans</string></attr></edge></graph></gxl>
