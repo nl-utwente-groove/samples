@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n231"/>
-        <node id="n232"/>
-        <node id="n233"/>
-        <edge from="n232" to="n231">
+        <node id="n302"/>
+        <node id="n300"/>
+        <node id="n301"/>
+        <edge from="n300" to="n301">
             <attr name="label">
                 <string>last</string>
             </attr>
         </edge>
-        <edge from="n231" to="n231">
-            <attr name="label">
-                <string>new:empty</string>
-            </attr>
-        </edge>
-        <edge from="n231" to="n233">
+        <edge from="n301" to="n302">
             <attr name="label">
                 <string>val</string>
             </attr>
         </edge>
-        <edge from="n233" to="n233">
+        <edge from="n301" to="n301">
+            <attr name="label">
+                <string>new:empty</string>
+            </attr>
+        </edge>
+        <edge from="n302" to="n302">
             <attr name="label">
                 <string>del:</string>
             </attr>

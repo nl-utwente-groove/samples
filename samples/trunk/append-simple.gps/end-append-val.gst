@@ -1,27 +1,18 @@
-<gxl><graph>
-	<node id="node0">
-		<attr name="Label">
-			<string>1</string>
-		</attr>
-	</node>
-	<node id="node2">
-		<attr name="Label">
-			<string>3</string>
-		</attr>
-	</node>
-	<node id="node1">
-		<attr name="Label">
-			<string>2</string>
-		</attr>
-	</node>
-	<edge id="edge0" from="node1" to="node2">
-		<attr name="Label">
-			<string>next</string>
-		</attr>
-	</edge>
-	<edge id="edge1" from="node2" to="node0">
-		<attr name="Label">
-			<string>next</string>
-		</attr>
-	</edge>
-</graph></gxl>
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n26"/>
+        <node id="n25"/>
+        <node id="n27"/>
+        <edge from="n27" to="n26">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n25" to="n27">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

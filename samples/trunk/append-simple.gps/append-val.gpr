@@ -1,2 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gxl><graph><node id="n15"/><node id="n13"/><node id="n14"/><node id="n12"/><edge id="n14 --new:next--&gt; n15" from="n14" to="n15"><attr name="label"><string>new:next</string></attr></edge><edge id="n12 --not:--&gt; n12" from="n12" to="n12"><attr name="label"><string>not:</string></attr></edge><edge id="n13 --this--&gt; n14" from="n13" to="n14"><attr name="label"><string>this</string></attr></edge><edge id="n13 --del:--&gt; n13" from="n13" to="n13"><attr name="label"><string>del:</string></attr></edge><edge id="n13 --val--&gt; n15" from="n13" to="n15"><attr name="label"><string>val</string></attr></edge><edge id="n14 --not:--&gt; n15" from="n14" to="n15"><attr name="label"><string>not:</string></attr></edge><edge id="n14 --not:next--&gt; n12" from="n14" to="n12"><attr name="label"><string>not:next</string></attr></edge></graph></gxl>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n20"/>
+        <node id="n21"/>
+        <node id="n18"/>
+        <node id="n19"/>
+        <edge from="n18" to="n18">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n21" to="n19">
+            <attr name="label">
+                <string>new:next</string>
+            </attr>
+        </edge>
+        <edge from="n21" to="n19">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n20" to="n20">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n21" to="n20">
+            <attr name="label">
+                <string>not:next</string>
+            </attr>
+        </edge>
+        <edge from="n18" to="n21">
+            <attr name="label">
+                <string>this</string>
+            </attr>
+        </edge>
+        <edge from="n18" to="n19">
+            <attr name="label">
+                <string>val</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
