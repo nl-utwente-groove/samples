@@ -1,0 +1,10 @@
+# Layout information for C:\Eclipse-3\groove\samples\regexpr.gps\del-mid.gpr
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+e n290 n286 "new:next" 233 615 241 116 323 63 390 112 12
+n n289 305 105 18 18 
+n n290 232 107 18 18 
+n n288 296 208 18 18 
+n n287 129 105 18 18 
+n n286 381 103 18 18 
