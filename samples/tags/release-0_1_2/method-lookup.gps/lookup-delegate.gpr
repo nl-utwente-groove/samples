@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n45"/>
+        <node id="n48"/>
+        <node id="n46"/>
+        <node id="n49"/>
+        <node id="n47"/>
+        <edge from="n45" to="n45">
+            <attr name="label">
+                <string>MI</string>
+            </attr>
+        </edge>
+        <edge from="n45" to="n46">
+            <attr name="label">
+                <string>del:lookup</string>
+            </attr>
+        </edge>
+        <edge from="n45" to="n47">
+            <attr name="label">
+                <string>new:lookup</string>
+            </attr>
+        </edge>
+        <edge from="n45" to="n49">
+            <attr name="label">
+                <string>sig</string>
+            </attr>
+        </edge>
+        <edge from="n48" to="n48">
+            <attr name="label">
+                <string>M</string>
+            </attr>
+        </edge>
+        <edge from="n48" to="n48">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n48" to="n49">
+            <attr name="label">
+                <string>sig</string>
+            </attr>
+        </edge>
+        <edge from="n48" to="n46">
+            <attr name="label">
+                <string>in</string>
+            </attr>
+        </edge>
+        <edge from="n46" to="n47">
+            <attr name="label">
+                <string>super</string>
+            </attr>
+        </edge>
+        <edge from="n46" to="n46">
+            <attr name="label">
+                <string>C</string>
+            </attr>
+        </edge>
+        <edge from="n49" to="n49">
+            <attr name="label">
+                <string>MS</string>
+            </attr>
+        </edge>
+        <edge from="n47" to="n47">
+            <attr name="label">
+                <string>C</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
