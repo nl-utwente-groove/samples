@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n94"/>
+        <node id="n92"/>
+        <node id="n95"/>
+        <node id="n96"/>
+        <node id="n93"/>
+        <edge from="n93" to="n95">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n95" to="n96">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n94" to="n94">
+            <attr name="label">
+                <string>List</string>
+            </attr>
+        </edge>
+        <edge from="n92" to="n92">
+            <attr name="label">
+                <string>1 | 2 | 3</string>
+            </attr>
+        </edge>
+        <edge from="n93" to="n96">
+            <attr name="label">
+                <string>new:next</string>
+            </attr>
+        </edge>
+        <edge from="n95" to="n95">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n94" to="n93">
+            <attr name="label">
+                <string>next*</string>
+            </attr>
+        </edge>
+        <edge from="n95" to="n92">
+            <attr name="label">
+                <string>val</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
