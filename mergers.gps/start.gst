@@ -1,2 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gxl><graph><node id="n38"/><node id="n40"/><node id="n39"/><node id="n42"/><node id="n41"/><edge id="n38 --a-to-a--&gt; n40" from="n38" to="n40"><attr name="label"><string>a-to-a</string></attr></edge><edge id="n38 --a--&gt; n38" from="n38" to="n38"><attr name="label"><string>a</string></attr></edge><edge id="n38 --a-to-b--&gt; n39" from="n38" to="n39"><attr name="label"><string>a-to-b</string></attr></edge><edge id="n40 --a--&gt; n40" from="n40" to="n40"><attr name="label"><string>a</string></attr></edge><edge id="n40 --a-to-c--&gt; n42" from="n40" to="n42"><attr name="label"><string>a-to-c</string></attr></edge><edge id="n39 --b-to-b--&gt; n41" from="n39" to="n41"><attr name="label"><string>b-to-b</string></attr></edge><edge id="n39 --b--&gt; n39" from="n39" to="n39"><attr name="label"><string>b</string></attr></edge><edge id="n42 --c-to-b--&gt; n41" from="n42" to="n41"><attr name="label"><string>c-to-b</string></attr></edge><edge id="n42 --c--&gt; n42" from="n42" to="n42"><attr name="label"><string>c</string></attr></edge><edge id="n41 --b--&gt; n41" from="n41" to="n41"><attr name="label"><string>b</string></attr></edge></graph></gxl>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n73"/>
+        <node id="n76"/>
+        <node id="n74"/>
+        <node id="n75"/>
+        <node id="n72"/>
+        <edge from="n75" to="n73">
+            <attr name="label">
+                <string>b-to-b</string>
+            </attr>
+        </edge>
+        <edge from="n76" to="n74">
+            <attr name="label">
+                <string>a-to-a</string>
+            </attr>
+        </edge>
+        <edge from="n76" to="n76">
+            <attr name="label">
+                <string>a</string>
+            </attr>
+        </edge>
+        <edge from="n75" to="n75">
+            <attr name="label">
+                <string>b</string>
+            </attr>
+        </edge>
+        <edge from="n72" to="n72">
+            <attr name="label">
+                <string>c</string>
+            </attr>
+        </edge>
+        <edge from="n74" to="n72">
+            <attr name="label">
+                <string>a-to-c</string>
+            </attr>
+        </edge>
+        <edge from="n72" to="n73">
+            <attr name="label">
+                <string>c-to-b</string>
+            </attr>
+        </edge>
+        <edge from="n73" to="n73">
+            <attr name="label">
+                <string>b</string>
+            </attr>
+        </edge>
+        <edge from="n76" to="n75">
+            <attr name="label">
+                <string>a-to-b</string>
+            </attr>
+        </edge>
+        <edge from="n74" to="n74">
+            <attr name="label">
+                <string>a</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

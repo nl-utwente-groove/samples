@@ -1,2 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gxl><graph><node id="n70"/><node id="n68"/><node id="n69"/><node id="n71"/><edge id="n70 --Cell--&gt; n70" from="n70" to="n70"><attr name="label"><string>Cell</string></attr></edge><edge id="n70 --next--&gt; n68" from="n70" to="n68"><attr name="label"><string>next</string></attr></edge><edge id="n68 --Cell--&gt; n68" from="n68" to="n68"><attr name="label"><string>Cell</string></attr></edge><edge id="n68 --next--&gt; n69" from="n68" to="n69"><attr name="label"><string>next</string></attr></edge><edge id="n69 --Cell--&gt; n69" from="n69" to="n69"><attr name="label"><string>Cell</string></attr></edge><edge id="n69 --next--&gt; n70" from="n69" to="n70"><attr name="label"><string>next</string></attr></edge><edge id="n71 --Buffer--&gt; n71" from="n71" to="n71"><attr name="label"><string>Buffer</string></attr></edge><edge id="n71 --last--&gt; n69" from="n71" to="n69"><attr name="label"><string>last</string></attr></edge><edge id="n71 --first--&gt; n70" from="n71" to="n70"><attr name="label"><string>first</string></attr></edge></graph></gxl>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n221"/>
+        <node id="n223"/>
+        <node id="n222"/>
+        <node id="n224"/>
+        <edge from="n222" to="n223">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n223" to="n221">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n223" to="n223">
+            <attr name="label">
+                <string>Cell</string>
+            </attr>
+        </edge>
+        <edge from="n224" to="n224">
+            <attr name="label">
+                <string>Buffer</string>
+            </attr>
+        </edge>
+        <edge from="n221" to="n222">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n222" to="n222">
+            <attr name="label">
+                <string>Cell</string>
+            </attr>
+        </edge>
+        <edge from="n224" to="n223">
+            <attr name="label">
+                <string>last</string>
+            </attr>
+        </edge>
+        <edge from="n221" to="n221">
+            <attr name="label">
+                <string>Cell</string>
+            </attr>
+        </edge>
+        <edge from="n224" to="n221">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

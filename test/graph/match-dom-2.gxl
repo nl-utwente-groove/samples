@@ -1,2 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gxl><graph><node id="n6"/><node id="n5"/><edge id="n5 --b--&gt; n6" from="n5" to="n6"><attr name="label"><string>b</string></attr></edge><edge id="n5 --a--&gt; n5" from="n5" to="n5"><attr name="label"><string>a</string></attr></edge></graph></gxl>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n120"/>
+        <node id="n119"/>
+        <edge from="n120" to="n120">
+            <attr name="label">
+                <string>a</string>
+            </attr>
+        </edge>
+        <edge from="n120" to="n119">
+            <attr name="label">
+                <string>b</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

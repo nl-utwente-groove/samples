@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n20"/>
-        <node id="n18"/>
-        <node id="n19"/>
-        <edge from="n18" to="n19">
+        <node id="n122"/>
+        <node id="n123"/>
+        <node id="n124"/>
+        <edge from="n124" to="n122">
             <attr name="label">
                 <string>a</string>
             </attr>
         </edge>
-        <edge from="n18" to="n20">
+        <edge from="n124" to="n123">
             <attr name="label">
                 <string>a</string>
             </attr>

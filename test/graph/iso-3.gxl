@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n24"/>
-        <node id="n26"/>
-        <node id="n25"/>
-        <node id="n23"/>
-        <edge from="n25" to="n24">
+        <node id="n130"/>
+        <node id="n129"/>
+        <node id="n127"/>
+        <node id="n128"/>
+        <edge from="n128" to="n129">
             <attr name="label">
                 <string>a</string>
             </attr>
         </edge>
-        <edge from="n25" to="n26">
+        <edge from="n130" to="n129">
             <attr name="label">
                 <string>a</string>
             </attr>
         </edge>
-        <edge from="n23" to="n26">
+        <edge from="n130" to="n127">
             <attr name="label">
                 <string>a</string>
             </attr>
         </edge>
-        <edge from="n23" to="n24">
+        <edge from="n128" to="n127">
             <attr name="label">
                 <string>a</string>
             </attr>

@@ -1,0 +1,13 @@
+# Layout information for .\method-lookup.gps\.new\lookup-resolution.gpr
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+e n5 n6 "in" 500 500 321 90 381 192 11
+n n7 157 183 20 18 
+n n8 157 81 25 18 
+e n7 n8 "sig" 500 500 167 192 169 90 11
+e n7 n5 "new:type" 500 500 167 192 321 90 11
+n n5 313 81 17 18 
+e n5 n8 "sig" 500 500 321 90 169 90 11
+e n7 n6 "del:lookup" 500 500 167 192 381 192 11
+n n6 313 183 17 18 
