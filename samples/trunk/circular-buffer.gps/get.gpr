@@ -1,27 +1,2 @@
-<gxl><graph>
-	<node id="node1">
-		<attr name="Label">
-			<string>new:last</string>
-		</attr>
-	</node>
-	<node id="node2">
-		<attr name="Label">
-			<string>del:last | new:empty</string>
-		</attr>
-	</node>
-	<node id="node0">
-		<attr name="Label">
-			<string>del:</string>
-		</attr>
-	</node>
-	<edge id="edge0" from="node2" to="node0">
-		<attr name="Label">
-			<string>val</string>
-		</attr>
-	</edge>
-	<edge id="edge1" from="node2" to="node1">
-		<attr name="Label">
-			<string>previous</string>
-		</attr>
-	</edge>
-</graph></gxl>
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl><graph><node id="n47"/><node id="n45"/><node id="n46"/><node id="n44"/><edge id="n47 --val--&gt; n45" from="n47" to="n45"><attr name="label"><string>val</string></attr></edge><edge id="n47 --next--&gt; n46" from="n47" to="n46"><attr name="label"><string>next</string></attr></edge><edge id="n47 --new:empty--&gt; n47" from="n47" to="n47"><attr name="label"><string>new:empty</string></attr></edge><edge id="n45 --del:--&gt; n45" from="n45" to="n45"><attr name="label"><string>del:</string></attr></edge><edge id="n44 --new:first--&gt; n46" from="n44" to="n46"><attr name="label"><string>new:first</string></attr></edge><edge id="n44 --del:first--&gt; n47" from="n44" to="n47"><attr name="label"><string>del:first</string></attr></edge></graph></gxl>
