@@ -1,0 +1,22 @@
+<gxl><graph>
+	<node id="node0">
+		<attr name="Label">
+			<string>root | not:trans | new:trans</string>
+		</attr>
+	</node>
+	<node id="node1">
+		<attr name="Label">
+			<string>     </string>
+		</attr>
+	</node>
+	<edge id="edge0" from="node0" to="node1">
+		<attr name="Label">
+			<string>p | new:c</string>
+		</attr>
+	</edge>
+	<edge id="edge1" from="node0" to="">
+		<attr name="Label">
+			<string>not:c</string>
+		</attr>
+	</edge>
+</graph></gxl>
