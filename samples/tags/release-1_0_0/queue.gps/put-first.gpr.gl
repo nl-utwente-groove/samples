@@ -1,0 +1,10 @@
+# Layout information for C:\Eclipse\groove\samples\queue.gps\put-first.gpr
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+e n553 n554 "new:last" 702 372 138 53 139 164 11
+n n553 107 36 62 34 
+e n553 n554 "new:first" 702 372 138 53 139 164 11
+n n555 120 255 44 34 
+n n554 115 147 49 34 
+e n554 n555 "val" 630 583 163 66 101 168 11

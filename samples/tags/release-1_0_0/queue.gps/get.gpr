@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n625"/>
+        <node id="n626"/>
+        <node id="n627"/>
+        <node id="n628"/>
+        <edge from="n628" to="n628">
+            <attr name="label">
+                <string>Buffer</string>
+            </attr>
+        </edge>
+        <edge from="n625" to="n625">
+            <attr name="label">
+                <string>Object</string>
+            </attr>
+        </edge>
+        <edge from="n627" to="n627">
+            <attr name="label">
+                <string>new:slot</string>
+            </attr>
+        </edge>
+        <edge from="n626" to="n626">
+            <attr name="label">
+                <string>Cell</string>
+            </attr>
+        </edge>
+        <edge from="n625" to="n625">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n628" to="n626">
+            <attr name="label">
+                <string>new:last</string>
+            </attr>
+        </edge>
+        <edge from="n627" to="n626">
+            <attr name="label">
+                <string>del:previous</string>
+            </attr>
+        </edge>
+        <edge from="n627" to="n625">
+            <attr name="label">
+                <string>val</string>
+            </attr>
+        </edge>
+        <edge from="n628" to="n627">
+            <attr name="label">
+                <string>del:last</string>
+            </attr>
+        </edge>
+        <edge from="n627" to="n627">
+            <attr name="label">
+                <string>Cell</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
