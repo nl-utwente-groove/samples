@@ -1,247 +1,247 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n37"/>
-        <node id="n49"/>
-        <node id="n43"/>
-        <node id="n44"/>
-        <node id="n42"/>
-        <node id="n45"/>
-        <node id="n46"/>
-        <node id="n36"/>
-        <node id="n40"/>
-        <node id="n34"/>
-        <node id="n48"/>
-        <node id="n47"/>
-        <node id="n41"/>
-        <node id="n39"/>
-        <node id="n50"/>
-        <node id="n51"/>
-        <node id="n38"/>
-        <node id="n35"/>
-        <edge from="n47" to="n47">
-            <attr name="label">
-                <string>Phil</string>
-            </attr>
-        </edge>
-        <edge from="n50" to="n50">
-            <attr name="label">
-                <string>think</string>
-            </attr>
-        </edge>
-        <edge from="n40" to="n37">
-            <attr name="label">
-                <string>right</string>
-            </attr>
-        </edge>
-        <edge from="n40" to="n42">
+        <node id="n1600"/>
+        <node id="n1639"/>
+        <node id="n1625"/>
+        <node id="n1567"/>
+        <node id="n1601"/>
+        <node id="n1592"/>
+        <node id="n1612"/>
+        <node id="n1566"/>
+        <node id="n1580"/>
+        <node id="n1611"/>
+        <node id="n1640"/>
+        <node id="n1585"/>
+        <node id="n1563"/>
+        <node id="n1584"/>
+        <node id="n1624"/>
+        <node id="n1591"/>
+        <node id="n1579"/>
+        <node id="n1564"/>
+        <edge from="n1585" to="n1579">
             <attr name="label">
                 <string>left</string>
             </attr>
         </edge>
-        <edge from="n39" to="n39">
-            <attr name="label">
-                <string>think</string>
-            </attr>
-        </edge>
-        <edge from="n42" to="n42">
-            <attr name="label">
-                <string>Fork</string>
-            </attr>
-        </edge>
-        <edge from="n44" to="n44">
-            <attr name="label">
-                <string>think</string>
-            </attr>
-        </edge>
-        <edge from="n34" to="n34">
-            <attr name="label">
-                <string>think</string>
-            </attr>
-        </edge>
-        <edge from="n43" to="n45">
+        <edge from="n1601" to="n1600">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n49" to="n49">
+        <edge from="n1624" to="n1624">
             <attr name="label">
                 <string>Fork</string>
             </attr>
         </edge>
-        <edge from="n38" to="n38">
+        <edge from="n1625" to="n1625">
             <attr name="label">
                 <string>Phil</string>
             </attr>
         </edge>
-        <edge from="n40" to="n40">
+        <edge from="n1580" to="n1579">
+            <attr name="label">
+                <string>right</string>
+            </attr>
+        </edge>
+        <edge from="n1625" to="n1625">
             <attr name="label">
                 <string>think</string>
             </attr>
         </edge>
-        <edge from="n44" to="n42">
+        <edge from="n1580" to="n1566">
             <attr name="label">
-                <string>right</string>
+                <string>left</string>
             </attr>
         </edge>
-        <edge from="n43" to="n43">
-            <attr name="label">
-                <string>Phil</string>
-            </attr>
-        </edge>
-        <edge from="n48" to="n48">
-            <attr name="label">
-                <string>Fork</string>
-            </attr>
-        </edge>
-        <edge from="n36" to="n36">
-            <attr name="label">
-                <string>Fork</string>
-            </attr>
-        </edge>
-        <edge from="n35" to="n35">
+        <edge from="n1640" to="n1640">
             <attr name="label">
                 <string>think</string>
             </attr>
         </edge>
-        <edge from="n35" to="n36">
-            <attr name="label">
-                <string>right</string>
-            </attr>
-        </edge>
-        <edge from="n38" to="n46">
-            <attr name="label">
-                <string>right</string>
-            </attr>
-        </edge>
-        <edge from="n50" to="n50">
+        <edge from="n1580" to="n1580">
             <attr name="label">
                 <string>Phil</string>
             </attr>
         </edge>
-        <edge from="n50" to="n51">
+        <edge from="n1640" to="n1600">
             <attr name="label">
                 <string>left</string>
             </attr>
         </edge>
-        <edge from="n44" to="n36">
+        <edge from="n1625" to="n1624">
             <attr name="label">
-                <string>left</string>
+                <string>right</string>
             </attr>
         </edge>
-        <edge from="n45" to="n45">
+        <edge from="n1564" to="n1564">
             <attr name="label">
                 <string>Fork</string>
             </attr>
         </edge>
-        <edge from="n39" to="n39">
+        <edge from="n1600" to="n1600">
+            <attr name="label">
+                <string>Fork</string>
+            </attr>
+        </edge>
+        <edge from="n1611" to="n1611">
+            <attr name="label">
+                <string>Fork</string>
+            </attr>
+        </edge>
+        <edge from="n1579" to="n1579">
+            <attr name="label">
+                <string>Fork</string>
+            </attr>
+        </edge>
+        <edge from="n1592" to="n1592">
             <attr name="label">
                 <string>Phil</string>
             </attr>
         </edge>
-        <edge from="n34" to="n48">
+        <edge from="n1567" to="n1567">
+            <attr name="label">
+                <string>Phil</string>
+            </attr>
+        </edge>
+        <edge from="n1585" to="n1584">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n47" to="n47">
+        <edge from="n1580" to="n1580">
             <attr name="label">
                 <string>think</string>
             </attr>
         </edge>
-        <edge from="n34" to="n37">
-            <attr name="label">
-                <string>left</string>
-            </attr>
-        </edge>
-        <edge from="n47" to="n41">
-            <attr name="label">
-                <string>right</string>
-            </attr>
-        </edge>
-        <edge from="n44" to="n44">
-            <attr name="label">
-                <string>Phil</string>
-            </attr>
-        </edge>
-        <edge from="n43" to="n43">
+        <edge from="n1567" to="n1567">
             <attr name="label">
                 <string>think</string>
             </attr>
         </edge>
-        <edge from="n46" to="n46">
+        <edge from="n1640" to="n1640">
+            <attr name="label">
+                <string>Phil</string>
+            </attr>
+        </edge>
+        <edge from="n1566" to="n1566">
             <attr name="label">
                 <string>Fork</string>
             </attr>
         </edge>
-        <edge from="n47" to="n48">
+        <edge from="n1612" to="n1611">
+            <attr name="label">
+                <string>right</string>
+            </attr>
+        </edge>
+        <edge from="n1563" to="n1591">
             <attr name="label">
                 <string>left</string>
             </attr>
         </edge>
-        <edge from="n38" to="n38">
+        <edge from="n1567" to="n1566">
+            <attr name="label">
+                <string>right</string>
+            </attr>
+        </edge>
+        <edge from="n1585" to="n1585">
+            <attr name="label">
+                <string>Phil</string>
+            </attr>
+        </edge>
+        <edge from="n1563" to="n1563">
+            <attr name="label">
+                <string>Phil</string>
+            </attr>
+        </edge>
+        <edge from="n1625" to="n1639">
+            <attr name="label">
+                <string>left</string>
+            </attr>
+        </edge>
+        <edge from="n1592" to="n1592">
             <attr name="label">
                 <string>think</string>
             </attr>
         </edge>
-        <edge from="n35" to="n46">
+        <edge from="n1601" to="n1584">
             <attr name="label">
                 <string>left</string>
             </attr>
         </edge>
-        <edge from="n35" to="n35">
+        <edge from="n1612" to="n1612">
             <attr name="label">
                 <string>Phil</string>
             </attr>
         </edge>
-        <edge from="n39" to="n41">
+        <edge from="n1612" to="n1612">
             <attr name="label">
-                <string>left</string>
+                <string>think</string>
             </attr>
         </edge>
-        <edge from="n50" to="n49">
+        <edge from="n1640" to="n1639">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n43" to="n49">
+        <edge from="n1563" to="n1563">
             <attr name="label">
-                <string>left</string>
+                <string>think</string>
             </attr>
         </edge>
-        <edge from="n51" to="n51">
+        <edge from="n1601" to="n1601">
             <attr name="label">
-                <string>Fork</string>
+                <string>think</string>
             </attr>
         </edge>
-        <edge from="n37" to="n37">
-            <attr name="label">
-                <string>Fork</string>
-            </attr>
-        </edge>
-        <edge from="n40" to="n40">
-            <attr name="label">
-                <string>Phil</string>
-            </attr>
-        </edge>
-        <edge from="n39" to="n51">
+        <edge from="n1563" to="n1564">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n38" to="n45">
-            <attr name="label">
-                <string>left</string>
-            </attr>
-        </edge>
-        <edge from="n41" to="n41">
+        <edge from="n1591" to="n1591">
             <attr name="label">
                 <string>Fork</string>
             </attr>
         </edge>
-        <edge from="n34" to="n34">
+        <edge from="n1592" to="n1591">
+            <attr name="label">
+                <string>right</string>
+            </attr>
+        </edge>
+        <edge from="n1601" to="n1601">
             <attr name="label">
                 <string>Phil</string>
+            </attr>
+        </edge>
+        <edge from="n1585" to="n1585">
+            <attr name="label">
+                <string>think</string>
+            </attr>
+        </edge>
+        <edge from="n1612" to="n1624">
+            <attr name="label">
+                <string>left</string>
+            </attr>
+        </edge>
+        <edge from="n1584" to="n1584">
+            <attr name="label">
+                <string>Fork</string>
+            </attr>
+        </edge>
+        <edge from="n1567" to="n1564">
+            <attr name="label">
+                <string>left</string>
+            </attr>
+        </edge>
+        <edge from="n1639" to="n1639">
+            <attr name="label">
+                <string>Fork</string>
+            </attr>
+        </edge>
+        <edge from="n1592" to="n1611">
+            <attr name="label">
+                <string>left</string>
             </attr>
         </edge>
     </graph>

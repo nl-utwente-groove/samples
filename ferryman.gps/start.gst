@@ -1,80 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n11"/>
-        <node id="n9"/>
-        <node id="n6"/>
-        <node id="n7"/>
-        <node id="n10"/>
-        <node id="n8"/>
-        <edge from="n8" to="n8">
-            <attr name="label">
-                <string>wolf</string>
-            </attr>
-        </edge>
-        <edge from="n8" to="n7">
+        <node id="n147"/>
+        <node id="n149"/>
+        <node id="n148"/>
+        <node id="n146"/>
+        <node id="n151"/>
+        <node id="n150"/>
+        <edge from="n151" to="n150">
             <attr name="label">
                 <string>on</string>
             </attr>
         </edge>
-        <edge from="n6" to="n6">
+        <edge from="n150" to="n150">
             <attr name="label">
-                <string>boat</string>
+                <string>bank</string>
             </attr>
         </edge>
-        <edge from="n7" to="n7">
-            <attr name="label">
-                <string>left</string>
-            </attr>
-        </edge>
-        <edge from="n10" to="n10">
+        <edge from="n146" to="n146">
             <attr name="label">
                 <string>goat</string>
             </attr>
         </edge>
-        <edge from="n10" to="n9">
+        <edge from="n148" to="n148">
             <attr name="label">
-                <string>likes</string>
+                <string>wolf</string>
             </attr>
         </edge>
-        <edge from="n11" to="n11">
+        <edge from="n147" to="n147">
             <attr name="label">
                 <string>bank</string>
             </attr>
         </edge>
-        <edge from="n6" to="n7">
+        <edge from="n146" to="n150">
+            <attr name="label">
+                <string>on</string>
+            </attr>
+        </edge>
+        <edge from="n146" to="n151">
+            <attr name="label">
+                <string>likes</string>
+            </attr>
+        </edge>
+        <edge from="n149" to="n150">
             <attr name="label">
                 <string>moored</string>
             </attr>
         </edge>
-        <edge from="n9" to="n9">
-            <attr name="label">
-                <string>cabbage</string>
-            </attr>
-        </edge>
-        <edge from="n9" to="n7">
-            <attr name="label">
-                <string>on</string>
-            </attr>
-        </edge>
-        <edge from="n10" to="n7">
-            <attr name="label">
-                <string>on</string>
-            </attr>
-        </edge>
-        <edge from="n11" to="n11">
+        <edge from="n147" to="n147">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n8" to="n10">
+        <edge from="n151" to="n151">
+            <attr name="label">
+                <string>cabbage</string>
+            </attr>
+        </edge>
+        <edge from="n148" to="n146">
             <attr name="label">
                 <string>likes</string>
             </attr>
         </edge>
-        <edge from="n7" to="n7">
+        <edge from="n150" to="n150">
             <attr name="label">
-                <string>bank</string>
+                <string>left</string>
+            </attr>
+        </edge>
+        <edge from="n148" to="n150">
+            <attr name="label">
+                <string>on</string>
+            </attr>
+        </edge>
+        <edge from="n149" to="n149">
+            <attr name="label">
+                <string>boat</string>
             </attr>
         </edge>
     </graph>

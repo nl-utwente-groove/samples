@@ -1,33 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n207"/>
-        <node id="n208"/>
-        <node id="n209"/>
-        <node id="n210"/>
-        <edge from="n208" to="n207">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n208" to="n209">
-            <attr name="label">
-                <string>val</string>
-            </attr>
-        </edge>
-        <edge from="n210" to="n207">
+        <node id="n21"/>
+        <node id="n19"/>
+        <node id="n20"/>
+        <node id="n22"/>
+        <edge from="n20" to="n19">
             <attr name="label">
                 <string>new:first</string>
             </attr>
         </edge>
-        <edge from="n209" to="n209">
+        <edge from="n19" to="n19">
+            <attr name="label">
+                <string>Cell</string>
+            </attr>
+        </edge>
+        <edge from="n22" to="n22">
             <attr name="label">
                 <string>del:</string>
             </attr>
         </edge>
-        <edge from="n210" to="n208">
+        <edge from="n21" to="n19">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n21" to="n21">
+            <attr name="label">
+                <string>Cell</string>
+            </attr>
+        </edge>
+        <edge from="n22" to="n22">
+            <attr name="label">
+                <string>Object</string>
+            </attr>
+        </edge>
+        <edge from="n20" to="n21">
             <attr name="label">
                 <string>del:first</string>
+            </attr>
+        </edge>
+        <edge from="n21" to="n22">
+            <attr name="label">
+                <string>val</string>
+            </attr>
+        </edge>
+        <edge from="n20" to="n20">
+            <attr name="label">
+                <string>Buffer</string>
             </attr>
         </edge>
     </graph>
