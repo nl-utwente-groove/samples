@@ -1,0 +1,93 @@
+
+An unexpected exception has been detected in native code outside the VM.
+Unexpected Signal : EXCEPTION_ACCESS_VIOLATION (0xc0000005) occurred at PC=0x2FFA4C6
+Function=Java_sun_awt_font_NativeFontWrapper_initializeFont+0x0
+Library=C:\Program Files\Java\j2sdk-1_4_2\jre\bin\fontmanager.dll
+
+Current Java thread:
+	at sun.awt.font.NativeFontWrapper.initializeFont(Native Method)
+	- locked <0x14214c38> (a java.lang.Class)
+	at java.awt.Font.initializeFont(Font.java:316)
+	at java.awt.Font.<init>(Font.java:344)
+	at sun.awt.windows.Win32BlitLoops$DelegateBlitBgLoop.<clinit>(Win32BlitLoops.java:133)
+	at sun.awt.windows.Win32BlitLoops.register(Win32BlitLoops.java:40)
+	at sun.awt.windows.Win32OffScreenSurfaceData.<clinit>(Win32OffScreenSurfaceData.java:145)
+	at sun.awt.windows.WToolkit.initIDs(Native Method)
+	at sun.awt.windows.WToolkit.<clinit>(WToolkit.java:94)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:141)
+	at java.awt.Toolkit$2.run(Toolkit.java:748)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.Toolkit.getDefaultToolkit(Toolkit.java:739)
+	- locked <0x141bf820> (a java.lang.Class)
+	at javax.swing.ImageIcon.<init>(ImageIcon.java:119)
+	at javax.swing.ImageIcon.<init>(ImageIcon.java:138)
+	at groove.util.Groove.<clinit>(Groove.java:40)
+	at groove.io.GpsGrammar.<clinit>(GpsGrammar.java:36)
+	at groove.test.ExplorationTest.<init>(ExplorationTest.java:326)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:274)
+	at junit.framework.TestSuite.createTest(TestSuite.java:131)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:114)
+	at junit.framework.TestSuite.<init>(TestSuite.java:75)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.getTest(RemoteTestRunner.java:397)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:441)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:342)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:194)
+
+Dynamic libraries:
+0x00400000 - 0x00407000 	C:\Program Files\Java\j2sdk-1_4_2\jre\bin\javaw.exe
+0x7C900000 - 0x7C9B0000 	C:\WINDOWS\system32\ntdll.dll
+0x7C800000 - 0x7C8F4000 	C:\WINDOWS\system32\kernel32.dll
+0x77DD0000 - 0x77E6B000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77E70000 - 0x77F01000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77D40000 - 0x77DD0000 	C:\WINDOWS\system32\USER32.dll
+0x77F10000 - 0x77F56000 	C:\WINDOWS\system32\GDI32.dll
+0x77C10000 - 0x77C68000 	C:\WINDOWS\system32\MSVCRT.dll
+0x08000000 - 0x08136000 	C:\Program Files\Java\j2sdk-1_4_2\jre\bin\client\jvm.dll
+0x76B40000 - 0x76B6D000 	C:\WINDOWS\system32\WINMM.dll
+0x10000000 - 0x10007000 	C:\Program Files\Java\j2sdk-1_4_2\jre\bin\hpi.dll
+0x00830000 - 0x0083E000 	C:\Program Files\Java\j2sdk-1_4_2\jre\bin\verify.dll
+0x00840000 - 0x00858000 	C:\Program Files\Java\j2sdk-1_4_2\jre\bin\java.dll
+0x00860000 - 0x0086D000 	C:\Program Files\Java\j2sdk-1_4_2\jre\bin\zip.dll
+0x02E50000 - 0x02E5F000 	C:\Program Files\Java\j2sdk-1_4_2\jre\bin\net.dll
+0x71AB0000 - 0x71AC7000 	C:\WINDOWS\system32\WS2_32.dll
+0x71AA0000 - 0x71AA8000 	C:\WINDOWS\system32\WS2HELP.dll
+0x43000000 - 0x43005000 	C:\Program Files\Google\Google Desktop Search\GoogleDesktopNetwork1.dll
+0x77FE0000 - 0x77FF1000 	C:\WINDOWS\system32\Secur32.dll
+0x71A50000 - 0x71A8F000 	C:\WINDOWS\system32\mswsock.dll
+0x662B0000 - 0x66308000 	C:\WINDOWS\system32\hnetcfg.dll
+0x71A90000 - 0x71A98000 	C:\WINDOWS\System32\wshtcpip.dll
+0x02EB0000 - 0x02FBA000 	C:\Program Files\Java\j2sdk-1_4_2\jre\bin\awt.dll
+0x73000000 - 0x73026000 	C:\WINDOWS\system32\WINSPOOL.DRV
+0x76390000 - 0x763AD000 	C:\WINDOWS\system32\IMM32.dll
+0x774E0000 - 0x7761D000 	C:\WINDOWS\system32\ole32.dll
+0x02FD0000 - 0x03020000 	C:\Program Files\Java\j2sdk-1_4_2\jre\bin\fontmanager.dll
+0x73760000 - 0x737A9000 	C:\WINDOWS\system32\ddraw.dll
+0x73BC0000 - 0x73BC6000 	C:\WINDOWS\system32\DCIMAN32.dll
+0x73940000 - 0x73A10000 	C:\WINDOWS\system32\D3DIM700.DLL
+0x76C90000 - 0x76CB8000 	C:\WINDOWS\system32\imagehlp.dll
+0x59A60000 - 0x59B01000 	C:\WINDOWS\system32\DBGHELP.dll
+0x77C00000 - 0x77C08000 	C:\WINDOWS\system32\VERSION.dll
+0x76BF0000 - 0x76BFB000 	C:\WINDOWS\system32\PSAPI.DLL
+
+Heap at VM Abort:
+Heap
+ def new generation   total 576K, used 483K [0x10010000, 0x100b0000, 0x104f0000)
+  eden space 512K,  89% used [0x10010000, 0x10083208, 0x10090000)
+  from space 64K,  35% used [0x10090000, 0x10095a70, 0x100a0000)
+  to   space 64K,   0% used [0x100a0000, 0x100a0000, 0x100b0000)
+ tenured generation   total 1408K, used 163K [0x104f0000, 0x10650000, 0x14010000)
+   the space 1408K,  11% used [0x104f0000, 0x10518e98, 0x10519000, 0x10650000)
+ compacting perm gen  total 4096K, used 2604K [0x14010000, 0x14410000, 0x18010000)
+   the space 4096K,  63% used [0x14010000, 0x1429b318, 0x1429b400, 0x14410000)
+
+Local Time = Sun Apr 17 22:48:16 2005
+Elapsed Time = 7
+#
+# The exception above was detected in native code outside the VM
+#
+# Java VM: Java HotSpot(TM) Client VM (1.4.2-b28 mixed mode)
+#
