@@ -1,48 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n136"/>
-        <node id="n138"/>
-        <node id="n137"/>
-        <node id="n139"/>
-        <edge from="n139" to="n139">
-            <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge from="n139" to="n139">
+        <node id="n35"/>
+        <node id="n34"/>
+        <node id="n37"/>
+        <node id="n36"/>
+        <edge from="n34" to="n34">
             <attr name="label">
                 <string>boat</string>
             </attr>
         </edge>
-        <edge from="n136" to="n138">
-            <attr name="label">
-                <string>on</string>
-            </attr>
-        </edge>
-        <edge from="n138" to="n138">
+        <edge from="n37" to="n37">
             <attr name="label">
                 <string>bank</string>
             </attr>
         </edge>
-        <edge from="n139" to="n138">
+        <edge from="n35" to="n36">
             <attr name="label">
-                <string>moored</string>
+                <string>likes</string>
             </attr>
         </edge>
-        <edge from="n136" to="n136">
-            <attr name="label">
-                <string>del:</string>
-            </attr>
-        </edge>
-        <edge from="n137" to="n138">
+        <edge from="n36" to="n37">
             <attr name="label">
                 <string>on</string>
             </attr>
         </edge>
-        <edge from="n137" to="n136">
+        <edge from="n36" to="n36">
             <attr name="label">
-                <string>likes</string>
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n34" to="n37">
+            <attr name="label">
+                <string>!moored</string>
+            </attr>
+        </edge>
+        <edge from="n35" to="n37">
+            <attr name="label">
+                <string>on</string>
             </attr>
         </edge>
     </graph>
