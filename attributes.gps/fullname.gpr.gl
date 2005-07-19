@@ -1,0 +1,11 @@
+# Layout information for C:\local\groove\samples\attributes.gps\fullname.gpr
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+n n33 74 229 18 18 
+n n34 108 106 18 18 
+n n30 118 333 18 18 
+e n30 n32 "del:lastname" 727 708 142 342 184 237 11
+n n32 169 228 18 18 
+n n31 294 116 18 18 
+e n30 n31 "new:fullname" 921 388 142 342 309 341 309 125 11
