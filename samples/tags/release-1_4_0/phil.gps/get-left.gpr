@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n33"/>
+        <node id="n31"/>
+        <node id="n32"/>
+        <edge from="n33" to="n33">
+            <attr name="label">
+                <string>new:hasLeft</string>
+            </attr>
+        </edge>
+        <edge from="n33" to="n33">
+            <attr name="label">
+                <string>Phil</string>
+            </attr>
+        </edge>
+        <edge from="n33" to="n31">
+            <attr name="label">
+                <string>new:hold</string>
+            </attr>
+        </edge>
+        <edge from="n32" to="n32">
+            <attr name="label">
+                <string>Phil</string>
+            </attr>
+        </edge>
+        <edge from="n33" to="n33">
+            <attr name="label">
+                <string>del:hungry</string>
+            </attr>
+        </edge>
+        <edge from="n32" to="n31">
+            <attr name="label">
+                <string>right</string>
+            </attr>
+        </edge>
+        <edge from="n33" to="n31">
+            <attr name="label">
+                <string>left</string>
+            </attr>
+        </edge>
+        <edge from="n32" to="n31">
+            <attr name="label">
+                <string>not:hold</string>
+            </attr>
+        </edge>
+        <edge from="n31" to="n31">
+            <attr name="label">
+                <string>Fork</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
