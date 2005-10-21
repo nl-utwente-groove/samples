@@ -1,0 +1,17 @@
+# Layout information for C:\local\groove\samples\attributes.gps\marry.gpr
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+n n296 272 413 18 18 
+n n290 234 468 18 18 
+n n289 289 508 18 18 
+n n295 495 304 18 18 
+n n287 517 453 18 18 
+n n292 347 303 18 18 
+n n294 217 184 18 18 
+n n288 163 303 18 18 
+n n291 369 515 18 18 
+n n299 84 183 18 18 
+n n293 161 92 18 18 
+n n297 346 92 18 18 
+n n298 411 402 18 18 

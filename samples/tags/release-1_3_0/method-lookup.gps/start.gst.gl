@@ -1,0 +1,39 @@
+# Layout information for .\method-lookup.gps\.new\start.gst
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+e n16 n19 "type" 500 500 220 43 428 43 11
+n n12 114 232 20 18 
+e n24 n19 "in" 500 500 356 121 428 43 11
+e n17 n18 "type" 500 500 220 241 428 241 11
+e n14 n16 "handler" 300 693 124 97 220 43 11
+n n23 240 172 60 18 
+e n14 n25 "caller" 500 500 136 97 35 138 11
+e n13 n17 "handler" 300 300 124 181 220 241 11
+e n15 n25 "caller" 500 500 136 43 35 138 11
+n n15 114 34 20 18 
+n n22 348 202 17 18 
+n n19 420 34 17 18 
+n n13 114 172 20 18 
+e n12 n17 "handler" 500 500 136 241 220 241 11
+n n20 240 106 60 18 
+n n24 348 112 17 18 
+e n21 n19 "in" 500 500 356 79 428 43 11
+e n12 n25 "caller" 500 500 136 241 35 138 11
+e n15 n16 "handler" 500 500 136 43 220 43 11
+n n25 25 129 20 18 
+e n15 n20 "sig" 672 656 124 43 270 115 11
+e n14 n23 "sig" 500 500 136 97 270 181 11
+e n13 n25 "caller" 500 500 136 181 35 138 11
+e n12 n23 "sig" 704 300 124 241 270 181 11
+e n24 n23 "sig" 640 399 356 121 270 181 11
+n n21 348 70 17 18 
+e n21 n20 "sig" 500 500 356 79 270 115 11
+n n16 210 34 20 18 
+e n18 n19 "super" 500 500 428 241 428 43 11
+n n17 210 232 20 18 
+e n13 n20 "sig" 500 500 136 181 270 115 11
+n n18 420 232 17 18 
+n n14 114 88 20 18 
+e n22 n18 "in" 500 500 356 211 428 241 11
+e n22 n20 "sig" 702 720 356 211 270 115 11
