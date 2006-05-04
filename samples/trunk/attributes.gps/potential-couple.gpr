@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
+        <node id="n256"/>
+        <node id="n252"/>
+        <node id="n251"/>
+        <node id="n250"/>
+        <node id="n253"/>
+        <node id="n255"/>
+        <node id="n254"/>
+        <edge from="n256" to="n252">
+            <attr name="label">
+                <string>lastname</string>
+            </attr>
+        </edge>
+        <edge from="n256" to="n255">
+            <attr name="label">
+                <string>gender</string>
+            </attr>
+        </edge>
+        <edge from="n256" to="n256">
+            <attr name="label">
+                <string>Person</string>
+            </attr>
+        </edge>
+        <edge from="n256" to="n250">
+            <attr name="label">
+                <string>married</string>
+            </attr>
+        </edge>
+        <edge from="n252" to="n252">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n251" to="n251">
+            <attr name="label">
+                <string>string:male</string>
+            </attr>
+        </edge>
+        <edge from="n250" to="n250">
+            <attr name="label">
+                <string>bool:false</string>
+            </attr>
+        </edge>
+        <edge from="n253" to="n253">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n255" to="n255">
+            <attr name="label">
+                <string>string:female</string>
+            </attr>
+        </edge>
+        <edge from="n254" to="n251">
+            <attr name="label">
+                <string>gender</string>
+            </attr>
+        </edge>
+        <edge from="n254" to="n253">
+            <attr name="label">
+                <string>lastname</string>
+            </attr>
+        </edge>
+        <edge from="n254" to="n254">
+            <attr name="label">
+                <string>Person</string>
+            </attr>
+        </edge>
+        <edge from="n254" to="n250">
+            <attr name="label">
+                <string>married</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
