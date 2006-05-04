@@ -1,9 +1,0 @@
-# Layout information for C:\local\groove\samples\attributes.gps\birthday.gpr
-# Each line contains layout information about a node or edge
-# Node Format: n <node id> <bounds>
-# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
-n n106 106 183 18 18 
-n n105 99 33 18 18 
-n n103 294 116 18 18 
-n n104 219 179 18 18 
-n n102 162 107 18 18 
