@@ -1,16 +1,6 @@
-# Layout information for C:\local\groove\samples\attributes.gps\start.gst
+# Layout information for C:\local\groove\samples\attributes.gps\start-0.gst
 # Each line contains layout information about a node or edge
 # Node Format: n <node id> <bounds>
 # Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
-n n297 449 260 18 18 
-n n296 623 60 18 18 
-n n302 601 218 18 18 
-n n303 0 380 18 18 
-n n298 20 542 18 18 
-n n300 354 113 18 18 
-n n293 120 450 18 18 
-n n301 160 321 18 18 
-n n299 252 460 18 18 
-n n295 497 129 18 18 
-n n294 175 584 18 18 
-n n304 477 0 18 18 
+n n0 140 48 18 18 
+n n1 120 131 18 18 
