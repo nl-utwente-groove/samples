@@ -1,0 +1,14 @@
+# Layout information for C:\local\groove\samples\attributes.gps\delete.gpr
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+n n94 120 303 18 18 
+n n97 118 242 18 18 
+n n102 378 92 18 18 
+n n96 347 200 18 18 
+n n99 262 98 18 18 
+n n95 268 181 18 18 
+e n99 n95 "del:length" 364 433 283 107 217 190 11
+n n100 385 269 18 18 
+n n98 123 180 18 18 
+n n101 279 270 18 18 
