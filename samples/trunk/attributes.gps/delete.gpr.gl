@@ -2,13 +2,13 @@
 # Each line contains layout information about a node or edge
 # Node Format: n <node id> <bounds>
 # Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
-n n175 245 222 18 18 
-n n170 317 58 18 18 
-n n168 313 113 18 18 
-n n172 197 223 18 18 
-n n167 324 165 18 18 
-e n169 n173 "del:length" 364 433 283 107 217 190 11
-n n169 216 59 18 18 
-n n171 124 165 18 18 
-n n173 223 167 18 18 
-n n174 128 105 18 18 
+n n158 223 167 18 18 
+n n166 324 165 18 18 
+n n161 128 105 18 18 
+n n162 317 58 18 18 
+n n160 313 113 18 18 
+n n163 216 59 18 18 
+n n164 124 165 18 18 
+e n163 n158 "del:length" 364 433 283 107 217 190 11
+n n159 245 222 18 18 
+n n165 197 223 18 18 
