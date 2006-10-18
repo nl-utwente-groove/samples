@@ -1,80 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n37"/>
-        <node id="n36"/>
-        <node id="n40"/>
-        <node id="n39"/>
         <node id="n38"/>
         <node id="n35"/>
-        <edge from="n37" to="n38">
-            <attr name="label">
-                <string>arg0</string>
-            </attr>
-        </edge>
-        <edge from="n37" to="n39">
-            <attr name="label">
-                <string>arg1</string>
-            </attr>
-        </edge>
-        <edge from="n37" to="n37">
-            <attr name="label">
-                <string>prod:</string>
-            </attr>
-        </edge>
-        <edge from="n37" to="n40">
-            <attr name="label">
-                <string>int:add</string>
-            </attr>
-        </edge>
-        <edge from="n36" to="n35">
-            <attr name="label">
-                <string>entry</string>
-            </attr>
-        </edge>
-        <edge from="n36" to="n38">
-            <attr name="label">
-                <string>del:length</string>
-            </attr>
-        </edge>
-        <edge from="n36" to="n36">
-            <attr name="label">
-                <string>Buffer</string>
-            </attr>
-        </edge>
-        <edge from="n36" to="n40">
-            <attr name="label">
-                <string>new:length</string>
-            </attr>
-        </edge>
-        <edge from="n40" to="n40">
-            <attr name="label">
-                <string>attr:</string>
-            </attr>
-        </edge>
-        <edge from="n39" to="n39">
-            <attr name="label">
-                <string>int:1</string>
-            </attr>
-        </edge>
+        <node id="n36"/>
+        <node id="n40"/>
+        <node id="n37"/>
+        <node id="n39"/>
         <edge from="n38" to="n38">
             <attr name="label">
                 <string>attr:</string>
             </attr>
         </edge>
-        <edge from="n35" to="n40">
+        <edge from="n35" to="n35">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n35" to="n36">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n35" to="n38">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n35" to="n39">
+            <attr name="label">
+                <string>int:add</string>
+            </attr>
+        </edge>
+        <edge from="n36" to="n36">
+            <attr name="label">
+                <string>int:1</string>
+            </attr>
+        </edge>
+        <edge from="n40" to="n40">
+            <attr name="label">
+                <string>Buffer</string>
+            </attr>
+        </edge>
+        <edge from="n40" to="n37">
+            <attr name="label">
+                <string>entry</string>
+            </attr>
+        </edge>
+        <edge from="n40" to="n38">
+            <attr name="label">
+                <string>del:length</string>
+            </attr>
+        </edge>
+        <edge from="n40" to="n39">
+            <attr name="label">
+                <string>new:length</string>
+            </attr>
+        </edge>
+        <edge from="n37" to="n37">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge from="n37" to="n39">
             <attr name="label">
                 <string>order</string>
             </attr>
         </edge>
-        <edge from="n35" to="n35">
+        <edge from="n37" to="n37">
             <attr name="label">
                 <string>Cell</string>
             </attr>
         </edge>
-        <edge from="n35" to="n35">
+        <edge from="n39" to="n39">
             <attr name="label">
-                <string>new:</string>
+                <string>attr:</string>
             </attr>
         </edge>
     </graph>
