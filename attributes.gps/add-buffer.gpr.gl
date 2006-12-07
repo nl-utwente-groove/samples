@@ -1,0 +1,7 @@
+# Layout information for C:\local\groove\samples\attributes.gps\add-buffer.gpr
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+n n33 266 65 18 18 
+n n32 141 59 18 18 
+n n34 190 130 18 18 
