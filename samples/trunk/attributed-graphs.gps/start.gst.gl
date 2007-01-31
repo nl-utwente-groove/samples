@@ -1,0 +1,6 @@
+# Layout information for C:\local\groove\samples\attributed-graphs.gps\start.gst
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+n n201 160 183 18 18 
+n n200 147 96 18 18 
