@@ -1,0 +1,10 @@
+# Layout information for C:\local\groove\samples\ordered-list.gps\add-element.gpr
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+n n69 105 89 18 18 
+n n68 224 248 18 18 
+n n66 104 249 18 18 
+n n71 298 82 18 18 
+n n67 172 183 18 18 
+n n70 297 184 18 18 
