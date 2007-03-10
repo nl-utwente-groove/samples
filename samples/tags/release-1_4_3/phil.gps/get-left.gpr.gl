@@ -1,0 +1,12 @@
+# Layout information for C:\Program Files\Groove\samples-1_0\phil.gps\get-left.gpr
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+e n33 n31 "left" 500 500 295 244 226 157 12
+n n33 281 235 18 18 
+e n33 n31 "new:hold" 56 393 295 244 294 181 226 157 13
+e n33 n33 "new:hasLeft" 827 449 295 244 368 270 369 214 295 244 12
+e n32 n31 "not:hold" 149 422 144 247 150 186 226 157 12
+e n33 n33 "del:hungry" 154 444 295 244 229 276 226 224 295 244 12
+n n31 210 148 18 18 
+n n32 130 238 18 18 
