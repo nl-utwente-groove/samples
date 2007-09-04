@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n122"/>
-        <node id="n123"/>
-        <node id="n121"/>
-        <edge from="n122" to="n123">
+    <graph id="graph" role="rule" edgeids="false" edgemode="directed">
+        <attr name="remark">
+            <string>Assigns y to x</string>
+        </attr>
+        <node id="n2"/>
+        <node id="n1"/>
+        <node id="n0"/>
+        <edge from="n0" to="n1">
             <attr name="label">
                 <string>new:x</string>
             </attr>
         </edge>
-        <edge from="n122" to="n123">
+        <edge from="n0" to="n1">
             <attr name="label">
                 <string>y</string>
             </attr>
         </edge>
-        <edge from="n122" to="n121">
+        <edge from="n0" to="n2">
             <attr name="label">
                 <string>del:x</string>
             </attr>
