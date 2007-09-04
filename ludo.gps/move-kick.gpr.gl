@@ -1,0 +1,24 @@
+# Layout information for C:\local\groove\samples\ludo.gps\move-kick.gpr
+# Each line contains layout information about a node or edge
+# Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
+#     v 1: label position = (x-permillage, y-permillage)
+#     v 2: label position = (vector permillage, perpendicular distance)
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+v 2
+n n13 379 39 29 15 
+n n2 183 191 8 15 
+n n9 81 128 23 30 
+n n4 475 172 24 15 
+n n3 303 44 24 15 
+n n5 184 99 8 15 
+n n12 377 165 29 15 
+n n0 136 55 7 15 
+n n10 484 44 32 15 
+n n7 236 300 7 15 
+n n6 452 241 8 15 
+n n1 387 105 24 15 
+n n11 296 170 24 15 
+n n8 108 241 7 15 
+e n8 n8 "del:move" 500 0 116 251 150 264 150 238 116 251 12
+e n8 n8 "new:done" 500 0 116 251 150 264 150 238 116 251 12
