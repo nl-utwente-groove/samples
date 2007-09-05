@@ -1,37 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n28"/>
-        <node id="n29"/>
-        <node id="n30"/>
-        <edge from="n28" to="n30">
-            <attr name="label">
-                <string>new:match</string>
-            </attr>
-        </edge>
-        <edge from="n28" to="n29">
+    <graph id="graph" role="rule" edgeids="false" edgemode="directed">
+        <attr name="remark">
+            <string>Matches up an A-C-edge label with a B-self-edge label</string>
+        </attr>
+        <node id="n2"/>
+        <node id="n1"/>
+        <node id="n0"/>
+        <edge from="n2" to="n2">
             <attr name="label">
                 <string>?x</string>
             </attr>
         </edge>
-        <edge from="n28" to="n28">
-            <attr name="label">
-                <string>A</string>
-            </attr>
-        </edge>
-        <edge from="n29" to="n29">
-            <attr name="label">
-                <string>C</string>
-            </attr>
-        </edge>
-        <edge from="n30" to="n30">
+        <edge from="n2" to="n2">
             <attr name="label">
                 <string>B</string>
             </attr>
         </edge>
-        <edge from="n30" to="n30">
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>A</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>C</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n1">
             <attr name="label">
                 <string>?x</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n2">
+            <attr name="label">
+                <string>new:match</string>
             </attr>
         </edge>
     </graph>
