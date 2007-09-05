@@ -1,52 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n33"/>
-        <node id="n31"/>
-        <node id="n32"/>
-        <edge from="n33" to="n33">
-            <attr name="label">
-                <string>new:hasLeft</string>
-            </attr>
-        </edge>
-        <edge from="n33" to="n33">
-            <attr name="label">
-                <string>Phil</string>
-            </attr>
-        </edge>
-        <edge from="n33" to="n31">
+    <graph id="graph" role="rule" edgeids="false" edgemode="directed">
+        <attr name="remark">
+            <string>Makes a philospher grab his left hand side fork</string>
+        </attr>
+        <node id="n2"/>
+        <node id="n1"/>
+        <node id="n0"/>
+        <edge from="n0" to="n1">
             <attr name="label">
                 <string>new:hold</string>
             </attr>
         </edge>
-        <edge from="n32" to="n32">
-            <attr name="label">
-                <string>Phil</string>
-            </attr>
-        </edge>
-        <edge from="n33" to="n33">
+        <edge from="n0" to="n0">
             <attr name="label">
                 <string>del:hungry</string>
             </attr>
         </edge>
-        <edge from="n32" to="n31">
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>Phil</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>new:hasLeft</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>Fork</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n1">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n33" to="n31">
-            <attr name="label">
-                <string>left</string>
-            </attr>
-        </edge>
-        <edge from="n32" to="n31">
+        <edge from="n2" to="n1">
             <attr name="label">
                 <string>not:hold</string>
             </attr>
         </edge>
-        <edge from="n31" to="n31">
+        <edge from="n0" to="n1">
             <attr name="label">
-                <string>Fork</string>
+                <string>left</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>Phil</string>
             </attr>
         </edge>
     </graph>
