@@ -1,0 +1,16 @@
+# Layout information for D:\Groove\avl.gps\rightRotate.gpr
+# Each line contains layout information about a node or edge
+# Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
+#     v 1: label position = (x-permillage, y-permillage)
+#     v 2: label position = (vector permillage, perpendicular distance)
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+v 2
+n n2 91 221 15 15 
+n n1 139 139 25 14 
+n n0 210 218 25 14 
+e n1 n0 "del:right" 500 0 174 154 225 154 225 218 11
+e n1 n1 "del:rotate" 658 4 159 139 172 102 138 102 152 139 12
+e n1 n2 "new:right" 500 0 139 149 98 149 98 221 11
+e n0 n1 "new:replace" 333 24 233 218 233 143 174 143 11
+e n0 n1 "new:left" 942 13 210 222 158 222 158 159 11
