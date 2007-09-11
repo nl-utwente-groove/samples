@@ -1,0 +1,18 @@
+# Layout information for /home/fmg/bonevai/Documents/current/Workspace/groove/samples/sierpinsky.gps/transform.gpr
+# Each line contains layout information about a node or edge
+# Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
+#     v 1: label position = (x-permillage, y-permillage)
+#     v 2: label position = (vector permillage, perpendicular distance)
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+v 2
+n n5 410 8 15 15 
+n n4 116 211 29 16 
+n n1 102 307 15 15 
+n n8 324 305 15 15 
+n n3 410 95 15 15 
+n n0 206 133 15 15 
+n n7 209 336 29 16 
+n n6 285 88 15 15 
+n n2 317 214 29 16 
+e n5 n5 "p" 500 0 418 16 391 7 392 28 418 16 12
