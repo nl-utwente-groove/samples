@@ -1,0 +1,25 @@
+# Layout information for /home/fmg/bonevai/Documents/current/Workspace/groove/samples/ludobis.gps/winner.gpr
+# Each line contains layout information about a node or edge
+# Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
+#     v 1: label position = (x-permillage, y-permillage)
+#     v 2: label position = (vector permillage, perpendicular distance)
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+v 2
+n n1 491 331 50 32 
+n n7 295 487 9 16 
+n n5 217 356 8 16 
+n n6 457 422 7 16 
+n n3 226 483 9 16 
+n n2 155 348 8 16 
+n n4 370 491 9 16 
+n n9 370 358 8 16 
+n n8 292 354 8 16 
+n n0 162 483 9 16 
+e n8 n9 "!=" 500 0 309 354 374 272 374 358 11
+e n2 n5 "!=" 500 0 167 348 167 259 228 352 11
+e n5 n8 "!=" 500 0 226 367 272 258 301 365 11
+e n5 n9 "!=" 500 0 226 367 323 259 379 369 11
+e n2 n9 "!=" 505 -4 171 348 231 263 370 362 11
+e n6 n6 "del:done" 500 0 465 433 499 445 499 419 465 433 12
+e n2 n8 "!=" 500 0 168 348 202 259 292 355 11
