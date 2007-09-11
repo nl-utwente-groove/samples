@@ -1,0 +1,16 @@
+# Layout information for C:\files\work\groove_cvs\samples\sierpinsky.gps\next2.gpr
+# Each line contains layout information about a node or edge
+# Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
+#     v 1: label position = (x-permillage, y-permillage)
+#     v 2: label position = (vector permillage, perpendicular distance)
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+v 2
+n n0 315 504 15 15 
+n n1 83 291 15 15 
+n n3 201 318 26 15 
+n n2 298 172 26 15 
+n n7 108 163 26 15 
+n n6 577 108 15 15 
+n n4 213 70 15 15 
+n n5 327 290 15 15 
