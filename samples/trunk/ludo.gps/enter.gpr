@@ -2,18 +2,18 @@
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="rule" edgeids="false" edgemode="directed">
         <attr name="priority">
-            <string>5</string>
+            <string>8</string>
         </attr>
-        <node id="n6"/>
-        <node id="n4"/>
-        <node id="n5"/>
+        <node id="n3"/>
         <node id="n0"/>
+        <node id="n6"/>
+        <node id="n5"/>
         <node id="n2"/>
         <node id="n1"/>
-        <node id="n3"/>
-        <edge from="n4" to="n1">
+        <node id="n4"/>
+        <edge from="n0" to="n0">
             <attr name="label">
-                <string>kegel</string>
+                <string>D</string>
             </attr>
         </edge>
         <edge from="n2" to="n2">
@@ -23,27 +23,27 @@
         </edge>
         <edge from="n6" to="n6">
             <attr name="label">
-                <string>K</string>
+                <string>P</string>
             </attr>
         </edge>
-        <edge from="n4" to="n5">
+        <edge from="n6" to="n4">
             <attr name="label">
-                <string>home</string>
+                <string>kegel</string>
             </attr>
         </edge>
-        <edge from="n1" to="n3">
+        <edge from="n6" to="n6">
+            <attr name="label">
+                <string>del:move</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n5">
             <attr name="label">
                 <string>at</string>
             </attr>
         </edge>
         <edge from="n4" to="n4">
             <attr name="label">
-                <string>del:move</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n5">
-            <attr name="label">
-                <string>at</string>
+                <string>K</string>
             </attr>
         </edge>
         <edge from="n0" to="n2">
@@ -51,14 +51,14 @@
                 <string>dots</string>
             </attr>
         </edge>
-        <edge from="n4" to="n4">
+        <edge from="n3" to="n3">
             <attr name="label">
-                <string>new:done</string>
+                <string>not:</string>
             </attr>
         </edge>
-        <edge from="n1" to="n1">
+        <edge from="n4" to="n5">
             <attr name="label">
-                <string>K</string>
+                <string>new:at</string>
             </attr>
         </edge>
         <edge from="n5" to="n5">
@@ -68,6 +68,21 @@
         </edge>
         <edge from="n6" to="n6">
             <attr name="label">
+                <string>new:done</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>K</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n5">
+            <attr name="label">
+                <string>home</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
                 <string>not:</string>
             </attr>
         </edge>
@@ -76,24 +91,9 @@
                 <string>V</string>
             </attr>
         </edge>
-        <edge from="n1" to="n5">
+        <edge from="n4" to="n3">
             <attr name="label">
-                <string>new:at</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n3">
-            <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n4">
-            <attr name="label">
-                <string>P</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>D</string>
+                <string>at</string>
             </attr>
         </edge>
     </graph>
