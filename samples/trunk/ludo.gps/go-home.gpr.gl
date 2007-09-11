@@ -1,0 +1,26 @@
+# Layout information for /home/fmg/bonevai/Documents/current/Workspace/groove/samples/ludobis.gps/go-home.gpr
+# Each line contains layout information about a node or edge
+# Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
+#     v 1: label position = (x-permillage, y-permillage)
+#     v 2: label position = (vector permillage, perpendicular distance)
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+v 2
+n n1 508 113 26 16 
+n n12 439 351 25 16 
+n n5 694 253 26 16 
+n n7 603 114 33 16 
+n n6 426 109 9 16 
+n n3 513 256 26 16 
+n n11 606 252 33 16 
+n n9 696 116 37 16 
+n n8 421 256 9 16 
+n n0 313 259 8 16 
+n n13 603 184 26 16 
+n n10 704 333 10 16 
+n n2 144 110 25 16 
+n n4 108 258 7 16 
+e n12 n12 "V" 500 0 451 363 441 393 420 386 451 363 12
+e n2 n2 "not:K" 500 0 161 121 107 162 118 165 161 121 12
+e n4 n4 "del:move" 500 0 116 269 93 303 93 277 116 269 12
+e n4 n4 "new:done" 500 0 116 269 93 303 93 277 116 269 12

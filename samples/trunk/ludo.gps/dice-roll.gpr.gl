@@ -1,0 +1,14 @@
+# Layout information for C:\local\groove\samples\ludo.gps\dice-roll.gpr
+# Each line contains layout information about a node or edge
+# Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
+#     v 1: label position = (x-permillage, y-permillage)
+#     v 2: label position = (vector permillage, perpendicular distance)
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+v 2
+n n2 66 247 7 15 
+n n0 121 126 8 15 
+n n1 190 126 24 15 
+e n2 n2 "new:move" 500 0 74 257 108 270 108 244 74 257 12
+e n0 n1 "new:dots" 500 0 130 136 168 160 207 136 12
+e n2 n2 "del:turn" 500 0 74 257 108 270 108 244 74 257 12
