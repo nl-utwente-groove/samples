@@ -7,12 +7,12 @@
         <node id="n0"/>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>P</string>
+                <string>new:done</string>
             </attr>
         </edge>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>new:done</string>
+                <string>Player</string>
             </attr>
         </edge>
         <edge from="n0" to="n0">

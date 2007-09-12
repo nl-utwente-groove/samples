@@ -2,24 +2,19 @@
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="rule" edgeids="false" edgemode="directed">
         <attr name="priority">
-            <string>5</string>
+            <string>0</string>
         </attr>
-        <node id="n0"/>
-        <node id="n2"/>
         <node id="n1"/>
-        <edge from="n2" to="n2">
+        <node id="n2"/>
+        <node id="n0"/>
+        <edge from="n0" to="n0">
             <attr name="label">
-                <string>P</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n1">
-            <attr name="label">
-                <string>new:dots</string>
+                <string>Player</string>
             </attr>
         </edge>
         <edge from="n2" to="n2">
             <attr name="label">
-                <string>new:move</string>
+                <string>D</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
@@ -27,19 +22,24 @@
                 <string>attr:</string>
             </attr>
         </edge>
-        <edge from="n0" to="n1">
+        <edge from="n0" to="n0">
             <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>del:turn</string>
+                <string>new:move</string>
             </attr>
         </edge>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>D</string>
+                <string>del:turn</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n1">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n1">
+            <attr name="label">
+                <string>new:dots</string>
             </attr>
         </edge>
     </graph>

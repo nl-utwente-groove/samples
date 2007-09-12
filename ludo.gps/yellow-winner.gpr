@@ -2,71 +2,28 @@
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="rule" edgeids="false" edgemode="directed">
         <attr name="priority">
-            <string>10</string>
+            <string>20</string>
         </attr>
         <node id="n1"/>
-        <node id="n7"/>
-        <node id="n5"/>
-        <node id="n2"/>
         <node id="n3"/>
         <node id="n6"/>
-        <node id="n4"/>
-        <node id="n0"/>
-        <node id="n8"/>
         <node id="n9"/>
-        <edge from="n3" to="n3">
-            <attr name="label">
-                <string>V</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>K</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>WINNER</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n9">
-            <attr name="label">
-                <string>kegel</string>
-            </attr>
-        </edge>
-        <edge from="n8" to="n8">
-            <attr name="label">
-                <string>K</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n6">
-            <attr name="label">
-                <string>you</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n8">
+        <node id="n2"/>
+        <node id="n11"/>
+        <node id="n4"/>
+        <node id="n5"/>
+        <node id="n7"/>
+        <node id="n8"/>
+        <node id="n10"/>
+        <node id="n0"/>
+        <edge from="n0" to="n11">
             <attr name="label">
                 <string>!=</string>
             </attr>
         </edge>
-        <edge from="n8" to="n9">
+        <edge from="n9" to="n0">
             <attr name="label">
                 <string>!=</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n6">
-            <attr name="label">
-                <string>del:done</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>V</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n2">
-            <attr name="label">
-                <string>kegel</string>
             </attr>
         </edge>
         <edge from="n7" to="n7">
@@ -74,24 +31,104 @@
                 <string>V</string>
             </attr>
         </edge>
-        <edge from="n6" to="n8">
+        <edge from="n1" to="n1">
             <attr name="label">
-                <string>kegel</string>
+                <string>Player</string>
             </attr>
         </edge>
-        <edge from="n6" to="n3">
+        <edge from="n6" to="n0">
             <attr name="label">
-                <string>base</string>
+                <string>!=</string>
             </attr>
         </edge>
-        <edge from="n8" to="n7">
+        <edge from="n1" to="n9">
+            <attr name="label">
+                <string>pawn</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>del:done</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n8">
+            <attr name="label">
+                <string>color</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n5">
             <attr name="label">
                 <string>at</string>
             </attr>
         </edge>
-        <edge from="n2" to="n9">
+        <edge from="n1" to="n8">
+            <attr name="label">
+                <string>yellow</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>D</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n10">
+            <attr name="label">
+                <string>home</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n6">
+            <attr name="label">
+                <string>pawn</string>
+            </attr>
+        </edge>
+        <edge from="n11" to="n2">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n11">
+            <attr name="label">
+                <string>pawn</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n10">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n6">
             <attr name="label">
                 <string>!=</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>P</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n7">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n0">
+            <attr name="label">
+                <string>pawn</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n2">
+            <attr name="label">
+                <string>home</string>
             </attr>
         </edge>
         <edge from="n6" to="n6">
@@ -99,74 +136,59 @@
                 <string>P</string>
             </attr>
         </edge>
-        <edge from="n6" to="n0">
-            <attr name="label">
-                <string>base</string>
-            </attr>
-        </edge>
-        <edge from="n9" to="n9">
-            <attr name="label">
-                <string>K</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n7">
-            <attr name="label">
-                <string>base</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n8">
+        <edge from="n6" to="n11">
             <attr name="label">
                 <string>!=</string>
             </attr>
         </edge>
-        <edge from="n6" to="n5">
+        <edge from="n11" to="n11">
             <attr name="label">
-                <string>kegel</string>
+                <string>P</string>
             </attr>
         </edge>
-        <edge from="n9" to="n4">
+        <edge from="n1" to="n7">
             <attr name="label">
-                <string>at</string>
+                <string>home</string>
             </attr>
         </edge>
-        <edge from="n2" to="n0">
-            <attr name="label">
-                <string>at</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n3">
-            <attr name="label">
-                <string>at</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>new:</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n4">
-            <attr name="label">
-                <string>base</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n9">
-            <attr name="label">
-                <string>!=</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>K</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n4">
+        <edge from="n2" to="n2">
             <attr name="label">
                 <string>V</string>
             </attr>
         </edge>
-        <edge from="n2" to="n5">
+        <edge from="n10" to="n10">
+            <attr name="label">
+                <string>V</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n11">
             <attr name="label">
                 <string>!=</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n9">
+            <attr name="label">
+                <string>P</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n1">
+            <attr name="label">
+                <string>you</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>V</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>WINNER</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n5">
+            <attr name="label">
+                <string>home</string>
             </attr>
         </edge>
     </graph>
