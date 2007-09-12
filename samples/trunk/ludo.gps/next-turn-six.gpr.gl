@@ -1,4 +1,4 @@
-# Layout information for C:\local\groove\samples\ludo.gps\next-turn-six.gpr
+# Layout information for E:\kastenberg\eclipse\workspace\Groove-samples\ludo.gps\next-turn-six.gpr
 # Each line contains layout information about a node or edge
 # Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
 #     v 1: label position = (x-permillage, y-permillage)
@@ -6,8 +6,11 @@
 # Node Format: n <node id> <bounds>
 # Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
 v 2
-n n0 296 52 25 15 
-n n2 192 49 8 15 
-n n1 51 111 7 15 
-e n1 n1 "new:turn" 500 0 59 121 93 134 93 108 59 121 12
-e n1 n1 "del:done" 500 0 59 121 93 134 93 108 59 121 12
+n n3 310 189 44 14 
+n n1 192 49 7 14 
+n n2 312 119 26 14 
+n n5 51 111 30 14 
+n n4 380 49 22 14 
+n n0 296 52 22 14 
+e n5 n5 "del:done" 500 0 59 121 93 134 93 108 59 121 12
+e n5 n5 "new:turn" 500 0 59 121 93 134 93 108 59 121 12

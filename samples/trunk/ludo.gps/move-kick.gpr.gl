@@ -1,4 +1,4 @@
-# Layout information for /home/fmg/bonevai/Documents/current/Workspace/groove/samples/ludo.gps/move-kick.gpr
+# Layout information for E:\kastenberg\eclipse\workspace\Groove-samples\ludo.gps\move-kick.gpr
 # Each line contains layout information about a node or edge
 # Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
 #     v 1: label position = (x-permillage, y-permillage)
@@ -6,23 +6,22 @@
 # Node Format: n <node id> <bounds>
 # Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
 v 2
-n n5 682 317 10 16 
-n n1 117 239 7 16 
-n n3 206 237 8 16 
-n n10 546 88 33 16 
-n n4 35 130 15 15 
-n n2 435 233 26 16 
-n n9 116 102 15 15 
-n n13 440 93 26 16 
-n n0 326 233 9 16 
-n n12 551 160 26 16 
-n n6 328 99 9 16 
-n n7 674 234 26 16 
-n n8 545 235 33 16 
-n n11 644 46 37 16 
-e n3 n6 "new:at" 1033 27 215 248 337 110 11
-e n4 n4 "color" 500 0 43 138 49 109 28 112 43 138 12
-e n9 n9 "K" 500 0 130 132 96 116 127 101 130 132 12
-e n1 n1 "new:done" 500 0 125 250 80 278 119 274 125 250 12
-e n1 n1 "del:move" 500 0 125 250 143 288 149 250 125 250 12
-e n9 n6 "del:at" 451 -15 133 110 328 110 13
+n n1 440 93 22 14 
+n n3 644 46 28 14 
+n n6 546 88 26 14 
+n n9 674 234 22 14 
+n n2 206 237 6 14 
+n n12 551 160 22 14 
+n n4 326 233 6 14 
+n n5 35 130 15 15 
+n n8 435 233 22 14 
+n n10 117 239 30 14 
+n n11 682 317 7 14 
+n n7 328 99 6 14 
+n n13 545 235 26 14 
+n n0 116 102 6 14 
+e n10 n10 "new:done" 500 0 125 250 80 278 119 274 125 250 12
+e n0 n7 "del:at" 451 -15 133 110 328 110 13
+e n10 n10 "del:move" 500 0 125 250 143 288 149 250 125 250 12
+e n5 n5 "color" 500 0 43 138 49 109 28 112 43 138 12
+e n2 n7 "new:at" 1033 27 215 248 337 110 11
