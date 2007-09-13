@@ -14,7 +14,7 @@
         </edge>
         <edge from="n2" to="n2">
             <attr name="label">
-                <string>D</string>
+                <string>Die</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">

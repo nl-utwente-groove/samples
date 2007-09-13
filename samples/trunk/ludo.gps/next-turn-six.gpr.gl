@@ -6,11 +6,11 @@
 # Node Format: n <node id> <bounds>
 # Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
 v 2
-n n3 310 189 44 14 
-n n1 192 49 7 14 
-n n2 312 119 26 14 
-n n5 51 111 30 14 
-n n4 380 49 22 14 
-n n0 296 52 22 14 
-e n5 n5 "del:done" 500 0 59 121 93 134 93 108 59 121 12
-e n5 n5 "new:turn" 500 0 59 121 93 134 93 108 59 121 12
+n n3 61 57 30 14 
+n n1 310 189 44 14 
+n n2 347 35 26 14 
+n n5 192 49 15 14 
+n n4 279 52 22 14 
+n n0 380 49 22 14 
+e n3 n3 "del:done" 942 -17 101 74 132 85 134 49 101 60 12
+e n3 n3 "new:turn" 901 13 61 71 28 80 28 52 61 61 12
