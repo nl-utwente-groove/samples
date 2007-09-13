@@ -1,4 +1,4 @@
-# Layout information for /home/fmg/bonevai/Documents/current/Workspace/groove/samples/sierpinsky.gps/next.gpr
+# Layout information for /tmp/Download/groove/sierpenski/sierpinsky.gps/next.gpr
 # Each line contains layout information about a node or edge
 # Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
 #     v 1: label position = (x-permillage, y-permillage)
@@ -6,7 +6,7 @@
 # Node Format: n <node id> <bounds>
 # Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
 v 2
-n n0 143 179 15 15 
-n n1 142 91 15 15 
-e n1 n1 "del:current" 1765 -38 142 94 115 80 112 121 142 104 12
-e n0 n0 "new:current" 1746 -41 143 181 117 165 124 208 143 193 12
+n n0 235 96 15 15 
+n n1 142 97 15 15 
+e n0 n0 "new:current" 1368 26 239 96 230 74 262 76 249 96 12
+e n1 n1 "del:current" 1549 -12 153 97 163 75 134 74 146 97 12
