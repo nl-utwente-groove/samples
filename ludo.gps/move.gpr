@@ -18,69 +18,59 @@
         <node id="n7"/>
         <node id="n13"/>
         <node id="n0"/>
-        <edge from="n1" to="n13">
-            <attr name="label">
-                <string>del:at</string>
-            </attr>
-        </edge>
-        <edge from="n8" to="n5">
+        <edge from="n5" to="n8">
             <attr name="label">
                 <string>?x</string>
             </attr>
         </edge>
-        <edge from="n11" to="n12">
+        <edge from="n6" to="n6">
             <attr name="label">
-                <string>arg:0</string>
+                <string>Pawn</string>
             </attr>
         </edge>
-        <edge from="n8" to="n1">
+        <edge from="n11" to="n11">
             <attr name="label">
-                <string>pawn</string>
+                <string>Field</string>
             </attr>
         </edge>
-        <edge from="n1" to="n4">
+        <edge from="n6" to="n7">
             <attr name="label">
                 <string>new:at</string>
             </attr>
         </edge>
-        <edge from="n13" to="n12">
+        <edge from="n11" to="n2">
             <attr name="label">
                 <string>index</string>
             </attr>
         </edge>
-        <edge from="n11" to="n6">
-            <attr name="label">
-                <string>int:add</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n6">
+        <edge from="n10" to="n10">
             <attr name="label">
                 <string>attr:</string>
             </attr>
         </edge>
-        <edge from="n2" to="n4">
+        <edge from="n4" to="n0">
             <attr name="label">
-                <string>not:at</string>
+                <string>arg:1</string>
             </attr>
         </edge>
         <edge from="n2" to="n2">
             <attr name="label">
-                <string>P</string>
+                <string>attr:</string>
             </attr>
         </edge>
-        <edge from="n8" to="n8">
+        <edge from="n6" to="n11">
             <attr name="label">
-                <string>new:done</string>
+                <string>del:at</string>
             </attr>
         </edge>
-        <edge from="n1" to="n1">
+        <edge from="n5" to="n5">
             <attr name="label">
-                <string>P</string>
+                <string>Player</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n12">
+            <attr name="label">
+                <string>int:add</string>
             </attr>
         </edge>
         <edge from="n12" to="n12">
@@ -88,69 +78,89 @@
                 <string>attr:</string>
             </attr>
         </edge>
-        <edge from="n11" to="n11">
+        <edge from="n9" to="n9">
             <attr name="label">
-                <string>prod:</string>
+                <string>Die</string>
             </attr>
         </edge>
-        <edge from="n13" to="n13">
+        <edge from="n5" to="n5">
             <attr name="label">
-                <string>V</string>
+                <string>new:kick</string>
             </attr>
         </edge>
-        <edge from="n4" to="n4">
+        <edge from="n8" to="n8">
             <attr name="label">
-                <string>V</string>
+                <string>Colour</string>
             </attr>
         </edge>
         <edge from="n7" to="n7">
             <attr name="label">
-                <string>D</string>
+                <string>Field</string>
             </attr>
         </edge>
-        <edge from="n4" to="n0">
-            <attr name="label">
-                <string>index</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n0">
-            <attr name="label">
-                <string>int:mod</string>
-            </attr>
-        </edge>
-        <edge from="n10" to="n10">
-            <attr name="label">
-                <string>int:40</string>
-            </attr>
-        </edge>
-        <edge from="n11" to="n9">
-            <attr name="label">
-                <string>arg:1</string>
-            </attr>
-        </edge>
-        <edge from="n8" to="n8">
+        <edge from="n5" to="n5">
             <attr name="label">
                 <string>del:move</string>
             </attr>
         </edge>
-        <edge from="n0" to="n0">
+        <edge from="n13" to="n13">
             <attr name="label">
-                <string>attr:</string>
+                <string>Pawn</string>
             </attr>
         </edge>
-        <edge from="n7" to="n9">
+        <edge from="n7" to="n10">
             <attr name="label">
-                <string>dots</string>
+                <string>index</string>
             </attr>
         </edge>
-        <edge from="n13" to="n4">
+        <edge from="n11" to="n7">
             <attr name="label">
                 <string>n*.(?x|n).n*</string>
             </attr>
         </edge>
-        <edge from="n8" to="n8">
+        <edge from="n1" to="n1">
             <attr name="label">
-                <string>Player</string>
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>int:40</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n12">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n2">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n6">
+            <attr name="label">
+                <string>myPawn</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n1">
+            <attr name="label">
+                <string>dots</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n10">
+            <attr name="label">
+                <string>int:mod</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n13">
+            <attr name="label">
+                <string>not:</string>
             </attr>
         </edge>
         <edge from="n3" to="n3">
@@ -158,24 +168,19 @@
                 <string>prod:</string>
             </attr>
         </edge>
-        <edge from="n3" to="n6">
-            <attr name="label">
-                <string>arg:0</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>color</string>
-            </attr>
-        </edge>
-        <edge from="n9" to="n9">
-            <attr name="label">
-                <string>attr:</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n10">
+        <edge from="n3" to="n1">
             <attr name="label">
                 <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n13">
+            <attr name="label">
+                <string>myPawn</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n7">
+            <attr name="label">
+                <string>not:at</string>
             </attr>
         </edge>
     </graph>
