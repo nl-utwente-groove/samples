@@ -6,9 +6,7 @@
 # Node Format: n <node id> <bounds>
 # Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
 v 2
-n n1 263 176 15 15 
-n n4 266 86 15 15 
-n n3 275 8 15 15 
-n n2 88 90 25 16 
-n n0 374 88 15 15 
-e n0 n0 "p" 500 0 382 96 384 65 361 74 382 96 12
+n n0 143 179 15 15 
+n n1 142 91 15 15 
+e n1 n1 "del:current" 1765 -38 142 94 115 80 112 121 142 104 12
+e n0 n0 "new:current" 1746 -41 143 181 117 165 124 208 143 193 12
