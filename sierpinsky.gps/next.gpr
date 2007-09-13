@@ -1,47 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph id="graph" role="rule" edgeids="false" edgemode="directed">
-        <attr name="priority">
-            <string>20</string>
-        </attr>
-        <node id="n1"/>
-        <node id="n2"/>
-        <node id="n3"/>
-        <node id="n4"/>
         <node id="n0"/>
-        <edge from="n0" to="n1">
+        <node id="n1"/>
+        <edge from="n1" to="n1">
             <attr name="label">
-                <string>new:c</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n3">
-            <attr name="label">
-                <string>at</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n4">
-            <attr name="label">
-                <string>n</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>not:</string>
+                <string>del:current</string>
             </attr>
         </edge>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>p</string>
+                <string>new:current</string>
             </attr>
         </edge>
-        <edge from="n4" to="n1">
+        <edge from="n1" to="n0">
             <attr name="label">
-                <string>n</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n4">
-            <attr name="label">
-                <string>del:c</string>
+                <string>next</string>
             </attr>
         </edge>
     </graph>
