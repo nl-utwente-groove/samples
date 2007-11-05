@@ -1,0 +1,18 @@
+# Layout information for /Users/kramor/Development/EclipseWorkspace/groove_samples/gossip.gps/start5.gst
+# Each line contains layout information about a node or edge
+# Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
+#     v 1: label position = (x-permillage, y-permillage)
+#     v 2: label position = (vector permillage, perpendicular distance)
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+v 2
+n n6 171 207 21 16 
+n n5 571 352 21 16 
+n n2 25 205 38 16 
+n n1 599 25 38 16 
+n n0 331 476 38 16 
+n n8 563 107 21 16 
+n n3 566 481 38 16 
+n n4 846 228 38 16 
+n n7 726 232 21 16 
+n n9 341 352 21 16 
