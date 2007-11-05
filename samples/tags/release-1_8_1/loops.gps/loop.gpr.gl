@@ -1,0 +1,6 @@
+# Layout information for C:\local\groove\samples\loop.gps\loop.gpr
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+e n36 n36 "next+" 500 500 179 104 197 33 154 34 176 34 12
+n n36 170 95 18 18 
