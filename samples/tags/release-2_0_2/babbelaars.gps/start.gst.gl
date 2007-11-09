@@ -1,0 +1,16 @@
+# Layout information for C:\Program Files\Groove\babbelaars.gps\start.gst
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+n n486 77 234 18 18 
+n n489 331 154 18 18 
+n n494 205 158 18 18 
+n n485 335 234 18 18 
+n n492 274 236 18 18 
+n n488 73 154 18 18 
+n n493 393 155 18 18 
+n n487 140 235 18 18 
+n n491 209 238 18 18 
+n n484 270 156 18 18 
+n n483 136 155 18 18 
+n n490 397 235 18 18 

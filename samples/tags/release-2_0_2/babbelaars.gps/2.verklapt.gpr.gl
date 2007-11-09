@@ -1,0 +1,8 @@
+# Layout information for C:\Program Files\Groove\babbelaars.gps\verklapt.gpr
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+e n518 n516 "not:kent" -50 722 294 92 288 173 191 178 11
+n n516 166 169 18 18 
+n n517 107 81 18 18 
+n n518 272 83 18 18 
