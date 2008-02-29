@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="done" role="rule" edgeids="false" edgemode="directed">
+        <attr name="priority">
+            <string>100</string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n5494"/>
+        <node id="n5500"/>
+        <node id="n5499"/>
+        <node id="n5492"/>
+        <node id="n5497"/>
+        <node id="n5498"/>
+        <node id="n5495"/>
+        <node id="n5496"/>
+        <node id="n5493"/>
+        <edge from="n5496" to="n5496">
+            <attr name="label">
+                <string>p</string>
+            </attr>
+        </edge>
+        <edge from="n5492" to="n5496">
+            <attr name="label">
+                <string>not:=</string>
+            </attr>
+        </edge>
+        <edge from="n5498" to="n5498">
+            <attr name="label">
+                <string>p</string>
+            </attr>
+        </edge>
+        <edge from="n5497" to="n5497">
+            <attr name="label">
+                <string>id=$1:</string>
+            </attr>
+        </edge>
+        <edge from="n5498" to="n5496">
+            <attr name="label">
+                <string>not:=</string>
+            </attr>
+        </edge>
+        <edge from="n5493" to="n5500">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n5495" to="n5497">
+            <attr name="label">
+                <string>elapsed</string>
+            </attr>
+        </edge>
+        <edge from="n5499" to="n5499">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n5493" to="n5492">
+            <attr name="label">
+                <string>not:=</string>
+            </attr>
+        </edge>
+        <edge from="n5498" to="n5500">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n5492" to="n5500">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n5500" to="n5500">
+            <attr name="label">
+                <string>shore</string>
+            </attr>
+        </edge>
+        <edge from="n5499" to="n5499">
+            <attr name="label">
+                <string>string:right</string>
+            </attr>
+        </edge>
+        <edge from="n5495" to="n5495">
+            <attr name="label">
+                <string>time</string>
+            </attr>
+        </edge>
+        <edge from="n5498" to="n5492">
+            <attr name="label">
+                <string>not:=</string>
+            </attr>
+        </edge>
+        <edge from="n5496" to="n5500">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n5500" to="n5499">
+            <attr name="label">
+                <string>side</string>
+            </attr>
+        </edge>
+        <edge from="n5494" to="n5494">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n5492" to="n5492">
+            <attr name="label">
+                <string>p</string>
+            </attr>
+        </edge>
+        <edge from="n5493" to="n5493">
+            <attr name="label">
+                <string>p</string>
+            </attr>
+        </edge>
+        <edge from="n5494" to="n5494">
+            <attr name="label">
+                <string>fl</string>
+            </attr>
+        </edge>
+        <edge from="n5493" to="n5498">
+            <attr name="label">
+                <string>not:=</string>
+            </attr>
+        </edge>
+        <edge from="n5493" to="n5496">
+            <attr name="label">
+                <string>not:=</string>
+            </attr>
+        </edge>
+        <edge from="n5497" to="n5497">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
