@@ -1,1 +1,3 @@
-do b until a
+proc main() {
+   do { b; } while (a)
+}
