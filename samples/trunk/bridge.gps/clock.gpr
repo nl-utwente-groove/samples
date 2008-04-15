@@ -4,24 +4,24 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n3809"/>
-        <node id="n3808"/>
-        <edge from="n3809" to="n3809">
-            <attr name="label">
-                <string>id=$1:</string>
-            </attr>
-        </edge>
-        <edge from="n3808" to="n3809">
+        <node id="n5770"/>
+        <node id="n5771"/>
+        <edge from="n5770" to="n5771">
             <attr name="label">
                 <string>elapsed</string>
             </attr>
         </edge>
-        <edge from="n3808" to="n3808">
+        <edge from="n5770" to="n5770">
             <attr name="label">
                 <string>time</string>
             </attr>
         </edge>
-        <edge from="n3809" to="n3809">
+        <edge from="n5771" to="n5771">
+            <attr name="label">
+                <string>par=$1:</string>
+            </attr>
+        </edge>
+        <edge from="n5771" to="n5771">
             <attr name="label">
                 <string>attr:</string>
             </attr>
