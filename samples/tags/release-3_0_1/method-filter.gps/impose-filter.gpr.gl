@@ -1,0 +1,13 @@
+# Layout information for .\method-filter.gps\.new\impose-filter.gpr
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+n n43 241 147 23 18 
+e n40 n43 "new:next" 500 500 224 60 252 156 11
+e n42 n40 "new:filters" 500 500 131 174 224 60 11
+n n41 25 87 79 18 
+e n41 n42 "target" 500 500 64 96 131 174 11
+n n42 121 165 20 18 
+e n42 n43 "del:filters" 500 500 131 174 252 156 11
+e n41 n40 "filter" 500 500 64 96 224 60 11
+n n40 217 51 15 18 
