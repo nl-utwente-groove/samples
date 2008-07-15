@@ -1,0 +1,22 @@
+# Layout information for C:\files\work\groove_svn\samples\antworld.gps\expand_start.gpr
+# Each line contains layout information about a node or edge
+# Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
+#     v 1: label position = (x-permillage, y-permillage)
+#     v 2: label position = (vector permillage, perpendicular distance)
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+v 2
+n n32612 215 97 28 15 
+n n32608 452 225 20 15 
+n n32609 211 347 27 30 
+n n32610 318 97 28 15 
+n n32602 328 225 15 15 
+n n32611 326 345 27 60 
+n n32606 686 92 59 15 
+n n32603 449 337 27 30 
+n n32604 222 231 15 15 
+n n32605 450 92 28 15 
+n n32607 569 92 20 15 
+n n32613 324 479 27 30 
+n n32601 322 21 23 15 
+e n32613 n32613 "del:base" 500 0 342 497 433 534 438 479 342 497 12

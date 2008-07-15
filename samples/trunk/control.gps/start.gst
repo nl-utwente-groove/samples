@@ -4,63 +4,74 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n215"/>
-        <node id="n216"/>
-        <node id="n217"/>
-        <node id="n218"/>
-        <node id="n214"/>
-        <node id="n211"/>
-        <node id="n212"/>
-        <node id="n219"/>
-        <node id="n213"/>
-        <edge from="n214" to="n219">
+        <node id="n620"/>
+        <node id="n617"/>
+        <node id="n618"/>
+        <node id="n614"/>
+        <node id="n615"/>
+        <node id="n619"/>
+        <node id="n616"/>
+        <node id="n623"/>
+        <node id="n621"/>
+        <node id="n622"/>
+        <edge from="n617" to="n623">
+            <attr name="label">
+                <string>a</string>
+            </attr>
+        </edge>
+        <edge from="n621" to="n617">
             <attr name="label">
                 <string>b</string>
             </attr>
         </edge>
-        <edge from="n217" to="n216">
+        <edge from="n623" to="n619">
+            <attr name="label">
+                <string>b</string>
+            </attr>
+        </edge>
+        <edge from="n621" to="n616">
+            <attr name="label">
+                <string>c</string>
+            </attr>
+        </edge>
+        <edge from="n620" to="n615">
+            <attr name="label">
+                <string>b</string>
+            </attr>
+        </edge>
+        <edge from="n615" to="n622">
+            <attr name="label">
+                <string>a</string>
+            </attr>
+        </edge>
+        <edge from="n614" to="n620">
             <attr name="label">
                 <string>now</string>
             </attr>
         </edge>
-        <edge from="n214" to="n213">
+        <edge from="n622" to="n621">
             <attr name="label">
                 <string>b</string>
             </attr>
         </edge>
-        <edge from="n215" to="n214">
+        <edge from="n621" to="n618">
             <attr name="label">
                 <string>a</string>
             </attr>
         </edge>
-        <edge from="n213" to="n219">
-            <attr name="label">
-                <string>b</string>
-            </attr>
-        </edge>
-        <edge from="n216" to="n214">
-            <attr name="label">
-                <string>b</string>
-            </attr>
-        </edge>
-        <edge from="n213" to="n218">
+        <edge from="n620" to="n622">
             <attr name="label">
                 <string>a</string>
             </attr>
         </edge>
-        <edge from="n212" to="n211">
+        <edge from="n622" to="n617">
             <attr name="label">
                 <string>b</string>
             </attr>
         </edge>
-        <edge from="n219" to="n212">
+        <edge from="n623" to="n616">
             <attr name="label">
-                <string>a</string>
-            </attr>
-        </edge>
-        <edge from="n216" to="n215">
-            <attr name="label">
-                <string>b</string>
+                <string>c</string>
             </attr>
         </edge>
     </graph>

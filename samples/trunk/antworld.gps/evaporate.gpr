@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="evaporate" role="rule" edgeids="false" edgemode="directed">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n30158"/>
+        <node id="n30159"/>
+        <node id="n30172"/>
+        <node id="n30169"/>
+        <node id="n30161"/>
+        <node id="n30163"/>
+        <node id="n30175"/>
+        <node id="n30170"/>
+        <node id="n30167"/>
+        <node id="n30173"/>
+        <node id="n30166"/>
+        <node id="n30171"/>
+        <node id="n30162"/>
+        <node id="n30174"/>
+        <node id="n30164"/>
+        <node id="n30165"/>
+        <node id="n30160"/>
+        <node id="n30168"/>
+        <edge from="n30170" to="n30175">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n30161" to="n30167">
+            <attr name="label">
+                <string>int:mul</string>
+            </attr>
+        </edge>
+        <edge from="n30170" to="n30170">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n30162" to="n30174">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n30166" to="n30160">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n30173" to="n30168">
+            <attr name="label">
+                <string>del:pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n30171" to="n30160">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n30159" to="n30160">
+            <attr name="label">
+                <string>nested:at</string>
+            </attr>
+        </edge>
+        <edge from="n30167" to="n30160">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n30172" to="n30172">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n30174" to="n30174">
+            <attr name="label">
+                <string>int:0</string>
+            </attr>
+        </edge>
+        <edge from="n30173" to="n30172">
+            <attr name="label">
+                <string>new:pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n30173" to="n30160">
+            <attr name="label">
+                <string>nested:at</string>
+            </attr>
+        </edge>
+        <edge from="n30171" to="n30171">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n30167" to="n30167">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n30171" to="n30165">
+            <attr name="label">
+                <string>int:eq</string>
+            </attr>
+        </edge>
+        <edge from="n30161" to="n30163">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n30161" to="n30161">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n30175" to="n30175">
+            <attr name="label">
+                <string>exists:</string>
+            </attr>
+        </edge>
+        <edge from="n30165" to="n30165">
+            <attr name="label">
+                <string>bool:false</string>
+            </attr>
+        </edge>
+        <edge from="n30161" to="n30160">
+            <attr name="label">
+                <string>nested:at</string>
+            </attr>
+        </edge>
+        <edge from="n30160" to="n30160">
+            <attr name="label">
+                <string>forall:</string>
+            </attr>
+        </edge>
+        <edge from="n30159" to="n30159">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n30162" to="n30166">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n30162" to="n30162">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n30172" to="n30160">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n30162" to="n30169">
+            <attr name="label">
+                <string>int:eq</string>
+            </attr>
+        </edge>
+        <edge from="n30168" to="n30160">
+            <attr name="label">
+                <string>nested:at</string>
+            </attr>
+        </edge>
+        <edge from="n30159" to="n30167">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n30158" to="n30158">
+            <attr name="label">
+                <string>int:0</string>
+            </attr>
+        </edge>
+        <edge from="n30159" to="n30164">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n30166" to="n30166">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n30170" to="n30166">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n30171" to="n30168">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n30164" to="n30164">
+            <attr name="label">
+                <string>int:95</string>
+            </attr>
+        </edge>
+        <edge from="n30169" to="n30169">
+            <attr name="label">
+                <string>bool:false</string>
+            </attr>
+        </edge>
+        <edge from="n30163" to="n30163">
+            <attr name="label">
+                <string>int:100</string>
+            </attr>
+        </edge>
+        <edge from="n30173" to="n30173">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n30171" to="n30158">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n30162" to="n30160">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n30168" to="n30168">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n30160" to="n30175">
+            <attr name="label">
+                <string>in</string>
+            </attr>
+        </edge>
+        <edge from="n30161" to="n30168">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n30159" to="n30172">
+            <attr name="label">
+                <string>int:div</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

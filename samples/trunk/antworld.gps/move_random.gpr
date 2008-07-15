@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="move_random" role="rule" edgeids="false" edgemode="directed">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n28709"/>
+        <node id="n28712"/>
+        <node id="n28710"/>
+        <node id="n28713"/>
+        <node id="n28711"/>
+        <node id="n28714"/>
+        <edge from="n28709" to="n28710">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n28712" to="n28713">
+            <attr name="label">
+                <string>nextvalue</string>
+            </attr>
+        </edge>
+        <edge from="n28711" to="n28711">
+            <attr name="label">
+                <string>Ant</string>
+            </attr>
+        </edge>
+        <edge from="n28710" to="n28710">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n28711" to="n28714">
+            <attr name="label">
+                <string>del:turn</string>
+            </attr>
+        </edge>
+        <edge from="n28714" to="n28714">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n28711" to="n28713">
+            <attr name="label">
+                <string>new:turn</string>
+            </attr>
+        </edge>
+        <edge from="n28711" to="n28709">
+            <attr name="label">
+                <string>del:at</string>
+            </attr>
+        </edge>
+        <edge from="n28713" to="n28713">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n28712" to="n28712">
+            <attr name="label">
+                <string>TurnCount</string>
+            </attr>
+        </edge>
+        <edge from="n28711" to="n28710">
+            <attr name="label">
+                <string>new:at</string>
+            </attr>
+        </edge>
+        <edge from="n28709" to="n28709">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n28712" to="n28714">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

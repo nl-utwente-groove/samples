@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="expand_normal" role="rule" edgeids="false" edgemode="directed">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n30605"/>
+        <node id="n30612"/>
+        <node id="n30613"/>
+        <node id="n30608"/>
+        <node id="n30604"/>
+        <node id="n30607"/>
+        <node id="n30611"/>
+        <node id="n30609"/>
+        <node id="n30610"/>
+        <node id="n30606"/>
+        <node id="n30614"/>
+        <edge from="n30608" to="n30614">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n30606" to="n30606">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n30607" to="n30608">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n30608" to="n30608">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n30609" to="n30610">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n30605" to="n30613">
+            <attr name="label">
+                <string>del:value</string>
+            </attr>
+        </edge>
+        <edge from="n30606" to="n30612">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n30606" to="n30604">
+            <attr name="label">
+                <string>int:add</string>
+            </attr>
+        </edge>
+        <edge from="n30608" to="n30611">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n30606" to="n30613">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n30605" to="n30605">
+            <attr name="label">
+                <string>FieldCount</string>
+            </attr>
+        </edge>
+        <edge from="n30612" to="n30612">
+            <attr name="label">
+                <string>int:1</string>
+            </attr>
+        </edge>
+        <edge from="n30611" to="n30604">
+            <attr name="label">
+                <string>i</string>
+            </attr>
+        </edge>
+        <edge from="n30609" to="n30611">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n30613" to="n30613">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n30607" to="n30609">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n30604" to="n30604">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n30611" to="n30611">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n30610" to="n30610">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n30609" to="n30609">
+            <attr name="label">
+                <string>not:Axis</string>
+            </attr>
+        </edge>
+        <edge from="n30607" to="n30607">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n30614" to="n30614">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n30614" to="n30614">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n30609" to="n30609">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n30611" to="n30611">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge from="n30605" to="n30604">
+            <attr name="label">
+                <string>new:value</string>
+            </attr>
+        </edge>
+        <edge from="n30610" to="n30610">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

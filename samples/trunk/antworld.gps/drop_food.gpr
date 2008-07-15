@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="drop_food" role="rule" edgeids="false" edgemode="directed">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n18007"/>
+        <node id="n18005"/>
+        <node id="n18004"/>
+        <node id="n18009"/>
+        <node id="n18008"/>
+        <node id="n18006"/>
+        <edge from="n18007" to="n18005">
+            <attr name="label">
+                <string>del:food</string>
+            </attr>
+        </edge>
+        <edge from="n18007" to="n18004">
+            <attr name="label">
+                <string>new:food</string>
+            </attr>
+        </edge>
+        <edge from="n18009" to="n18005">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n18004" to="n18004">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n18008" to="n18007">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n18007" to="n18007">
+            <attr name="label">
+                <string>Hill</string>
+            </attr>
+        </edge>
+        <edge from="n18006" to="n18006">
+            <attr name="label">
+                <string>int:1</string>
+            </attr>
+        </edge>
+        <edge from="n18008" to="n18008">
+            <attr name="label">
+                <string>Ant</string>
+            </attr>
+        </edge>
+        <edge from="n18008" to="n18008">
+            <attr name="label">
+                <string>del:food</string>
+            </attr>
+        </edge>
+        <edge from="n18009" to="n18006">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n18009" to="n18004">
+            <attr name="label">
+                <string>int:add</string>
+            </attr>
+        </edge>
+        <edge from="n18009" to="n18009">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n18005" to="n18005">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="put_food" role="rule" edgeids="false" edgemode="directed">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n24593"/>
+        <node id="n24589"/>
+        <node id="n24592"/>
+        <node id="n24590"/>
+        <node id="n24595"/>
+        <node id="n24591"/>
+        <node id="n24587"/>
+        <node id="n24594"/>
+        <node id="n24588"/>
+        <edge from="n24587" to="n24588">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n24595" to="n24593">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n24593" to="n24593">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n24590" to="n24595">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n24591" to="n24594">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n24593" to="n24593">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n24592" to="n24592">
+            <attr name="label">
+                <string>int:10</string>
+            </attr>
+        </edge>
+        <edge from="n24590" to="n24592">
+            <attr name="label">
+                <string>pieces</string>
+            </attr>
+        </edge>
+        <edge from="n24591" to="n24589">
+            <attr name="label">
+                <string>int:mod</string>
+            </attr>
+        </edge>
+        <edge from="n24591" to="n24591">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n24594" to="n24594">
+            <attr name="label">
+                <string>int:10</string>
+            </attr>
+        </edge>
+        <edge from="n24590" to="n24590">
+            <attr name="label">
+                <string>Food</string>
+            </attr>
+        </edge>
+        <edge from="n24590" to="n24590">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge from="n24591" to="n24587">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n24588" to="n24588">
+            <attr name="label">
+                <string>forall:</string>
+            </attr>
+        </edge>
+        <edge from="n24595" to="n24587">
+            <attr name="label">
+                <string>i</string>
+            </attr>
+        </edge>
+        <edge from="n24593" to="n24588">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n24595" to="n24588">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n24587" to="n24587">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n24595" to="n24595">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n24590" to="n24588">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n24591" to="n24588">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n24589" to="n24589">
+            <attr name="label">
+                <string>int:0</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

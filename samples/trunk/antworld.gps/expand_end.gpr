@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="expand_end" role="rule" edgeids="false" edgemode="directed">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n36255"/>
+        <node id="n36252"/>
+        <node id="n36260"/>
+        <node id="n36253"/>
+        <node id="n36254"/>
+        <node id="n36256"/>
+        <node id="n36257"/>
+        <node id="n36258"/>
+        <node id="n36251"/>
+        <node id="n36259"/>
+        <edge from="n36260" to="n36251">
+            <attr name="label">
+                <string>not:next</string>
+            </attr>
+        </edge>
+        <edge from="n36252" to="n36255">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n36260" to="n36260">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n36253" to="n36253">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n36251" to="n36253">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n36255" to="n36255">
+            <attr name="label">
+                <string>int:1</string>
+            </attr>
+        </edge>
+        <edge from="n36257" to="n36253">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n36260" to="n36251">
+            <attr name="label">
+                <string>new:next</string>
+            </attr>
+        </edge>
+        <edge from="n36259" to="n36259">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n36256" to="n36256">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n36257" to="n36251">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n36257" to="n36257">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n36252" to="n36252">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n36254" to="n36254">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n36253" to="n36253">
+            <attr name="label">
+                <string>base</string>
+            </attr>
+        </edge>
+        <edge from="n36252" to="n36256">
+            <attr name="label">
+                <string>int:add</string>
+            </attr>
+        </edge>
+        <edge from="n36252" to="n36259">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n36258" to="n36258">
+            <attr name="label">
+                <string>RingCount</string>
+            </attr>
+        </edge>
+        <edge from="n36254" to="n36260">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n36258" to="n36259">
+            <attr name="label">
+                <string>del:value</string>
+            </attr>
+        </edge>
+        <edge from="n36254" to="n36257">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n36251" to="n36251">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n36258" to="n36256">
+            <attr name="label">
+                <string>new:value</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
