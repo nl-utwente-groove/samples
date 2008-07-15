@@ -1,4 +1,4 @@
-# Layout information for C:\files\work\groove_svn\samples\control.gps\start.gst
+# Layout information for C:\files\work\groove_svn\samples\antworld.gps\drop_food.gpr
 # Each line contains layout information about a node or edge
 # Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
 #     v 1: label position = (x-permillage, y-permillage)
@@ -6,13 +6,10 @@
 # Node Format: n <node id> <bounds>
 # Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
 v 2
-n n620 79 186 15 15 
-n n617 310 42 15 15 
-n n618 640 191 15 15 
-n n619 732 82 15 15 
-n n615 242 277 15 15 
-n n614 77 301 15 15 
-n n616 432 282 15 15 
-n n623 575 69 15 15 
-n n621 524 172 15 15 
-n n622 253 158 15 15 
+n n18007 459 321 18 15 
+n n18005 600 324 20 15 
+n n18009 594 457 28 15 
+n n18004 458 463 20 15 
+n n18008 299 317 17 15 
+n n18006 706 458 23 15 
+e n18008 n18008 "del:food" 500 0 312 327 261 363 292 386 312 327 12

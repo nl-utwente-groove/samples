@@ -1,0 +1,35 @@
+# Layout information for C:\files\work\groove_svn\samples\antworld.gps\start.gst
+# Each line contains layout information about a node or edge
+# Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
+#     v 1: label position = (x-permillage, y-permillage)
+#     v 2: label position = (vector permillage, perpendicular distance)
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+v 2
+n n37320 424 78 27 30 
+n n37327 429 572 27 30 
+n n37333 14 191 49 15 
+n n37318 127 186 23 15 
+n n37325 19 138 58 15 
+n n37326 166 141 23 15 
+n n37330 570 531 27 15 
+n n37332 208 457 27 15 
+n n37329 198 229 27 15 
+n n37336 428 329 27 30 
+n n37331 427 428 27 30 
+n n37322 689 333 27 30 
+n n37335 285 124 27 15 
+n n37328 545 332 27 30 
+n n37317 177 87 23 15 
+n n37340 174 55 23 15 
+n n37334 568 127 27 15 
+n n37316 299 526 27 15 
+n n37319 423 214 27 30 
+n n37324 650 439 27 15 
+n n37339 27 86 57 15 
+n n37323 154 324 27 45 
+n n37337 529 228 23 15 
+n n37338 657 230 27 15 
+n n37315 18 30 59 15 
+n n37341 303 328 27 30 
+n n37321 123 29 23 15 
