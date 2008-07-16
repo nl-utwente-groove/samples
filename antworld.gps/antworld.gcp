@@ -1,34 +1,30 @@
 antworld();
 
 function antworld() {
-  init_pheromones;
-  until(stop) do { main(); }
+	until(stop150) do { main(); }
 }
 
 function main() {
-  alap { reproduce; }
-  turn();
-  try { evaporate; }
-  grow();
-  end_turn;
+	alap { reproduce; }
+	turn();
+	try { evaporate; }
+	if( on_edge ) { grow(); }
+	end_turn;
 }
 
 function turn() {
-  alap { drop_food; }
-  alap { pickup_food; }
-  alap { move_home; }
-  alap { move_search; }
-  alap { move_random; }
+	try { drop_food; }
+	try { pickup_food; }
+	try { move_home; }
+	alap { move_search; }
+	alap { move_random; }
 }
 
 function grow() {
-  if( on_edge ) {
-    expand_start;
-    alap{ expand_normal | expand_axis; }
-    expand_end;
-    init_pheromones;
-    put_food;
-    cleanup_index;
-  }
+	expand_start;
+	alap{ expand_normal | expand_axis; }
+	expand_end;
+	put_food;
+	cleanup_index;
 }
 

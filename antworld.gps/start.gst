@@ -4,406 +4,497 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n37320"/>
-        <node id="n37327"/>
-        <node id="n37333"/>
-        <node id="n37318"/>
-        <node id="n37325"/>
-        <node id="n37326"/>
-        <node id="n37330"/>
-        <node id="n37332"/>
-        <node id="n37336"/>
-        <node id="n37329"/>
-        <node id="n37331"/>
-        <node id="n37335"/>
-        <node id="n37322"/>
-        <node id="n37328"/>
-        <node id="n37317"/>
-        <node id="n37340"/>
-        <node id="n37334"/>
-        <node id="n37316"/>
-        <node id="n37319"/>
-        <node id="n37324"/>
-        <node id="n37339"/>
-        <node id="n37323"/>
-        <node id="n37337"/>
-        <node id="n37338"/>
-        <node id="n37315"/>
-        <node id="n37341"/>
-        <node id="n37321"/>
-        <edge from="n37326" to="n37326">
-            <attr name="label">
-                <string>int:0</string>
-            </attr>
-        </edge>
-        <edge from="n37331" to="n37331">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge from="n37336" to="n37336">
-            <attr name="label">
-                <string>Hill</string>
-            </attr>
-        </edge>
-        <edge from="n37315" to="n37315">
-            <attr name="label">
-                <string>FieldCount</string>
-            </attr>
-        </edge>
-        <edge from="n37327" to="n37327">
-            <attr name="label">
-                <string>Axis</string>
-            </attr>
-        </edge>
-        <edge from="n37329" to="n37335">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n37336" to="n37319">
-            <attr name="label">
-                <string>out</string>
-            </attr>
-        </edge>
-        <edge from="n37330" to="n37327">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n37317" to="n37317">
-            <attr name="label">
-                <string>int:0</string>
-            </attr>
-        </edge>
-        <edge from="n37324" to="n37324">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge from="n37324" to="n37330">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n37334" to="n37334">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge from="n37338" to="n37322">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n37341" to="n37329">
-            <attr name="label">
-                <string>out</string>
-            </attr>
-        </edge>
-        <edge from="n37328" to="n37338">
-            <attr name="label">
-                <string>out</string>
-            </attr>
-        </edge>
-        <edge from="n37336" to="n37331">
-            <attr name="label">
-                <string>out</string>
-            </attr>
-        </edge>
-        <edge from="n37336" to="n37337">
-            <attr name="label">
-                <string>food</string>
-            </attr>
-        </edge>
-        <edge from="n37318" to="n37318">
-            <attr name="label">
-                <string>int:0</string>
-            </attr>
-        </edge>
-        <edge from="n37327" to="n37327">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge from="n37341" to="n37332">
-            <attr name="label">
-                <string>out</string>
-            </attr>
-        </edge>
-        <edge from="n37328" to="n37322">
-            <attr name="label">
-                <string>out</string>
-            </attr>
-        </edge>
-        <edge from="n37331" to="n37331">
-            <attr name="label">
-                <string>Exit</string>
-            </attr>
-        </edge>
-        <edge from="n37333" to="n37333">
-            <attr name="label">
-                <string>AntCount</string>
-            </attr>
-        </edge>
-        <edge from="n37319" to="n37328">
-            <attr name="label">
-                <string>ntext</string>
-            </attr>
-        </edge>
-        <edge from="n37331" to="n37316">
-            <attr name="label">
-                <string>out</string>
-            </attr>
-        </edge>
-        <edge from="n37323" to="n37323">
-            <attr name="label">
-                <string>Axis</string>
-            </attr>
-        </edge>
-        <edge from="n37334" to="n37338">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n37320" to="n37334">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n37323" to="n37329">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n37320" to="n37320">
-            <attr name="label">
-                <string>Axis</string>
-            </attr>
-        </edge>
-        <edge from="n37319" to="n37335">
-            <attr name="label">
-                <string>out</string>
-            </attr>
-        </edge>
-        <edge from="n37325" to="n37325">
-            <attr name="label">
-                <string>RingCount</string>
-            </attr>
-        </edge>
-        <edge from="n37336" to="n37328">
-            <attr name="label">
-                <string>out</string>
-            </attr>
-        </edge>
-        <edge from="n37335" to="n37335">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge from="n37341" to="n37323">
-            <attr name="label">
-                <string>out</string>
-            </attr>
-        </edge>
-        <edge from="n37336" to="n37336">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge from="n37340" to="n37340">
-            <attr name="label">
-                <string>int:1</string>
-            </attr>
-        </edge>
-        <edge from="n37339" to="n37317">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge from="n37319" to="n37334">
-            <attr name="label">
-                <string>out</string>
-            </attr>
-        </edge>
-        <edge from="n37322" to="n37324">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n37336" to="n37341">
-            <attr name="label">
-                <string>out</string>
-            </attr>
-        </edge>
-        <edge from="n37335" to="n37320">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n37331" to="n37327">
-            <attr name="label">
-                <string>out</string>
-            </attr>
-        </edge>
-        <edge from="n37328" to="n37324">
-            <attr name="label">
-                <string>out</string>
-            </attr>
-        </edge>
-        <edge from="n37338" to="n37338">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge from="n37341" to="n37341">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge from="n37321" to="n37321">
-            <attr name="label">
-                <string>int:0</string>
-            </attr>
-        </edge>
-        <edge from="n37328" to="n37331">
-            <attr name="label">
-                <string>ntext</string>
-            </attr>
-        </edge>
-        <edge from="n37319" to="n37320">
-            <attr name="label">
-                <string>out</string>
-            </attr>
-        </edge>
-        <edge from="n37320" to="n37320">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge from="n37331" to="n37330">
-            <attr name="label">
-                <string>out</string>
-            </attr>
-        </edge>
-        <edge from="n37337" to="n37337">
-            <attr name="label">
-                <string>int:8</string>
-            </attr>
-        </edge>
-        <edge from="n37328" to="n37328">
-            <attr name="label">
-                <string>Exit</string>
-            </attr>
-        </edge>
-        <edge from="n37341" to="n37319">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n37339" to="n37340">
-            <attr name="label">
-                <string>nextvalue</string>
-            </attr>
-        </edge>
-        <edge from="n37315" to="n37321">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge from="n37333" to="n37318">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge from="n37329" to="n37329">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge from="n37327" to="n37316">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n37328" to="n37328">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge from="n37325" to="n37326">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge from="n37332" to="n37323">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n37316" to="n37316">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge from="n37319" to="n37319">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge from="n37322" to="n37322">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge from="n37323" to="n37323">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge from="n37322" to="n37322">
-            <attr name="label">
-                <string>Axis</string>
-            </attr>
-        </edge>
-        <edge from="n37323" to="n37323">
+        <node id="n49859"/>
+        <node id="n49858"/>
+        <node id="n49865"/>
+        <node id="n49862"/>
+        <node id="n49845"/>
+        <node id="n49849"/>
+        <node id="n49869"/>
+        <node id="n49847"/>
+        <node id="n49846"/>
+        <node id="n49868"/>
+        <node id="n49866"/>
+        <node id="n49848"/>
+        <node id="n49855"/>
+        <node id="n49857"/>
+        <node id="n49853"/>
+        <node id="n49860"/>
+        <node id="n49867"/>
+        <node id="n49843"/>
+        <node id="n49861"/>
+        <node id="n49850"/>
+        <node id="n49852"/>
+        <node id="n49856"/>
+        <node id="n49851"/>
+        <node id="n49844"/>
+        <node id="n49864"/>
+        <node id="n49863"/>
+        <node id="n49842"/>
+        <node id="n49854"/>
+        <edge from="n49847" to="n49865">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n49859" to="n49865">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n49843" to="n49843">
             <attr name="label">
                 <string>base</string>
             </attr>
         </edge>
-        <edge from="n37316" to="n37332">
+        <edge from="n49846" to="n49846">
             <attr name="label">
-                <string>next</string>
+                <string>Axis</string>
             </attr>
         </edge>
-        <edge from="n37341" to="n37341">
+        <edge from="n49848" to="n49849">
             <attr name="label">
-                <string>Exit</string>
+                <string>value</string>
             </attr>
         </edge>
-        <edge from="n37319" to="n37319">
-            <attr name="label">
-                <string>Exit</string>
-            </attr>
-        </edge>
-        <edge from="n37339" to="n37339">
+        <edge from="n49848" to="n49848">
             <attr name="label">
                 <string>TurnCount</string>
             </attr>
         </edge>
-        <edge from="n37332" to="n37332">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge from="n37331" to="n37341">
+        <edge from="n49859" to="n49843">
             <attr name="label">
                 <string>next</string>
             </attr>
         </edge>
-        <edge from="n37330" to="n37330">
+        <edge from="n49847" to="n49847">
             <attr name="label">
                 <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n49864" to="n49865">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n49855" to="n49845">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n49851" to="n49851">
+            <attr name="label">
+                <string>FieldCount</string>
+            </attr>
+        </edge>
+        <edge from="n49863" to="n49859">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n49858" to="n49844">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n49856" to="n49843">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n49843" to="n49865">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n49850" to="n49842">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n49849" to="n49849">
+            <attr name="label">
+                <string>int:0</string>
+            </attr>
+        </edge>
+        <edge from="n49862" to="n49860">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n49847" to="n49864">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n49862" to="n49847">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n49845" to="n49845">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n49856" to="n49856">
+            <attr name="label">
+                <string>Exit</string>
+            </attr>
+        </edge>
+        <edge from="n49851" to="n49868">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+        <edge from="n49854" to="n49854">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n49860" to="n49844">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n49860" to="n49855">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n49846" to="n49865">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n49856" to="n49850">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n49847" to="n49845">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n49843" to="n49843">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n49862" to="n49862">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n49861" to="n49861">
+            <attr name="label">
+                <string>int:1</string>
+            </attr>
+        </edge>
+        <edge from="n49856" to="n49854">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n49853" to="n49842">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n49842" to="n49842">
+            <attr name="label">
+                <string>Axis</string>
+            </attr>
+        </edge>
+        <edge from="n49864" to="n49864">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n49860" to="n49865">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n49855" to="n49855">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n49857" to="n49857">
+            <attr name="label">
+                <string>RingCount</string>
+            </attr>
+        </edge>
+        <edge from="n49853" to="n49865">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n49845" to="n49865">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n49863" to="n49863">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n49845" to="n49864">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n49860" to="n49847">
+            <attr name="label">
+                <string>ntext</string>
+            </attr>
+        </edge>
+        <edge from="n49848" to="n49861">
+            <attr name="label">
+                <string>nextvalue</string>
+            </attr>
+        </edge>
+        <edge from="n49842" to="n49842">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n49843" to="n49854">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n49860" to="n49860">
+            <attr name="label">
+                <string>Exit</string>
+            </attr>
+        </edge>
+        <edge from="n49852" to="n49852">
+            <attr name="label">
+                <string>AntCount</string>
+            </attr>
+        </edge>
+        <edge from="n49856" to="n49865">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n49862" to="n49865">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n49864" to="n49864">
+            <attr name="label">
+                <string>Axis</string>
+            </attr>
+        </edge>
+        <edge from="n49850" to="n49858">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n49856" to="n49856">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n49863" to="n49865">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n49847" to="n49847">
+            <attr name="label">
+                <string>Exit</string>
+            </attr>
+        </edge>
+        <edge from="n49843" to="n49843">
+            <attr name="label">
+                <string>Axis</string>
+            </attr>
+        </edge>
+        <edge from="n49862" to="n49856">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n49862" to="n49869">
+            <attr name="label">
+                <string>food</string>
+            </attr>
+        </edge>
+        <edge from="n49850" to="n49853">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n49860" to="n49846">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n49850" to="n49865">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n49847" to="n49863">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n49855" to="n49865">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n49867" to="n49867">
+            <attr name="label">
+                <string>int:2</string>
+            </attr>
+        </edge>
+        <edge from="n49847" to="n49856">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n49846" to="n49855">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n49844" to="n49865">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n49856" to="n49859">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n49842" to="n49858">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n49850" to="n49860">
+            <attr name="label">
+                <string>ntext</string>
+            </attr>
+        </edge>
+        <edge from="n49846" to="n49846">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n49853" to="n49853">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n49858" to="n49865">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n49852" to="n49866">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+        <edge from="n49844" to="n49844">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n49850" to="n49850">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n49844" to="n49846">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n49859" to="n49859">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n49865" to="n49865">
+            <attr name="label">
+                <string>int:0</string>
+            </attr>
+        </edge>
+        <edge from="n49857" to="n49867">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+        <edge from="n49842" to="n49865">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n49854" to="n49853">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n49869" to="n49869">
+            <attr name="label">
+                <string>int:8</string>
+            </attr>
+        </edge>
+        <edge from="n49862" to="n49850">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n49850" to="n49850">
+            <attr name="label">
+                <string>Exit</string>
+            </attr>
+        </edge>
+        <edge from="n49864" to="n49863">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n49860" to="n49860">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n49858" to="n49858">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n49854" to="n49865">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n49866" to="n49866">
+            <attr name="label">
+                <string>int:0</string>
+            </attr>
+        </edge>
+        <edge from="n49862" to="n49862">
+            <attr name="label">
+                <string>Hill</string>
+            </attr>
+        </edge>
+        <edge from="n49868" to="n49868">
+            <attr name="label">
+                <string>int:0</string>
             </attr>
         </edge>
     </graph>
