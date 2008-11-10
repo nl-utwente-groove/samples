@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="end_turn" role="rule" edgeids="false" edgemode="directed">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n42966"/>
+        <node id="n42970"/>
+        <node id="n42975"/>
+        <node id="n42962"/>
+        <node id="n42968"/>
+        <node id="n42965"/>
+        <node id="n42972"/>
+        <node id="n42963"/>
+        <node id="n42964"/>
+        <node id="n42967"/>
+        <node id="n42969"/>
+        <node id="n42974"/>
+        <node id="n42976"/>
+        <node id="n42973"/>
+        <node id="n42971"/>
+        <edge from="n42972" to="n42972">
+            <attr name="label">
+                <string>TurnCount</string>
+            </attr>
+        </edge>
+        <edge from="n42975" to="n42975">
+            <attr name="label">
+                <string>par=$1:</string>
+            </attr>
+        </edge>
+        <edge from="n42967" to="n42967">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n42970" to="n42968">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+        <edge from="n42973" to="n42973">
+            <attr name="label">
+                <string>par=$3:</string>
+            </attr>
+        </edge>
+        <edge from="n42969" to="n42974">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+        <edge from="n42962" to="n42966">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+        <edge from="n42962" to="n42962">
+            <attr name="label">
+                <string>RingCount</string>
+            </attr>
+        </edge>
+        <edge from="n42971" to="n42971">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n42967" to="n42975">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n42976" to="n42976">
+            <attr name="label">
+                <string>int:1</string>
+            </attr>
+        </edge>
+        <edge from="n42972" to="n42963">
+            <attr name="label">
+                <string>del:value</string>
+            </attr>
+        </edge>
+        <edge from="n42963" to="n42963">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n42971" to="n42968">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n42971" to="n42973">
+            <attr name="label">
+                <string>int:add</string>
+            </attr>
+        </edge>
+        <edge from="n42970" to="n42970">
+            <attr name="label">
+                <string>FieldCount</string>
+            </attr>
+        </edge>
+        <edge from="n42966" to="n42966">
+            <attr name="label">
+                <string>par=$2:</string>
+            </attr>
+        </edge>
+        <edge from="n42969" to="n42969">
+            <attr name="label">
+                <string>AntCount</string>
+            </attr>
+        </edge>
+        <edge from="n42973" to="n42973">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n42972" to="n42975">
+            <attr name="label">
+                <string>del:nextvalue</string>
+            </attr>
+        </edge>
+        <edge from="n42975" to="n42975">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n42966" to="n42966">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n42974" to="n42974">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n42972" to="n42975">
+            <attr name="label">
+                <string>new:value</string>
+            </attr>
+        </edge>
+        <edge from="n42974" to="n42974">
+            <attr name="label">
+                <string>par=$4:</string>
+            </attr>
+        </edge>
+        <edge from="n42967" to="n42976">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n42972" to="n42964">
+            <attr name="label">
+                <string>new:nextvalue</string>
+            </attr>
+        </edge>
+        <edge from="n42964" to="n42964">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n42965" to="n42965">
+            <attr name="label">
+                <string>int:16</string>
+            </attr>
+        </edge>
+        <edge from="n42968" to="n42968">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n42971" to="n42965">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n42967" to="n42964">
+            <attr name="label">
+                <string>int:add</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="expand_start" role="rule" edgeids="false" edgemode="directed">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n47667"/>
+        <node id="n47662"/>
+        <node id="n47672"/>
+        <node id="n47665"/>
+        <node id="n47670"/>
+        <node id="n47675"/>
+        <node id="n47666"/>
+        <node id="n47668"/>
+        <node id="n47664"/>
+        <node id="n47669"/>
+        <node id="n47671"/>
+        <node id="n47674"/>
+        <node id="n47673"/>
+        <node id="n47663"/>
+        <edge from="n47664" to="n47667">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n47673" to="n47668">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n47662" to="n47662">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge from="n47675" to="n47675">
+            <attr name="label">
+                <string>Axis</string>
+            </attr>
+        </edge>
+        <edge from="n47673" to="n47675">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n47664" to="n47674">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n47675" to="n47662">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n47671" to="n47674">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n47668" to="n47668">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge from="n47675" to="n47675">
+            <attr name="label">
+                <string>base</string>
+            </attr>
+        </edge>
+        <edge from="n47671" to="n47671">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n47668" to="n47665">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n47667" to="n47667">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n47672" to="n47672">
+            <attr name="label">
+                <string>FieldCount</string>
+            </attr>
+        </edge>
+        <edge from="n47673" to="n47662">
+            <attr name="label">
+                <string>out</string>
+            </attr>
+        </edge>
+        <edge from="n47663" to="n47666">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n47673" to="n47673">
+            <attr name="label">
+                <string>Axis</string>
+            </attr>
+        </edge>
+        <edge from="n47675" to="n47665">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n47672" to="n47667">
+            <attr name="label">
+                <string>del:value</string>
+            </attr>
+        </edge>
+        <edge from="n47675" to="n47675">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge from="n47662" to="n47669">
+            <attr name="label">
+                <string>i</string>
+            </attr>
+        </edge>
+        <edge from="n47675" to="n47670">
+            <attr name="label">
+                <string>i</string>
+            </attr>
+        </edge>
+        <edge from="n47664" to="n47664">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n47671" to="n47669">
+            <attr name="label">
+                <string>int:add</string>
+            </attr>
+        </edge>
+        <edge from="n47668" to="n47668">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n47671" to="n47670">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n47673" to="n47673">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n47674" to="n47674">
+            <attr name="label">
+                <string>int:1</string>
+            </attr>
+        </edge>
+        <edge from="n47663" to="n47674">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n47663" to="n47670">
+            <attr name="label">
+                <string>int:add</string>
+            </attr>
+        </edge>
+        <edge from="n47672" to="n47669">
+            <attr name="label">
+                <string>new:value</string>
+            </attr>
+        </edge>
+        <edge from="n47668" to="n47666">
+            <attr name="label">
+                <string>i</string>
+            </attr>
+        </edge>
+        <edge from="n47662" to="n47665">
+            <attr name="label">
+                <string>pheromones</string>
+            </attr>
+        </edge>
+        <edge from="n47663" to="n47663">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n47666" to="n47666">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n47673" to="n47673">
+            <attr name="label">
+                <string>del:base</string>
+            </attr>
+        </edge>
+        <edge from="n47675" to="n47675">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n47662" to="n47662">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n47665" to="n47665">
+            <attr name="label">
+                <string>int:0</string>
+            </attr>
+        </edge>
+        <edge from="n47668" to="n47675">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n47664" to="n47666">
+            <attr name="label">
+                <string>int:add</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

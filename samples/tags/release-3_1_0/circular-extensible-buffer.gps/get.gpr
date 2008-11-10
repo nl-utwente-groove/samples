@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="get" role="rule" edgeids="false" edgemode="directed">
+        <attr name="remark">
+            <string>Removes the first element from the circular buffer</string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n5827"/>
+        <node id="n5826"/>
+        <node id="n5825"/>
+        <node id="n5828"/>
+        <edge from="n5828" to="n5828">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n5827" to="n5827">
+            <attr name="label">
+                <string>Cell</string>
+            </attr>
+        </edge>
+        <edge from="n5826" to="n5825">
+            <attr name="label">
+                <string>new:first</string>
+            </attr>
+        </edge>
+        <edge from="n5826" to="n5826">
+            <attr name="label">
+                <string>Buffer</string>
+            </attr>
+        </edge>
+        <edge from="n5827" to="n5828">
+            <attr name="label">
+                <string>val</string>
+            </attr>
+        </edge>
+        <edge from="n5827" to="n5825">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n5826" to="n5827">
+            <attr name="label">
+                <string>del:first</string>
+            </attr>
+        </edge>
+        <edge from="n5828" to="n5828">
+            <attr name="label">
+                <string>Object</string>
+            </attr>
+        </edge>
+        <edge from="n5825" to="n5825">
+            <attr name="label">
+                <string>Cell</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
