@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="stop20" role="rule" edgeids="false" edgemode="directed">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n43116"/>
+        <node id="n43115"/>
+        <edge from="n43115" to="n43115">
+            <attr name="label">
+                <string>TurnCount</string>
+            </attr>
+        </edge>
+        <edge from="n43115" to="n43116">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+        <edge from="n43116" to="n43116">
+            <attr name="label">
+                <string>int:20</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

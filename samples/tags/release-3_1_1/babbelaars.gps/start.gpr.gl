@@ -1,0 +1,8 @@
+# Layout information for K:\papers\spin2006\babbelaars.gps\start.gpr
+# Each line contains layout information about a node or edge
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+e n14 n13 "not:=" 5 631 152 115 145 219 323 223 326 113 11
+n n14 130 106 18 18 
+e n14 n13 "new:babbelt" 500 500 152 115 219 22 326 113 12
+n n13 304 104 18 18 

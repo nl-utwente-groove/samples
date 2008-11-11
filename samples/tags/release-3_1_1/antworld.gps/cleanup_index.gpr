@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="cleanup_index" role="rule" edgeids="false" edgemode="directed">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n42952"/>
+        <node id="n42954"/>
+        <node id="n42953"/>
+        <edge from="n42953" to="n42953">
+            <attr name="label">
+                <string>forall:</string>
+            </attr>
+        </edge>
+        <edge from="n42952" to="n42952">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge from="n42954" to="n42952">
+            <attr name="label">
+                <string>del:i</string>
+            </attr>
+        </edge>
+        <edge from="n42952" to="n42953">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n42954" to="n42954">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge from="n42954" to="n42953">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

@@ -1,0 +1,22 @@
+# Layout information for C:\files\work\groove_svn\samples\antworld.gps\pickup_food.gpr
+# Each line contains layout information about a node or edge
+# Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
+#     v 1: label position = (x-permillage, y-permillage)
+#     v 2: label position = (vector permillage, perpendicular distance)
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+v 2
+n n43083 603 76 21 15 
+n n43082 319 22 10 15 
+n n43074 386 163 28 15 
+n n43077 692 164 7 15 
+n n43076 132 174 17 15 
+n n43075 606 166 15 15 
+n n43081 498 272 15 15 
+n n43078 511 355 7 15 
+n n43079 267 166 27 15 
+n n43080 392 273 15 15 
+n n43073 504 164 15 15 
+e n43076 n43076 "not:food" 500 0 145 184 31 185 70 165 145 184 12
+e n43076 n43076 "new:food" 672 0 145 184 116 139 159 134 145 184 12
+e n43081 n43078 "arg:1" 395 0 511 285 519 366 11
