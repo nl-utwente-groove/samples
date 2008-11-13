@@ -1,1 +1,16 @@
-until (c) do { a|b;}
+
+while(true) do {
+   turn();
+}
+
+function turn() {
+    moveTrain;
+    swap();
+}
+
+function swap() {
+    openDoors;
+    alap { exit; }
+    alap { enter; }
+    closeDoors;
+}

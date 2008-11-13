@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="openDoors" role="rule" edgeids="false" edgemode="directed">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n1289"/>
+        <node id="n1290"/>
+        <node id="n1291"/>
+        <node id="n1292"/>
+        <edge from="n1290" to="n1292">
+            <attr name="label">
+                <string>new:open</string>
+            </attr>
+        </edge>
+        <edge from="n1290" to="n1290">
+            <attr name="label">
+                <string>Doors</string>
+            </attr>
+        </edge>
+        <edge from="n1291" to="n1291">
+            <attr name="label">
+                <string>bool:false</string>
+            </attr>
+        </edge>
+        <edge from="n1289" to="n1289">
+            <attr name="label">
+                <string>Train</string>
+            </attr>
+        </edge>
+        <edge from="n1290" to="n1291">
+            <attr name="label">
+                <string>del:open</string>
+            </attr>
+        </edge>
+        <edge from="n1292" to="n1292">
+            <attr name="label">
+                <string>bool:true</string>
+            </attr>
+        </edge>
+        <edge from="n1289" to="n1290">
+            <attr name="label">
+                <string>doors</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

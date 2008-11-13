@@ -1,4 +1,4 @@
-# Layout information for C:\files\work\groove_svn\samples\control.gps\start.gst
+# Layout information for C:\files\work\groove_svn\samples\control.gps\enter.gpr
 # Each line contains layout information about a node or edge
 # Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
 #     v 1: label position = (x-permillage, y-permillage)
@@ -6,11 +6,9 @@
 # Node Format: n <node id> <bounds>
 # Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
 v 2
-n n1717 68 148 53 15 
-n n1720 198 60 28 15 
-n n1718 232 175 39 15 
-n n1715 395 59 38 15 
-n n1716 396 153 38 15 
-n n1719 400 262 38 15 
-n n1714 74 66 33 15 
-e n1719 n1715 "next" 500 0 448 265 543 71 443 71 14
+n n1768 307 234 38 15 
+n n1765 438 177 38 15 
+n n1766 125 221 28 15 
+n n1764 137 128 62 30 
+n n1763 315 146 39 15 
+n n1767 139 79 48 15 
