@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="enter" role="rule" edgeids="false" edgemode="directed">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n1763"/>
+        <node id="n1764"/>
+        <node id="n1765"/>
+        <node id="n1766"/>
+        <node id="n1767"/>
+        <node id="n1768"/>
+        <edge from="n1763" to="n1766">
+            <attr name="label">
+                <string>new:at</string>
+            </attr>
+        </edge>
+        <edge from="n1768" to="n1768">
+            <attr name="label">
+                <string>Station</string>
+            </attr>
+        </edge>
+        <edge from="n1766" to="n1768">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n1763" to="n1765">
+            <attr name="label">
+                <string>dest</string>
+            </attr>
+        </edge>
+        <edge from="n1764" to="n1764">
+            <attr name="label">
+                <string>Doors</string>
+            </attr>
+        </edge>
+        <edge from="n1766" to="n1766">
+            <attr name="label">
+                <string>Train</string>
+            </attr>
+        </edge>
+        <edge from="n1763" to="n1763">
+            <attr name="label">
+                <string>Person</string>
+            </attr>
+        </edge>
+        <edge from="n1765" to="n1765">
+            <attr name="label">
+                <string>Station</string>
+            </attr>
+        </edge>
+        <edge from="n1767" to="n1767">
+            <attr name="label">
+                <string>bool:true</string>
+            </attr>
+        </edge>
+        <edge from="n1765" to="n1768">
+            <attr name="label">
+                <string>!=</string>
+            </attr>
+        </edge>
+        <edge from="n1766" to="n1764">
+            <attr name="label">
+                <string>doors</string>
+            </attr>
+        </edge>
+        <edge from="n1764" to="n1767">
+            <attr name="label">
+                <string>open</string>
+            </attr>
+        </edge>
+        <edge from="n1763" to="n1768">
+            <attr name="label">
+                <string>del:at</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
