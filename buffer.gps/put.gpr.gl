@@ -1,8 +1,0 @@
-# Layout information for C:\Eclipse-3\groove\samples\buffer.gps\put.gpr
-# Each line contains layout information about a node or edge
-# Node Format: n <node id> <bounds>
-# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
-n n214 174 203 18 18 
-e n215 n215 "del:empty" 256 468 182 132 102 109 113 165 182 132 12
-n n215 173 123 18 18 
-n n216 168 48 18 18 

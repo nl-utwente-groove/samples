@@ -4,86 +4,63 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n1714"/>
-        <node id="n1715"/>
-        <node id="n1716"/>
-        <node id="n1717"/>
-        <node id="n1718"/>
-        <node id="n1719"/>
-        <node id="n1720"/>
-        <edge from="n1719" to="n1715">
+        <node id="n215"/>
+        <node id="n216"/>
+        <node id="n217"/>
+        <node id="n218"/>
+        <node id="n214"/>
+        <node id="n211"/>
+        <node id="n212"/>
+        <node id="n219"/>
+        <node id="n213"/>
+        <edge from="n214" to="n219">
             <attr name="label">
-                <string>next</string>
+                <string>b</string>
             </attr>
         </edge>
-        <edge from="n1718" to="n1716">
+        <edge from="n217" to="n216">
             <attr name="label">
-                <string>at</string>
+                <string>now</string>
             </attr>
         </edge>
-        <edge from="n1714" to="n1714">
+        <edge from="n214" to="n213">
             <attr name="label">
-                <string>Doors</string>
+                <string>b</string>
             </attr>
         </edge>
-        <edge from="n1720" to="n1715">
+        <edge from="n215" to="n214">
             <attr name="label">
-                <string>at</string>
+                <string>a</string>
             </attr>
         </edge>
-        <edge from="n1718" to="n1718">
+        <edge from="n213" to="n219">
             <attr name="label">
-                <string>Person</string>
+                <string>b</string>
             </attr>
         </edge>
-        <edge from="n1720" to="n1714">
+        <edge from="n216" to="n214">
             <attr name="label">
-                <string>doors</string>
+                <string>b</string>
             </attr>
         </edge>
-        <edge from="n1716" to="n1716">
+        <edge from="n213" to="n218">
             <attr name="label">
-                <string>Station</string>
+                <string>a</string>
             </attr>
         </edge>
-        <edge from="n1718" to="n1715">
+        <edge from="n212" to="n211">
             <attr name="label">
-                <string>dest</string>
+                <string>b</string>
             </attr>
         </edge>
-        <edge from="n1720" to="n1720">
+        <edge from="n219" to="n212">
             <attr name="label">
-                <string>Train</string>
+                <string>a</string>
             </attr>
         </edge>
-        <edge from="n1715" to="n1715">
+        <edge from="n216" to="n215">
             <attr name="label">
-                <string>Station</string>
-            </attr>
-        </edge>
-        <edge from="n1719" to="n1719">
-            <attr name="label">
-                <string>Station</string>
-            </attr>
-        </edge>
-        <edge from="n1715" to="n1716">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n1716" to="n1719">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n1714" to="n1717">
-            <attr name="label">
-                <string>open</string>
-            </attr>
-        </edge>
-        <edge from="n1717" to="n1717">
-            <attr name="label">
-                <string>bool:false</string>
+                <string>b</string>
             </attr>
         </edge>
     </graph>
