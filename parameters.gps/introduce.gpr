@@ -4,124 +4,127 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n1563"/>
-        <node id="n1564"/>
-        <node id="n1565"/>
-        <node id="n1566"/>
-        <node id="n1567"/>
-        <node id="n1568"/>
-        <node id="n1569"/>
-        <edge from="n1563" to="n1563">
+        <attr name="remark">
+            <string>Les amis de mes amis sont mes amis</string>
+        </attr>
+        <node id="n1608"/>
+        <node id="n1609"/>
+        <node id="n1610"/>
+        <node id="n1611"/>
+        <node id="n1612"/>
+        <node id="n1613"/>
+        <node id="n1614"/>
+        <edge from="n1608" to="n1608">
             <attr name="label">
                 <string>par=$2:</string>
             </attr>
         </edge>
-        <edge from="n1563" to="n1563">
+        <edge from="n1608" to="n1608">
             <attr name="label">
                 <string>attr:</string>
             </attr>
         </edge>
-        <edge from="n1564" to="n1564">
+        <edge from="n1609" to="n1609">
             <attr name="label">
                 <string>par=$1:</string>
             </attr>
         </edge>
-        <edge from="n1564" to="n1564">
+        <edge from="n1609" to="n1609">
             <attr name="label">
                 <string>attr:</string>
             </attr>
         </edge>
-        <edge from="n1566" to="n1566">
+        <edge from="n1611" to="n1611">
             <attr name="label">
                 <string>par:</string>
             </attr>
         </edge>
-        <edge from="n1567" to="n1567">
+        <edge from="n1612" to="n1612">
             <attr name="label">
                 <string>rem:</string>
             </attr>
         </edge>
-        <edge from="n1569" to="n1569">
+        <edge from="n1614" to="n1614">
             <attr name="label">
                 <string>rem:</string>
             </attr>
         </edge>
-        <edge from="n1569" to="n1566">
+        <edge from="n1614" to="n1611">
             <attr name="label">
                 <string>this</string>
             </attr>
         </edge>
-        <edge from="n1567" to="n1567">
+        <edge from="n1612" to="n1612">
             <attr name="label">
                 <string>Attribute parameter nodes</string>
             </attr>
         </edge>
-        <edge from="n1568" to="n1565">
+        <edge from="n1613" to="n1610">
             <attr name="label">
                 <string>not:=</string>
             </attr>
         </edge>
-        <edge from="n1568" to="n1568">
+        <edge from="n1613" to="n1613">
             <attr name="label">
                 <string>Person</string>
             </attr>
         </edge>
-        <edge from="n1566" to="n1566">
+        <edge from="n1611" to="n1611">
             <attr name="label">
                 <string>Person</string>
             </attr>
         </edge>
-        <edge from="n1568" to="n1565">
+        <edge from="n1613" to="n1610">
             <attr name="label">
                 <string>new:knows</string>
             </attr>
         </edge>
-        <edge from="n1568" to="n1564">
+        <edge from="n1613" to="n1609">
             <attr name="label">
                 <string>name</string>
             </attr>
         </edge>
-        <edge from="n1569" to="n1569">
+        <edge from="n1614" to="n1614">
             <attr name="label">
                 <string>Anonymous parameter node</string>
             </attr>
         </edge>
-        <edge from="n1568" to="n1566">
+        <edge from="n1613" to="n1611">
             <attr name="label">
                 <string>knows</string>
             </attr>
         </edge>
-        <edge from="n1565" to="n1563">
+        <edge from="n1610" to="n1608">
             <attr name="label">
                 <string>name</string>
             </attr>
         </edge>
-        <edge from="n1567" to="n1567">
+        <edge from="n1612" to="n1612">
             <attr name="label">
                 <string>The arguments will be data values</string>
             </attr>
         </edge>
-        <edge from="n1567" to="n1564">
+        <edge from="n1612" to="n1609">
             <attr name="label">
                 <string>1</string>
             </attr>
         </edge>
-        <edge from="n1566" to="n1565">
+        <edge from="n1611" to="n1610">
             <attr name="label">
                 <string>knows</string>
             </attr>
         </edge>
-        <edge from="n1567" to="n1563">
+        <edge from="n1612" to="n1608">
             <attr name="label">
                 <string>2</string>
             </attr>
         </edge>
-        <edge from="n1568" to="n1565">
+        <edge from="n1613" to="n1610">
             <attr name="label">
                 <string>not:knows</string>
             </attr>
         </edge>
-        <edge from="n1565" to="n1565">
+        <edge from="n1610" to="n1610">
             <attr name="label">
                 <string>Person</string>
             </attr>
