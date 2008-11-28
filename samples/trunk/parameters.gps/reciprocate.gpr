@@ -4,60 +4,63 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n1418"/>
-        <node id="n1419"/>
-        <node id="n1420"/>
-        <edge from="n1418" to="n1418">
+        <attr name="remark">
+            <string>Get to know those who know you</string>
+        </attr>
+        <node id="n1618"/>
+        <node id="n1619"/>
+        <node id="n1620"/>
+        <edge from="n1618" to="n1618">
             <attr name="label">
                 <string>rem:</string>
             </attr>
         </edge>
-        <edge from="n1419" to="n1419">
+        <edge from="n1619" to="n1619">
             <attr name="label">
                 <string>par=$1:</string>
             </attr>
         </edge>
-        <edge from="n1420" to="n1420">
+        <edge from="n1620" to="n1620">
             <attr name="label">
                 <string>par=$2:</string>
             </attr>
         </edge>
-        <edge from="n1420" to="n1419">
+        <edge from="n1620" to="n1619">
             <attr name="label">
                 <string>not:knows</string>
             </attr>
         </edge>
-        <edge from="n1420" to="n1419">
+        <edge from="n1620" to="n1619">
             <attr name="label">
                 <string>new:knows</string>
             </attr>
         </edge>
-        <edge from="n1418" to="n1420">
+        <edge from="n1618" to="n1620">
             <attr name="label">
                 <string>2</string>
             </attr>
         </edge>
-        <edge from="n1418" to="n1419">
+        <edge from="n1618" to="n1619">
             <attr name="label">
                 <string>1</string>
             </attr>
         </edge>
-        <edge from="n1420" to="n1420">
+        <edge from="n1620" to="n1620">
             <attr name="label">
                 <string>Person</string>
             </attr>
         </edge>
-        <edge from="n1419" to="n1419">
+        <edge from="n1619" to="n1619">
             <attr name="label">
                 <string>Person</string>
             </attr>
         </edge>
-        <edge from="n1418" to="n1418">
+        <edge from="n1618" to="n1618">
             <attr name="label">
                 <string>Non-attribute parameter nodes</string>
             </attr>
         </edge>
-        <edge from="n1419" to="n1420">
+        <edge from="n1619" to="n1620">
             <attr name="label">
                 <string>knows</string>
             </attr>

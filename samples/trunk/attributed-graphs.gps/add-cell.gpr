@@ -1,113 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n1"/>
-        <node id="n4"/>
-        <node id="n6"/>
-        <node id="n8"/>
-        <node id="n3"/>
-        <node id="n7"/>
-        <node id="n0"/>
-        <node id="n2"/>
-        <node id="n5"/>
-        <edge from="n8" to="n0">
+    <graph id="add-cell" role="rule" edgeids="false" edgemode="directed">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <attr name="remark">
+            <string>Adds an indexed cell to the buffer, as long as there are fewer than 5 cells</string>
+        </attr>
+        <node id="n17205"/>
+        <node id="n17206"/>
+        <node id="n17207"/>
+        <node id="n17208"/>
+        <node id="n17209"/>
+        <node id="n17210"/>
+        <node id="n17211"/>
+        <node id="n17212"/>
+        <node id="n17213"/>
+        <node id="n17214"/>
+        <node id="n17215"/>
+        <edge from="n17206" to="n17206">
             <attr name="label">
-                <string>arg:1</string>
+                <string>attr:</string>
             </attr>
         </edge>
-        <edge from="n4" to="n3">
+        <edge from="n17207" to="n17207">
             <attr name="label">
-                <string>int:add</string>
+                <string>attr:</string>
             </attr>
         </edge>
-        <edge from="n8" to="n1">
-            <attr name="label">
-                <string>int:lt</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n4">
+        <edge from="n17209" to="n17209">
             <attr name="label">
                 <string>prod:</string>
             </attr>
         </edge>
-        <edge from="n3" to="n3">
+        <edge from="n17210" to="n17210">
             <attr name="label">
-                <string>attr:</string>
+                <string>prod:</string>
             </attr>
         </edge>
-        <edge from="n6" to="n6">
-            <attr name="label">
-                <string>attr:</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n6">
-            <attr name="label">
-                <string>arg:0</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>int:1</string>
-            </attr>
-        </edge>
-        <edge from="n7" to="n5">
-            <attr name="label">
-                <string>entry</string>
-            </attr>
-        </edge>
-        <edge from="n7" to="n3">
-            <attr name="label">
-                <string>new:length</string>
-            </attr>
-        </edge>
-        <edge from="n7" to="n6">
-            <attr name="label">
-                <string>del:length</string>
-            </attr>
-        </edge>
-        <edge from="n8" to="n6">
-            <attr name="label">
-                <string>arg:0</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>bool:true</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n3">
-            <attr name="label">
-                <string>order</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n2">
-            <attr name="label">
-                <string>arg:1</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n5">
+        <edge from="n17211" to="n17211">
             <attr name="label">
                 <string>new:</string>
             </attr>
         </edge>
-        <edge from="n0" to="n0">
+        <edge from="n17214" to="n17214">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge from="n17215" to="n17215">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge from="n17214" to="n17214">
+            <attr name="label">
+                <string>length is set to the current length + 1</string>
+            </attr>
+        </edge>
+        <edge from="n17211" to="n17206">
+            <attr name="label">
+                <string>order</string>
+            </attr>
+        </edge>
+        <edge from="n17215" to="n17213">
+            <attr name="label">
+                <string>test</string>
+            </attr>
+        </edge>
+        <edge from="n17215" to="n17215">
+            <attr name="label">
+                <string>... but only if the current length is smaller than 5</string>
+            </attr>
+        </edge>
+        <edge from="n17205" to="n17207">
+            <attr name="label">
+                <string>del:length</string>
+            </attr>
+        </edge>
+        <edge from="n17205" to="n17211">
+            <attr name="label">
+                <string>entry</string>
+            </attr>
+        </edge>
+        <edge from="n17214" to="n17207">
+            <attr name="label">
+                <string>old value</string>
+            </attr>
+        </edge>
+        <edge from="n17210" to="n17208">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n17213" to="n17213">
+            <attr name="label">
+                <string>bool:true</string>
+            </attr>
+        </edge>
+        <edge from="n17214" to="n17206">
+            <attr name="label">
+                <string>new value</string>
+            </attr>
+        </edge>
+        <edge from="n17209" to="n17207">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n17208" to="n17208">
             <attr name="label">
                 <string>int:5</string>
             </attr>
         </edge>
-        <edge from="n5" to="n5">
+        <edge from="n17209" to="n17206">
+            <attr name="label">
+                <string>int:add</string>
+            </attr>
+        </edge>
+        <edge from="n17210" to="n17207">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n17211" to="n17211">
             <attr name="label">
                 <string>Cell</string>
             </attr>
         </edge>
-        <edge from="n7" to="n7">
+        <edge from="n17205" to="n17205">
             <attr name="label">
                 <string>Buffer</string>
             </attr>
         </edge>
-        <edge from="n8" to="n8">
+        <edge from="n17205" to="n17206">
             <attr name="label">
-                <string>prod:</string>
+                <string>new:length</string>
+            </attr>
+        </edge>
+        <edge from="n17209" to="n17212">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n17212" to="n17212">
+            <attr name="label">
+                <string>int:1</string>
+            </attr>
+        </edge>
+        <edge from="n17210" to="n17213">
+            <attr name="label">
+                <string>int:lt</string>
             </attr>
         </edge>
     </graph>
