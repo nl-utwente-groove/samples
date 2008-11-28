@@ -1,0 +1,20 @@
+# Layout information for D:\Groove\samples\parameters.gps\introduce.gpr
+# Each line contains layout information about a node or edge
+# Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
+#     v 1: label position = (x-permillage, y-permillage)
+#     v 2: label position = (vector permillage, perpendicular distance)
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+v 2
+n n1569 188 198 156 30 
+n n1566 245 130 37 30 
+n n1568 127 127 37 15 
+n n1564 128 202 44 30 
+n n1563 360 205 44 30 
+n n1567 160 253 187 45 
+n n1565 365 128 37 15 
+e n1568 n1565 "new:knows" 500 0 162 127 162 77 379 77 379 128 11
+e n1568 n1565 "not:knows" 500 0 141 127 141 55 399 55 399 128 11
+e n1568 n1565 "not:=" 500 0 141 127 141 55 399 55 399 128 11
+e n1567 n1563 "2" 500 0 343 276 373 276 373 228 11
+e n1567 n1564 "1" 500 0 186 274 142 274 141 224 11
