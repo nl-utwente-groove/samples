@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="addType" role="rule" edgeids="false" edgemode="directed">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <attr name="remark">
+            <string>Adds a Type node label to an arbitrary (possibly unlabelled) node</string>
+        </attr>
+        <node id="n17315"/>
+        <node id="n17316"/>
+        <edge from="n17315" to="n17315">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge from="n17315" to="n17315">
+            <attr name="label">
+                <string>Adds a Type node label</string>
+            </attr>
+        </edge>
+        <edge from="n17316" to="n17316">
+            <attr name="label">
+                <string>not:Type</string>
+            </attr>
+        </edge>
+        <edge from="n17316" to="n17316">
+            <attr name="label">
+                <string>new:Type</string>
+            </attr>
+        </edge>
+        <edge from="n17315" to="n17316">
+            <attr name="label">
+                <string>here</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
