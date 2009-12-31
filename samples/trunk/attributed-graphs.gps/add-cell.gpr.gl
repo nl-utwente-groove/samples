@@ -1,4 +1,4 @@
-# Layout information for D:\Groove\samples\attributed-graphs.gps\add-cell.gpr
+# Layout information
 # Each line contains layout information about a node or edge
 # Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
 #     v 1: label position = (x-permillage, y-permillage)
@@ -6,18 +6,18 @@
 # Node Format: n <node id> <bounds>
 # Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
 v 2
-n n17214 193 149 212 15 
 n n17208 33 267 7 15 
-n n17210 106 224 15 15 
 n n17205 23 24 33 15 
-n n17209 81 95 15 15 
+n n17210 106 224 15 15 
+n n17206 187 95 15 15 
 n n17213 204 226 23 15 
+n n17215 156 279 268 15 
 n n17207 32 172 15 15 
+n n17214 193 149 212 15 
 n n17212 138 171 7 15 
 n n17211 179 22 18 15 
-n n17206 187 95 15 15 
-n n17215 156 279 268 15 
-e n17214 n17207 "old value" 500 0 296 170 296 209 149 209 50 183 11
-e n17215 n17213 "test" 500 0 297 312 234 236 12
-e n17214 n17206 "new value" 500 0 295 149 295 103 205 104 11
+n n17209 81 95 15 15 
 e n17210 n17213 "int:lt" 381 0 119 237 222 237 11
+e n17214 n17207 "old value" 500 0 296 170 296 209 149 209 50 183 11
+e n17214 n17206 "new value" 500 0 295 149 295 103 205 104 11
+e n17215 n17213 "test" 500 0 297 312 234 236 12

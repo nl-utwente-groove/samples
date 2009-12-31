@@ -53,69 +53,14 @@
                 <string>rem:</string>
             </attr>
         </edge>
-        <edge from="n17214" to="n17214">
-            <attr name="label">
-                <string>length is set to the current length + 1</string>
-            </attr>
-        </edge>
-        <edge from="n17211" to="n17206">
-            <attr name="label">
-                <string>order</string>
-            </attr>
-        </edge>
-        <edge from="n17215" to="n17213">
-            <attr name="label">
-                <string>test</string>
-            </attr>
-        </edge>
         <edge from="n17215" to="n17215">
             <attr name="label">
                 <string>... but only if the current length is smaller than 5</string>
             </attr>
         </edge>
-        <edge from="n17205" to="n17207">
+        <edge from="n17210" to="n17213">
             <attr name="label">
-                <string>del:length</string>
-            </attr>
-        </edge>
-        <edge from="n17205" to="n17211">
-            <attr name="label">
-                <string>entry</string>
-            </attr>
-        </edge>
-        <edge from="n17214" to="n17207">
-            <attr name="label">
-                <string>old value</string>
-            </attr>
-        </edge>
-        <edge from="n17210" to="n17208">
-            <attr name="label">
-                <string>arg:1</string>
-            </attr>
-        </edge>
-        <edge from="n17213" to="n17213">
-            <attr name="label">
-                <string>bool:true</string>
-            </attr>
-        </edge>
-        <edge from="n17214" to="n17206">
-            <attr name="label">
-                <string>new value</string>
-            </attr>
-        </edge>
-        <edge from="n17209" to="n17207">
-            <attr name="label">
-                <string>arg:0</string>
-            </attr>
-        </edge>
-        <edge from="n17208" to="n17208">
-            <attr name="label">
-                <string>int:5</string>
-            </attr>
-        </edge>
-        <edge from="n17209" to="n17206">
-            <attr name="label">
-                <string>int:add</string>
+                <string>int:lt</string>
             </attr>
         </edge>
         <edge from="n17210" to="n17207">
@@ -123,14 +68,29 @@
                 <string>arg:0</string>
             </attr>
         </edge>
-        <edge from="n17211" to="n17211">
+        <edge from="n17209" to="n17206">
             <attr name="label">
-                <string>Cell</string>
+                <string>int:add</string>
             </attr>
         </edge>
-        <edge from="n17205" to="n17205">
+        <edge from="n17214" to="n17207">
             <attr name="label">
-                <string>Buffer</string>
+                <string>old value</string>
+            </attr>
+        </edge>
+        <edge from="n17205" to="n17211">
+            <attr name="label">
+                <string>entry</string>
+            </attr>
+        </edge>
+        <edge from="n17214" to="n17214">
+            <attr name="label">
+                <string>length is set to the current length + 1</string>
+            </attr>
+        </edge>
+        <edge from="n17215" to="n17213">
+            <attr name="label">
+                <string>test</string>
             </attr>
         </edge>
         <edge from="n17205" to="n17206">
@@ -138,9 +98,39 @@
                 <string>new:length</string>
             </attr>
         </edge>
+        <edge from="n17213" to="n17213">
+            <attr name="label">
+                <string>bool:true</string>
+            </attr>
+        </edge>
         <edge from="n17209" to="n17212">
             <attr name="label">
                 <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n17211" to="n17206">
+            <attr name="label">
+                <string>order</string>
+            </attr>
+        </edge>
+        <edge from="n17208" to="n17208">
+            <attr name="label">
+                <string>int:5</string>
+            </attr>
+        </edge>
+        <edge from="n17209" to="n17207">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n17205" to="n17207">
+            <attr name="label">
+                <string>del:length</string>
+            </attr>
+        </edge>
+        <edge from="n17214" to="n17206">
+            <attr name="label">
+                <string>new value</string>
             </attr>
         </edge>
         <edge from="n17212" to="n17212">
@@ -148,9 +138,19 @@
                 <string>int:1</string>
             </attr>
         </edge>
-        <edge from="n17210" to="n17213">
+        <edge from="n17210" to="n17208">
             <attr name="label">
-                <string>int:lt</string>
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n17205" to="n17205">
+            <attr name="label">
+                <string>type:Buffer</string>
+            </attr>
+        </edge>
+        <edge from="n17211" to="n17211">
+            <attr name="label">
+                <string>type:Cell</string>
             </attr>
         </edge>
     </graph>

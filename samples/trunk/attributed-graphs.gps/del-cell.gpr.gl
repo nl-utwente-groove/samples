@@ -1,4 +1,4 @@
-# Layout information for D:\Groove\samples\attributed-graphs.gps\del-cell.gpr
+# Layout information
 # Each line contains layout information about a node or edge
 # Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
 #     v 1: label position = (x-permillage, y-permillage)
@@ -6,10 +6,10 @@
 # Node Format: n <node id> <bounds>
 # Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
 v 2
-n n17218 276 138 15 15 
-n n17216 3 78 18 15 
+n n17219 167 137 15 15 
 n n17217 116 78 33 15 
+n n17216 3 78 18 15 
 n n17221 121 205 15 15 
 n n17220 221 204 7 15 
-n n17219 167 137 15 15 
+n n17218 276 138 15 15 
 e n17217 n17221 "del:length" 481 2 137 87 129 203 11
