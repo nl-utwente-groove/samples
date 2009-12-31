@@ -33,6 +33,16 @@
                 <string>attr:</string>
             </attr>
         </edge>
+        <edge from="n17219" to="n17221">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n17216" to="n17221">
+            <attr name="label">
+                <string>order</string>
+            </attr>
+        </edge>
         <edge from="n17219" to="n17220">
             <attr name="label">
                 <string>arg:1</string>
@@ -43,14 +53,14 @@
                 <string>int:sub</string>
             </attr>
         </edge>
-        <edge from="n17216" to="n17221">
-            <attr name="label">
-                <string>order</string>
-            </attr>
-        </edge>
         <edge from="n17217" to="n17221">
             <attr name="label">
                 <string>del:length</string>
+            </attr>
+        </edge>
+        <edge from="n17217" to="n17218">
+            <attr name="label">
+                <string>new:length</string>
             </attr>
         </edge>
         <edge from="n17220" to="n17220">
@@ -65,22 +75,12 @@
         </edge>
         <edge from="n17217" to="n17217">
             <attr name="label">
-                <string>Buffer</string>
+                <string>type:Buffer</string>
             </attr>
         </edge>
         <edge from="n17216" to="n17216">
             <attr name="label">
-                <string>Cell</string>
-            </attr>
-        </edge>
-        <edge from="n17217" to="n17218">
-            <attr name="label">
-                <string>new:length</string>
-            </attr>
-        </edge>
-        <edge from="n17219" to="n17221">
-            <attr name="label">
-                <string>arg:0</string>
+                <string>type:Cell</string>
             </attr>
         </edge>
     </graph>
