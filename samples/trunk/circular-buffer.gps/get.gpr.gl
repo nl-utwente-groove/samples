@@ -1,4 +1,4 @@
-# Layout information for C:\local\groove\samples\circular-buffer.gps\get.gpr
+# Layout information
 # Each line contains layout information about a node or edge
 # Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
 #     v 1: label position = (x-permillage, y-permillage)
@@ -7,6 +7,6 @@
 # Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
 v 2
 n n2 134 74 30 18 
-n n1 137 180 30 18 
-n n3 42 131 18 18 
 n n0 225 66 44 34 
+n n3 42 131 18 18 
+n n1 137 180 30 18 
