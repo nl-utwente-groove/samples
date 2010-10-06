@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="matchPos" role="rule" edgeids="false" edgemode="directed">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <attr name="remark">
+            <string>Shows the use of a positive guard for an anonymous wildcard</string>
+        </attr>
+        <node id="n1806"/>
+        <node id="n1807"/>
+        <node id="n1808"/>
+        <edge from="n1808" to="n1808">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge from="n1808" to="n1808">
+            <attr name="label">
+                <string>Variable names are optional</string>
+            </attr>
+        </edge>
+        <edge from="n1808" to="n1808">
+            <attr name="label">
+                <string>Choice of a or b (could also be done by the regular expression a|b)</string>
+            </attr>
+        </edge>
+        <edge from="n1807" to="n1806">
+            <attr name="label">
+                <string>del:{?[a,b]}</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
