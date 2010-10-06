@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="unknown" role="rule" edgeids="false" edgemode="directed">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <attr name="remark">
+            <string>Look at all the lonely people</string>
+        </attr>
+        <node id="n1623"/>
+        <node id="n1624"/>
+        <node id="n1625"/>
+        <edge from="n1623" to="n1623">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge from="n1624" to="n1624">
+            <attr name="label">
+                <string>par=$1:</string>
+            </attr>
+        </edge>
+        <edge from="n1625" to="n1625">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n1625" to="n1625">
+            <attr name="label">
+                <string>Person</string>
+            </attr>
+        </edge>
+        <edge from="n1623" to="n1623">
+            <attr name="label">
+                <string>Non-attribute parameter node</string>
+            </attr>
+        </edge>
+        <edge from="n1623" to="n1623">
+            <attr name="label">
+                <string>The argument will be the node identity</string>
+            </attr>
+        </edge>
+        <edge from="n1624" to="n1624">
+            <attr name="label">
+                <string>Person</string>
+            </attr>
+        </edge>
+        <edge from="n1623" to="n1624">
+            <attr name="label">
+                <string>this</string>
+            </attr>
+        </edge>
+        <edge from="n1625" to="n1624">
+            <attr name="label">
+                <string>knows</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
