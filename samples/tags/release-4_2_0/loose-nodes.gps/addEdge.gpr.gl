@@ -1,0 +1,13 @@
+# Layout information for D:\Groove\samples\loose-nodes.gps\addEdge.gpr
+# Each line contains layout information about a node or edge
+# Version info: v <version number>; 1 = pre-jgraph 5.9, 2 = jgraph 5.9
+#     v 1: label position = (x-permillage, y-permillage)
+#     v 2: label position = (vector permillage, perpendicular distance)
+# Node Format: n <node id> <bounds>
+# Edge Format: e <source id> <target id> <edge label> <relative label position> [<points list> <line style>]
+v 2
+n n17320 78 147 207 15 
+n n17318 96 88 15 15 
+n n17319 238 90 15 15 
+e n17318 n17319 "not:distinct" 250 -32 105 97 174 59 247 99 12
+e n17318 n17319 "not:=" 250 -32 105 97 174 59 247 99 12
