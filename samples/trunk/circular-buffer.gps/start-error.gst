@@ -9,9 +9,19 @@
         <node id="n110"/>
         <node id="n112"/>
         <node id="n108"/>
-        <edge from="n112" to="n108">
+        <edge from="n110" to="n110">
             <attr name="label">
-                <string>last</string>
+                <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge from="n111" to="n111">
+            <attr name="label">
+                <string>type:Object</string>
+            </attr>
+        </edge>
+        <edge from="n108" to="n110">
+            <attr name="label">
+                <string>next</string>
             </attr>
         </edge>
         <edge from="n112" to="n110">
@@ -19,9 +29,29 @@
                 <string>first</string>
             </attr>
         </edge>
-        <edge from="n108" to="n110">
+        <edge from="n108" to="n108">
+            <attr name="label">
+                <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge from="n112" to="n112">
+            <attr name="label">
+                <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge from="n109" to="n108">
             <attr name="label">
                 <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n109" to="n109">
+            <attr name="label">
+                <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge from="n112" to="n108">
+            <attr name="label">
+                <string>last</string>
             </attr>
         </edge>
         <edge from="n110" to="n109">
@@ -32,36 +62,6 @@
         <edge from="n109" to="n111">
             <attr name="label">
                 <string>val</string>
-            </attr>
-        </edge>
-        <edge from="n109" to="n108">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n112" to="n112">
-            <attr name="label">
-                <string>type:Buffer</string>
-            </attr>
-        </edge>
-        <edge from="n109" to="n109">
-            <attr name="label">
-                <string>type:Cell</string>
-            </attr>
-        </edge>
-        <edge from="n108" to="n108">
-            <attr name="label">
-                <string>type:Cell</string>
-            </attr>
-        </edge>
-        <edge from="n110" to="n110">
-            <attr name="label">
-                <string>type:Cell</string>
-            </attr>
-        </edge>
-        <edge from="n111" to="n111">
-            <attr name="label">
-                <string>type:Object</string>
             </attr>
         </edge>
     </graph>

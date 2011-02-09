@@ -15,12 +15,27 @@
                 <string>next</string>
             </attr>
         </edge>
-        <edge from="n99" to="n102">
+        <edge from="n98" to="n102">
             <attr name="label">
-                <string>first</string>
+                <string>next</string>
             </attr>
         </edge>
         <edge from="n100" to="n98">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n100" to="n100">
+            <attr name="label">
+                <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge from="n101" to="n101">
+            <attr name="label">
+                <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge from="n102" to="n97">
             <attr name="label">
                 <string>next</string>
             </attr>
@@ -35,32 +50,17 @@
                 <string>next</string>
             </attr>
         </edge>
-        <edge from="n102" to="n97">
+        <edge from="n102" to="n102">
             <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n98" to="n102">
-            <attr name="label">
-                <string>next</string>
+                <string>type:Cell</string>
             </attr>
         </edge>
         <edge from="n99" to="n99">
             <attr name="label">
-                <string>type:Buffer</string>
+                <string>type:Cell</string>
             </attr>
         </edge>
         <edge from="n97" to="n97">
-            <attr name="label">
-                <string>type:Cell</string>
-            </attr>
-        </edge>
-        <edge from="n100" to="n100">
-            <attr name="label">
-                <string>type:Cell</string>
-            </attr>
-        </edge>
-        <edge from="n101" to="n101">
             <attr name="label">
                 <string>type:Cell</string>
             </attr>
@@ -70,9 +70,9 @@
                 <string>type:Cell</string>
             </attr>
         </edge>
-        <edge from="n102" to="n102">
+        <edge from="n99" to="n102">
             <attr name="label">
-                <string>type:Cell</string>
+                <string>first</string>
             </attr>
         </edge>
     </graph>

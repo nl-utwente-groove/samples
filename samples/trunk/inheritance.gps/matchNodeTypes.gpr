@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph id="matchNodeTypes" role="rule" edgeids="false" edgemode="directed">
+        <attr name="enabled">
+            <string>false</string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n370"/>
+        <node id="n371"/>
+    </graph>
+</gxl>
