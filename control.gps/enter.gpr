@@ -12,34 +12,34 @@
                 <string>62 105 28 15</string>
             </attr>
         </node>
-        <node id="n999">
-            <attr name="layout">
-                <string>206 184 39 15</string>
-            </attr>
-        </node>
         <node id="n1001">
             <attr name="layout">
                 <string>330 108 38 15</string>
             </attr>
         </node>
+        <node id="n999">
+            <attr name="layout">
+                <string>206 184 39 15</string>
+            </attr>
+        </node>
+        <edge to="n999" from="n999">
+            <attr name="label">
+                <string>type:Person</string>
+            </attr>
+        </edge>
         <edge to="n1000" from="n1000">
             <attr name="label">
-                <string>Train</string>
+                <string>type:Train</string>
+            </attr>
+        </edge>
+        <edge to="n1000" from="n999">
+            <attr name="label">
+                <string>new:at</string>
             </attr>
         </edge>
         <edge to="n1001" from="n1001">
             <attr name="label">
-                <string>Station</string>
-            </attr>
-        </edge>
-        <edge to="n1001" from="n999">
-            <attr name="label">
-                <string>del:at</string>
-            </attr>
-        </edge>
-        <edge to="n999" from="n999">
-            <attr name="label">
-                <string>Person</string>
+                <string>type:Station</string>
             </attr>
         </edge>
         <edge to="n1001" from="n1000">
@@ -47,9 +47,9 @@
                 <string>at</string>
             </attr>
         </edge>
-        <edge to="n1000" from="n999">
+        <edge to="n1001" from="n999">
             <attr name="label">
-                <string>new:at</string>
+                <string>del:at</string>
             </attr>
         </edge>
     </graph>

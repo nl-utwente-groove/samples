@@ -7,6 +7,11 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
+        <node id="n1618">
+            <attr name="layout">
+                <string>94 150 28 15</string>
+            </attr>
+        </node>
         <node id="n1615">
             <attr name="layout">
                 <string>535 210 38 15</string>
@@ -17,9 +22,14 @@
                 <string>404 221 39 15</string>
             </attr>
         </node>
-        <node id="n1618">
+        <node id="n1614">
             <attr name="layout">
-                <string>94 150 28 15</string>
+                <string>357 108 39 15</string>
+            </attr>
+        </node>
+        <node id="n1613">
+            <attr name="layout">
+                <string>532 142 38 15</string>
             </attr>
         </node>
         <node id="n1617">
@@ -32,29 +42,37 @@
                 <string>532 301 38 15</string>
             </attr>
         </node>
-        <node id="n1613">
-            <attr name="layout">
-                <string>532 142 38 15</string>
-            </attr>
-        </node>
-        <node id="n1614">
-            <attr name="layout">
-                <string>357 108 39 15</string>
-            </attr>
-        </node>
-        <edge to="n1613" from="n1614">
+        <edge to="n1613" from="n1616">
             <attr name="label">
-                <string>at</string>
+                <string>next</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 580 306 641 149 580 149 14</string>
+            </attr>
+        </edge>
+        <edge to="n1615" from="n1613">
+            <attr name="label">
+                <string>next</string>
             </attr>
         </edge>
         <edge to="n1618" from="n1618">
             <attr name="label">
-                <string>Train</string>
+                <string>type:Train</string>
             </attr>
         </edge>
-        <edge to="n1613" from="n1613">
+        <edge to="n1616" from="n1612">
             <attr name="label">
-                <string>Station</string>
+                <string>dest</string>
+            </attr>
+        </edge>
+        <edge to="n1617" from="n1617">
+            <attr name="label">
+                <string>type:Person</string>
+            </attr>
+        </edge>
+        <edge to="n1613" from="n1614">
+            <attr name="label">
+                <string>at</string>
             </attr>
         </edge>
         <edge to="n1613" from="n1617">
@@ -67,29 +85,34 @@
                 <string>next</string>
             </attr>
         </edge>
-        <edge to="n1615" from="n1613">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
         <edge to="n1616" from="n1618">
             <attr name="label">
                 <string>at</string>
             </attr>
         </edge>
-        <edge to="n1616" from="n1616">
+        <edge to="n1614" from="n1614">
             <attr name="label">
-                <string>Station</string>
+                <string>type:Person</string>
             </attr>
         </edge>
         <edge to="n1612" from="n1612">
             <attr name="label">
-                <string>Person</string>
+                <string>type:Person</string>
             </attr>
         </edge>
-        <edge to="n1616" from="n1612">
+        <edge to="n1613" from="n1613">
             <attr name="label">
-                <string>dest</string>
+                <string>type:Station</string>
+            </attr>
+        </edge>
+        <edge to="n1616" from="n1616">
+            <attr name="label">
+                <string>type:Station</string>
+            </attr>
+        </edge>
+        <edge to="n1615" from="n1615">
+            <attr name="label">
+                <string>type:Station</string>
             </attr>
         </edge>
         <edge to="n1616" from="n1617">
@@ -97,37 +120,14 @@
                 <string>dest</string>
             </attr>
         </edge>
-        <edge to="n1614" from="n1614">
-            <attr name="label">
-                <string>Person</string>
-            </attr>
-        </edge>
-        <edge to="n1615" from="n1612">
-            <attr name="label">
-                <string>at</string>
-            </attr>
-        </edge>
         <edge to="n1615" from="n1614">
             <attr name="label">
                 <string>dest</string>
             </attr>
         </edge>
-        <edge to="n1617" from="n1617">
+        <edge to="n1615" from="n1612">
             <attr name="label">
-                <string>Person</string>
-            </attr>
-        </edge>
-        <edge to="n1613" from="n1616">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 580 306 641 149 580 149 14</string>
-            </attr>
-        </edge>
-        <edge to="n1615" from="n1615">
-            <attr name="label">
-                <string>Station</string>
+                <string>at</string>
             </attr>
         </edge>
     </graph>
