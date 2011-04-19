@@ -24,20 +24,20 @@
         </node>
         <edge to="n1052" from="n1052">
             <attr name="label">
-                <string>del:</string>
+                <string>type:Person</string>
+            </attr>
+        </edge>
+        <edge to="n1051" from="n1051">
+            <attr name="label">
+                <string>type:Station</string>
+            </attr>
+        </edge>
+        <edge to="n1053" from="n1053">
+            <attr name="label">
+                <string>type:Train</string>
             </attr>
         </edge>
         <edge to="n1053" from="n1052">
-            <attr name="label">
-                <string>at</string>
-            </attr>
-        </edge>
-        <edge to="n1052" from="n1052">
-            <attr name="label">
-                <string>Person</string>
-            </attr>
-        </edge>
-        <edge to="n1051" from="n1053">
             <attr name="label">
                 <string>at</string>
             </attr>
@@ -47,14 +47,14 @@
                 <string>dest</string>
             </attr>
         </edge>
-        <edge to="n1051" from="n1051">
+        <edge to="n1052" from="n1052">
             <attr name="label">
-                <string>Station</string>
+                <string>del:</string>
             </attr>
         </edge>
-        <edge to="n1053" from="n1053">
+        <edge to="n1051" from="n1053">
             <attr name="label">
-                <string>Train</string>
+                <string>at</string>
             </attr>
         </edge>
     </graph>
