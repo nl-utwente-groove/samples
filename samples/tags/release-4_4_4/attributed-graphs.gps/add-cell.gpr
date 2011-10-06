@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph edgemode="directed" edgeids="false" role="rule" id="add-cell">
+        <attr name="remark">
+            <string>Adds an indexed cell to the buffer, as long as there are fewer than 5 cells</string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n17209">
+            <attr name="layout">
+                <string>81 95 39 21</string>
+            </attr>
+        </node>
+        <node id="n17208">
+            <attr name="layout">
+                <string>33 267 35 21</string>
+            </attr>
+        </node>
+        <node id="n17215">
+            <attr name="layout">
+                <string>156 279 278 36</string>
+            </attr>
+        </node>
+        <node id="n17207">
+            <attr name="layout">
+                <string>32 172 34 21</string>
+            </attr>
+        </node>
+        <node id="n17210">
+            <attr name="layout">
+                <string>106 224 39 21</string>
+            </attr>
+        </node>
+        <node id="n17206">
+            <attr name="layout">
+                <string>187 95 28 21</string>
+            </attr>
+        </node>
+        <node id="n17205">
+            <attr name="layout">
+                <string>23 24 72 21</string>
+            </attr>
+        </node>
+        <node id="n17214">
+            <attr name="layout">
+                <string>193 149 222 36</string>
+            </attr>
+        </node>
+        <node id="n17213">
+            <attr name="layout">
+                <string>204 226 60 21</string>
+            </attr>
+        </node>
+        <node id="n17211">
+            <attr name="layout">
+                <string>179 22 57 36</string>
+            </attr>
+        </node>
+        <node id="n17212">
+            <attr name="layout">
+                <string>138 171 35 21</string>
+            </attr>
+        </node>
+        <edge to="n17213" from="n17210">
+            <attr name="label">
+                <string>int:lt</string>
+            </attr>
+            <attr name="layout">
+                <string>381 0 119 237 222 237 11</string>
+            </attr>
+        </edge>
+        <edge to="n17209" from="n17209">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge to="n17212" from="n17212">
+            <attr name="label">
+                <string>int:1</string>
+            </attr>
+        </edge>
+        <edge to="n17206" from="n17211">
+            <attr name="label">
+                <string>order</string>
+            </attr>
+        </edge>
+        <edge to="n17208" from="n17210">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge to="n17212" from="n17209">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge to="n17211" from="n17211">
+            <attr name="label">
+                <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge to="n17206" from="n17205">
+            <attr name="label">
+                <string>new:length</string>
+            </attr>
+        </edge>
+        <edge to="n17214" from="n17214">
+            <attr name="label">
+                <string>length is set to the current length + 1</string>
+            </attr>
+        </edge>
+        <edge to="n17207" from="n17209">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge to="n17213" from="n17215">
+            <attr name="label">
+                <string>test</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 297 312 234 236 12</string>
+            </attr>
+        </edge>
+        <edge to="n17215" from="n17215">
+            <attr name="label">
+                <string>... but only if the current length is smaller than 5</string>
+            </attr>
+        </edge>
+        <edge to="n17205" from="n17205">
+            <attr name="label">
+                <string>type:Buffer</string>
+            </attr>
+        </edge>
+        <edge to="n17207" from="n17214">
+            <attr name="label">
+                <string>old value</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 296 170 296 209 149 209 50 183 11</string>
+            </attr>
+        </edge>
+        <edge to="n17206" from="n17206">
+            <attr name="label">
+                <string>int:</string>
+            </attr>
+        </edge>
+        <edge to="n17214" from="n17214">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge to="n17206" from="n17209">
+            <attr name="label">
+                <string>int:add</string>
+            </attr>
+        </edge>
+        <edge to="n17207" from="n17207">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge to="n17215" from="n17215">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge to="n17207" from="n17205">
+            <attr name="label">
+                <string>del:length</string>
+            </attr>
+        </edge>
+        <edge to="n17206" from="n17214">
+            <attr name="label">
+                <string>new value</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 295 149 295 103 205 104 11</string>
+            </attr>
+        </edge>
+        <edge to="n17208" from="n17208">
+            <attr name="label">
+                <string>int:5</string>
+            </attr>
+        </edge>
+        <edge to="n17213" from="n17213">
+            <attr name="label">
+                <string>bool:true</string>
+            </attr>
+        </edge>
+        <edge to="n17207" from="n17210">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge to="n17210" from="n17210">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge to="n17211" from="n17205">
+            <attr name="label">
+                <string>entry</string>
+            </attr>
+        </edge>
+        <edge to="n17211" from="n17211">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
