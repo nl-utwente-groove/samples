@@ -50,14 +50,14 @@
                 <string>rem:</string>
             </attr>
         </edge>
-        <edge to="n1614" from="n1614">
-            <attr name="label">
-                <string>rem:Anonymous parameter node</string>
-            </attr>
-        </edge>
         <edge to="n1611" from="n1614">
             <attr name="label">
                 <string>rem:this</string>
+            </attr>
+        </edge>
+        <edge to="n1614" from="n1614">
+            <attr name="label">
+                <string>rem:Anonymous parameter node</string>
             </attr>
         </edge>
         <edge to="n1611" from="n1611">
@@ -112,17 +112,9 @@ The arguments will be data values</string>
                 <string>int:</string>
             </attr>
         </edge>
-        <edge to="n1613" from="n1613">
+        <edge to="n1611" from="n1613">
             <attr name="label">
-                <string>Person</string>
-            </attr>
-        </edge>
-        <edge to="n1610" from="n1613">
-            <attr name="label">
-                <string>not:=</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 141 127 141 55 399 55 399 128 11</string>
+                <string>knows</string>
             </attr>
         </edge>
         <edge to="n1610" from="n1613">
@@ -133,9 +125,12 @@ The arguments will be data values</string>
                 <string>500 0 141 127 141 55 399 55 399 128 11</string>
             </attr>
         </edge>
-        <edge to="n1611" from="n1613">
+        <edge to="n1610" from="n1613">
             <attr name="label">
-                <string>knows</string>
+                <string>not:=</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 141 127 141 55 399 55 399 128 11</string>
             </attr>
         </edge>
         <edge to="n1610" from="n1613">
@@ -149,6 +144,11 @@ The arguments will be data values</string>
         <edge to="n1609" from="n1613">
             <attr name="label">
                 <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n1613" from="n1613">
+            <attr name="label">
+                <string>Person</string>
             </attr>
         </edge>
         <edge to="n1610" from="n1610">
