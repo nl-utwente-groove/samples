@@ -7,59 +7,34 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n2">
+        <node id="n3">
             <attr name="layout">
-                <string>235 229 34 27</string>
-            </attr>
-        </node>
-        <node id="n0">
-            <attr name="layout">
-                <string>166 149 49 51</string>
-            </attr>
-        </node>
-        <node id="n4">
-            <attr name="layout">
-                <string>253 320 43 27</string>
+                <string>182 297 28 31</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>277 138 21 27</string>
+                <string>274 135 27 33</string>
             </attr>
         </node>
-        <node id="n3">
+        <node id="n4">
             <attr name="layout">
-                <string>168 287 56 51</string>
+                <string>251 317 47 33</string>
             </attr>
         </node>
-        <edge to="n4" from="n4">
-            <attr name="label">
-                <string>bool:true</string>
+        <node id="n0">
+            <attr name="layout">
+                <string>176 159 29 31</string>
             </attr>
-        </edge>
-        <edge to="n1" from="n0">
-            <attr name="label">
-                <string>x</string>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>232 226 40 33</string>
             </attr>
-        </edge>
-        <edge to="n2" from="n0">
-            <attr name="label">
-                <string>x</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n0">
-            <attr name="label">
-                <string>x</string>
-            </attr>
-        </edge>
+        </node>
         <edge to="n3" from="n3">
             <attr name="label">
-                <string>A</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>int:1</string>
+                <string>type:A</string>
             </attr>
         </edge>
         <edge to="n2" from="n3">
@@ -72,9 +47,34 @@
                 <string>x</string>
             </attr>
         </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>int:1</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>bool:true</string>
+            </attr>
+        </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>A</string>
+                <string>type:A</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n0">
+            <attr name="label">
+                <string>x</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n0">
+            <attr name="label">
+                <string>x</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n0">
+            <attr name="label">
+                <string>x</string>
             </attr>
         </edge>
         <edge to="n2" from="n2">
