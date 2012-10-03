@@ -1,53 +1,93 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph edgemode="directed" edgeids="false" role="rule" id="del-cell">
-        <attr name="$version">
-            <string>curly</string>
-        </attr>
         <attr name="remark">
             <string>Removes the highest index cell from the buffer</string>
         </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n17220">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n17221">
             <attr name="layout">
-                <string>221 204 7 15</string>
-            </attr>
-        </node>
-        <node id="n17218">
-            <attr name="layout">
-                <string>276 138 15 15</string>
-            </attr>
-        </node>
-        <node id="n17217">
-            <attr name="layout">
-                <string>116 78 33 15</string>
-            </attr>
-        </node>
-        <node id="n17219">
-            <attr name="layout">
-                <string>167 137 15 15</string>
+                <string>108 196 41 33</string>
             </attr>
         </node>
         <node id="n17216">
             <attr name="layout">
-                <string>3 78 18 15</string>
+                <string>-8 70 41 31</string>
             </attr>
         </node>
-        <node id="n17221">
+        <node id="n17219">
             <attr name="layout">
-                <string>121 205 15 15</string>
+                <string>153 123 43 43</string>
             </attr>
         </node>
+        <node id="n17217">
+            <attr name="layout">
+                <string>103 70 58 31</string>
+            </attr>
+        </node>
+        <node id="n17218">
+            <attr name="layout">
+                <string>258 119 50 52</string>
+            </attr>
+        </node>
+        <node id="n17220">
+            <attr name="layout">
+                <string>211 195 27 33</string>
+            </attr>
+        </node>
+        <edge to="n17221" from="n17221">
+            <attr name="label">
+                <string>int:</string>
+            </attr>
+        </edge>
+        <edge to="n17216" from="n17216">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge to="n17216" from="n17216">
+            <attr name="label">
+                <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge to="n17221" from="n17216">
+            <attr name="label">
+                <string>order</string>
+            </attr>
+        </edge>
+        <edge to="n17219" from="n17219">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge to="n17220" from="n17219">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
         <edge to="n17218" from="n17219">
             <attr name="label">
                 <string>int:sub</string>
             </attr>
         </edge>
-        <edge to="n17221" from="n17221">
+        <edge to="n17221" from="n17219">
             <attr name="label">
-                <string>attr:</string>
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge to="n17217" from="n17217">
+            <attr name="label">
+                <string>type:Buffer</string>
+            </attr>
+        </edge>
+        <edge to="n17218" from="n17217">
+            <attr name="label">
+                <string>new:length</string>
             </attr>
         </edge>
         <edge to="n17221" from="n17217">
@@ -58,59 +98,19 @@
                 <string>481 2 137 87 129 203 11</string>
             </attr>
         </edge>
-        <edge to="n17218" from="n17218">
-            <attr name="label">
-                <string>attr:</string>
-            </attr>
-        </edge>
-        <edge to="n17221" from="n17219">
-            <attr name="label">
-                <string>arg:0</string>
-            </attr>
-        </edge>
-        <edge to="n17219" from="n17219">
-            <attr name="label">
-                <string>prod:</string>
-            </attr>
-        </edge>
-        <edge to="n17221" from="n17216">
-            <attr name="label">
-                <string>order</string>
-            </attr>
-        </edge>
-        <edge to="n17218" from="n17217">
-            <attr name="label">
-                <string>new:length</string>
-            </attr>
-        </edge>
-        <edge to="n17220" from="n17219">
-            <attr name="label">
-                <string>arg:1</string>
-            </attr>
-        </edge>
-        <edge to="n17216" from="n17216">
-            <attr name="label">
-                <string>del:</string>
-            </attr>
-        </edge>
-        <edge to="n17220" from="n17220">
-            <attr name="label">
-                <string>int:1</string>
-            </attr>
-        </edge>
-        <edge to="n17217" from="n17217">
-            <attr name="label">
-                <string>type:Buffer</string>
-            </attr>
-        </edge>
         <edge to="n17216" from="n17217">
             <attr name="label">
                 <string>entry</string>
             </attr>
         </edge>
-        <edge to="n17216" from="n17216">
+        <edge to="n17218" from="n17218">
             <attr name="label">
-                <string>type:Cell</string>
+                <string></string>
+            </attr>
+        </edge>
+        <edge to="n17220" from="n17220">
+            <attr name="label">
+                <string>int:1</string>
             </attr>
         </edge>
     </graph>

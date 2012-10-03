@@ -7,24 +7,24 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n2">
-            <attr name="layout">
-                <string>272 173 17 17</string>
-            </attr>
-        </node>
         <node id="n0">
             <attr name="layout">
-                <string>167 108 18 21</string>
+                <string>162 103 28 31</string>
             </attr>
         </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>265 166 31 31</string>
+            </attr>
+        </node>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>type:A</string>
+            </attr>
+        </edge>
         <edge to="n2" from="n0">
             <attr name="label">
                 <string>del:x</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>A</string>
             </attr>
         </edge>
     </graph>
