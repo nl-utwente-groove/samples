@@ -1,59 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph edgemode="directed" edgeids="false" role="rule" id="add-element">
-        <node id="n2">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n3">
             <attr name="layout">
-                <string>104 249 30 18</string>
-            </attr>
-        </node>
-        <node id="n0">
-            <attr name="layout">
-                <string>105 89 24 18</string>
-            </attr>
-        </node>
-        <node id="n4">
-            <attr name="layout">
-                <string>224 248 30 18</string>
-            </attr>
-        </node>
-        <node id="n5">
-            <attr name="layout">
-                <string>172 183 34 18</string>
+                <string>288 81 60 31</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>297 184 30 18</string>
+                <string>291 176 41 33</string>
             </attr>
         </node>
-        <node id="n3">
+        <node id="n5">
             <attr name="layout">
-                <string>298 82 40 30</string>
+                <string>167 170 43 43</string>
             </attr>
         </node>
-        <edge to="n0" from="n0">
+        <node id="n4">
+            <attr name="layout">
+                <string>225 240 27 33</string>
+            </attr>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>98 82 38 31</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>98 241 41 33</string>
+            </attr>
+        </node>
+        <edge to="n3" from="n3">
             <attr name="label">
-                <string>List</string>
+                <string>new:</string>
             </attr>
         </edge>
-        <edge to="n1" from="n0">
+        <edge to="n3" from="n3">
             <attr name="label">
-                <string>new:length</string>
-            </attr>
-        </edge>
-        <edge to="n5" from="n5">
-            <attr name="label">
-                <string>prod:</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>attr:</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n5">
-            <attr name="label">
-                <string>arg:0</string>
+                <string>new:type:Object</string>
             </attr>
         </edge>
         <edge to="n1" from="n3">
@@ -61,9 +49,27 @@
                 <string>new:order</string>
             </attr>
         </edge>
-        <edge to="n3" from="n3">
+        <edge to="n1" from="n1">
             <attr name="label">
-                <string>new:</string>
+                <string>int:</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n5">
+            <attr name="label">
+                <string>int:add</string>
+            </attr>
+            <attr name="layout">
+                <string>434 4 214 192 297 192 11</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n5">
+            <attr name="label">
+                <string>arg:0</string>
             </attr>
         </edge>
         <edge to="n4" from="n5">
@@ -76,17 +82,9 @@
                 <string>int:1</string>
             </attr>
         </edge>
-        <edge to="n1" from="n5">
+        <edge to="n0" from="n0">
             <attr name="label">
-                <string>int:add</string>
-            </attr>
-            <attr name="layout">
-                <string>434 4 214 192 297 192 11</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>attr:</string>
+                <string>type:List</string>
             </attr>
         </edge>
         <edge to="n3" from="n0">
@@ -94,14 +92,19 @@
                 <string>new:element</string>
             </attr>
         </edge>
+        <edge to="n1" from="n0">
+            <attr name="label">
+                <string>new:length</string>
+            </attr>
+        </edge>
         <edge to="n2" from="n0">
             <attr name="label">
                 <string>del:length</string>
             </attr>
         </edge>
-        <edge to="n3" from="n3">
+        <edge to="n2" from="n2">
             <attr name="label">
-                <string>new:Object</string>
+                <string>int:</string>
             </attr>
         </edge>
     </graph>
