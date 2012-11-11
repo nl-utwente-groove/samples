@@ -12,32 +12,42 @@
         </attr>
         <node id="n17221">
             <attr name="layout">
-                <string>108 196 41 33</string>
+                <string>155 160 41 33</string>
             </attr>
         </node>
         <node id="n17216">
             <attr name="layout">
-                <string>-8 70 41 31</string>
+                <string>39 34 41 31</string>
             </attr>
         </node>
         <node id="n17219">
             <attr name="layout">
-                <string>153 123 43 43</string>
+                <string>200 87 43 43</string>
             </attr>
         </node>
         <node id="n17217">
             <attr name="layout">
-                <string>103 70 58 31</string>
+                <string>150 34 58 31</string>
             </attr>
         </node>
         <node id="n17218">
             <attr name="layout">
-                <string>258 119 50 52</string>
+                <string>309 92 41 33</string>
             </attr>
         </node>
         <node id="n17220">
             <attr name="layout">
-                <string>211 195 27 33</string>
+                <string>258 159 27 33</string>
+            </attr>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>224 209 228 31</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>5 180 150 46</string>
             </attr>
         </node>
         <edge to="n17221" from="n17221">
@@ -65,11 +75,6 @@
                 <string>prod:</string>
             </attr>
         </edge>
-        <edge to="n17220" from="n17219">
-            <attr name="label">
-                <string>arg:1</string>
-            </attr>
-        </edge>
         <edge to="n17218" from="n17219">
             <attr name="label">
                 <string>int:sub</string>
@@ -78,6 +83,11 @@
         <edge to="n17221" from="n17219">
             <attr name="label">
                 <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge to="n17220" from="n17219">
+            <attr name="label">
+                <string>arg:1</string>
             </attr>
         </edge>
         <edge to="n17217" from="n17217">
@@ -95,7 +105,7 @@
                 <string>del:length</string>
             </attr>
             <attr name="layout">
-                <string>481 2 137 87 129 203 11</string>
+                <string>481 2 179 49 175 176 11</string>
             </attr>
         </edge>
         <edge to="n17216" from="n17217">
@@ -111,6 +121,45 @@
         <edge to="n17220" from="n17220">
             <attr name="label">
                 <string>int:1</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>rem:length is set to the current length - 1</string>
+            </attr>
+        </edge>
+        <edge to="n17218" from="n0">
+            <attr name="label">
+                <string>new value</string>
+            </attr>
+        </edge>
+        <edge to="n17221" from="n0">
+            <attr name="label">
+                <string>old value</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 304 226 174 229 175 176 11</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>rem:cell with old index value
+is deleted</string>
+            </attr>
+        </edge>
+        <edge to="n17216" from="n1">
+            <attr name="label">
+                <string>this one</string>
             </attr>
         </edge>
     </graph>

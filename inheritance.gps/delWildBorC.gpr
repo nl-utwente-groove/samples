@@ -1,40 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph edgemode="directed" edgeids="false" role="rule" id="AaB">
+    <graph edgemode="directed" edgeids="false" role="rule" id="delWildBorC">
         <attr name="$version">
             <string>curly</string>
         </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n102">
+        <node id="n371">
             <attr name="layout">
-                <string>76 57 29 31</string>
-            </attr>
-        </node>
-        <node id="n103">
-            <attr name="layout">
-                <string>180 57 28 31</string>
+                <string>141 40 57 31</string>
             </attr>
         </node>
         <node id="n0">
             <attr name="layout">
-                <string>100 119 212 31</string>
+                <string>32 123 330 31</string>
             </attr>
         </node>
-        <edge to="n102" from="n102">
+        <edge to="n371" from="n371">
             <attr name="label">
-                <string>type:A</string>
+                <string>del:</string>
             </attr>
         </edge>
-        <edge to="n103" from="n102">
+        <edge to="n371" from="n371">
             <attr name="label">
-                <string>del:a</string>
-            </attr>
-        </edge>
-        <edge to="n103" from="n103">
-            <attr name="label">
-                <string>type:B</string>
+                <string>type:?[B,C]</string>
             </attr>
         </edge>
         <edge to="n0" from="n0">
@@ -44,12 +34,12 @@
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>rem:Target of a-edge is specialised to B</string>
+                <string>rem:Wildcard matching all nodes of type B or C (or subtypes)</string>
             </attr>
         </edge>
-        <edge to="n103" from="n0">
+        <edge to="n371" from="n0">
             <attr name="label">
-                <string>target</string>
+                <string>wildcard type</string>
             </attr>
         </edge>
     </graph>
