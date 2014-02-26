@@ -4,29 +4,16 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <attr name="$version">
-            <string>curly</string>
-        </attr>
-        <node id="n371">
-            <attr name="layout">
-                <string>141 40 57 31</string>
-            </attr>
-        </node>
         <node id="n0">
             <attr name="layout">
-                <string>32 123 330 31</string>
+                <string>42 131 310 15</string>
             </attr>
         </node>
-        <edge to="n371" from="n371">
-            <attr name="label">
-                <string>del:</string>
+        <node id="n371">
+            <attr name="layout">
+                <string>151 40 37 30</string>
             </attr>
-        </edge>
-        <edge to="n371" from="n371">
-            <attr name="label">
-                <string>type:?[B,C]</string>
-            </attr>
-        </edge>
+        </node>
         <edge to="n0" from="n0">
             <attr name="label">
                 <string>rem:</string>
@@ -39,7 +26,22 @@
         </edge>
         <edge to="n371" from="n0">
             <attr name="label">
-                <string>wildcard type</string>
+                <string>rem:wildcard type</string>
+            </attr>
+        </edge>
+        <edge to="n371" from="n371">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge to="n371" from="n371">
+            <attr name="label">
+                <string>type:A</string>
+            </attr>
+        </edge>
+        <edge to="n371" from="n371">
+            <attr name="label">
+                <string>type:?[B,C]</string>
             </attr>
         </edge>
     </graph>
