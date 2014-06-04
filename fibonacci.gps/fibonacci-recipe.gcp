@@ -1,0 +1,15 @@
+recipe fib(int x, out int result) {
+	try {
+		( one(x) | zero(x)); one(out result);
+	} else {
+		int y, z;
+		decr(x, out x);
+		fib(x, out y);
+		decr(x, out x);
+		fib(x, out z);
+		add(y, z, out result);
+	}
+}
+
+int result;
+fib(6, out result);
