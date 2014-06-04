@@ -9,6 +9,11 @@
                 <string>101 91 7 15</string>
             </attr>
         </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>65 33 113 15</string>
+            </attr>
+        </node>
         <edge to="n0" from="n0">
             <attr name="label">
                 <string>par:0</string>
@@ -17,6 +22,16 @@
         <edge to="n0" from="n0">
             <attr name="label">
                 <string>int:1</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>rem:tests for or assigns 1</string>
             </attr>
         </edge>
     </graph>
