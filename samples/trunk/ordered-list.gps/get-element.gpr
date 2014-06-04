@@ -4,59 +4,67 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n3">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n2">
             <attr name="layout">
-                <string>96 82 42 31</string>
-            </attr>
-        </node>
-        <node id="n1">
-            <attr name="layout">
-                <string>98 241 41 33</string>
-            </attr>
-        </node>
-        <node id="n5">
-            <attr name="layout">
-                <string>289 81 57 31</string>
-            </attr>
-        </node>
-        <node id="n4">
-            <attr name="layout">
-                <string>225 240 27 33</string>
+                <string>171 182 19 19</string>
             </attr>
         </node>
         <node id="n0">
             <attr name="layout">
-                <string>298 172 41 33</string>
+                <string>310 181 17 15</string>
             </attr>
         </node>
-        <node id="n2">
+        <node id="n4">
             <attr name="layout">
-                <string>159 170 43 43</string>
+                <string>235 249 7 15</string>
             </attr>
         </node>
-        <edge to="n3" from="n3">
+        <node id="n5">
+            <attr name="layout">
+                <string>297 89 40 15</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>110 250 17 15</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>106 90 22 15</string>
+            </attr>
+        </node>
+        <edge to="n2" from="n2">
             <attr name="label">
-                <string>type:List</string>
+                <string></string>
             </attr>
         </edge>
-        <edge to="n1" from="n3">
+        <edge to="n4" from="n2">
             <attr name="label">
-                <string>new:length</string>
+                <string>arg:1</string>
             </attr>
         </edge>
-        <edge to="n5" from="n3">
+        <edge to="n0" from="n2">
             <attr name="label">
-                <string>del:element</string>
+                <string>arg:0</string>
             </attr>
         </edge>
-        <edge to="n0" from="n3">
+        <edge to="n1" from="n2">
             <attr name="label">
-                <string>del:length</string>
+                <string>int:sub</string>
             </attr>
         </edge>
-        <edge to="n1" from="n1">
+        <edge to="n0" from="n0">
             <attr name="label">
                 <string>int:</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>int:1</string>
             </attr>
         </edge>
         <edge to="n5" from="n5">
@@ -74,29 +82,29 @@
                 <string>del:order</string>
             </attr>
         </edge>
-        <edge to="n4" from="n4">
-            <attr name="label">
-                <string>int:1</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
+        <edge to="n1" from="n1">
             <attr name="label">
                 <string>int:</string>
             </attr>
         </edge>
-        <edge to="n4" from="n2">
+        <edge to="n3" from="n3">
             <attr name="label">
-                <string>arg:1</string>
+                <string>type:List</string>
             </attr>
         </edge>
-        <edge to="n1" from="n2">
+        <edge to="n5" from="n3">
             <attr name="label">
-                <string>int:sub</string>
+                <string>del:element</string>
             </attr>
         </edge>
-        <edge to="n0" from="n2">
+        <edge to="n0" from="n3">
             <attr name="label">
-                <string>arg:0</string>
+                <string>del:length</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n3">
+            <attr name="label">
+                <string>new:length</string>
             </attr>
         </edge>
     </graph>

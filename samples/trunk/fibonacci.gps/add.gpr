@@ -4,14 +4,9 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n0">
+        <node id="n3">
             <attr name="layout">
-                <string>125 98 17 15</string>
-            </attr>
-        </node>
-        <node id="n1">
-            <attr name="layout">
-                <string>125 173 17 15</string>
+                <string>311 136 17 15</string>
             </attr>
         </node>
         <node id="n2">
@@ -19,39 +14,34 @@
                 <string>206 134 19 19</string>
             </attr>
         </node>
-        <node id="n3">
+        <node id="n1">
             <attr name="layout">
-                <string>311 136 17 15</string>
+                <string>125 173 17 15</string>
             </attr>
         </node>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>parin:0</string>
+        <node id="n0">
+            <attr name="layout">
+                <string>125 98 17 15</string>
             </attr>
-        </edge>
-        <edge to="n0" from="n0">
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>176 39 111 15</string>
+            </attr>
+        </node>
+        <edge to="n3" from="n3">
             <attr name="label">
                 <string>int:</string>
             </attr>
         </edge>
-        <edge to="n1" from="n1">
+        <edge to="n3" from="n3">
             <attr name="label">
-                <string>parin:1</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>int:</string>
+                <string>par:2</string>
             </attr>
         </edge>
         <edge to="n2" from="n2">
             <attr name="label">
                 <string>prod:</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n2">
-            <attr name="label">
-                <string>arg:0</string>
             </attr>
         </edge>
         <edge to="n1" from="n2">
@@ -64,14 +54,39 @@
                 <string>int:add</string>
             </attr>
         </edge>
-        <edge to="n3" from="n3">
+        <edge to="n0" from="n2">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>parin:1</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
             <attr name="label">
                 <string>int:</string>
             </attr>
         </edge>
-        <edge to="n3" from="n3">
+        <edge to="n0" from="n0">
             <attr name="label">
-                <string>par:2</string>
+                <string>parin:0</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>int:</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>rem:assigns $1+$2 to $3</string>
             </attr>
         </edge>
     </graph>
