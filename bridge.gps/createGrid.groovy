@@ -1,11 +1,11 @@
-import groove.graph.GraphRole;
+import nl.utwente.groove.graph.GraphRole;
 
 //available vars:
 //simulator
 //simulatorModel
 //manager <- Most useful for new graphs etc
 
-dialog = groove.gui.dialog.StringDialog.createStringDialog("Enter name for the grid");
+dialog = nl.utwente.groove.gui.dialog.StringDialog.createStringDialog("Enter name for the grid");
 name = dialog.showDialog();
 if (name == null)
 	return;
