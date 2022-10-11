@@ -1,4 +1,4 @@
-import groove.graph.GraphRole;
+import nl.utwente.groove.graph.GraphRole;
 
 //available vars:
 //simulator
