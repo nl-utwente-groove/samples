@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph role="rule" edgeids="false" edgemode="directed" id="cnew-node-new-edge">
+        <attr name="printFormat">
+            <string></string>
+        </attr>
+        <attr name="remark">
+            <string></string>
+        </attr>
+        <attr name="priority">
+            <string></string>
+        </attr>
+        <attr name="actionRole">
+            <string></string>
+        </attr>
+        <attr name="injective">
+            <string>true</string>
+        </attr>
+        <attr name="enabled">
+            <string></string>
+        </attr>
+        <attr name="transitionLabel">
+            <string></string>
+        </attr>
+        <attr name="matchFilter">
+            <string></string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n0">
+            <attr name="layout">
+                <string>173 142 9 18</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>295 140 9 18</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>91 41 388 36</string>
+            </attr>
+        </node>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>type:A</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n1">
+            <attr name="label">
+                <string>new:next</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>cnew:</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>type:A</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>rem:A second A-node, and a next-edge from first to second, is created</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>rem:if there is no second A-node at all</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n0">
+            <attr name="label">
+                <string>rem:first</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n1">
+            <attr name="label">
+                <string>rem:second</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
