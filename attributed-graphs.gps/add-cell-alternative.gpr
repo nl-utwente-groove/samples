@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph edgemode="directed" edgeids="false" role="rule" id="add-cell-alternative">
-        <attr name="transitionLabel">
-            <string></string>
-        </attr>
-        <attr name="enabled">
-            <string>true</string>
-        </attr>
-        <attr name="priority">
-            <string>0</string>
-        </attr>
+    <graph role="rule" edgeids="false" edgemode="directed" id="add-cell-alternative">
         <attr name="printFormat">
             <string></string>
         </attr>
@@ -19,54 +10,78 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
+        <attr name="priority">
+            <string>0</string>
+        </attr>
+        <attr name="enabled">
+            <string>true</string>
+        </attr>
+        <attr name="transitionLabel">
+            <string></string>
+        </attr>
         <node id="n17211">
             <attr name="layout">
-                <string>280 27 141 30</string>
+                <string>293 42 109 36</string>
             </attr>
         </node>
         <node id="n17205">
             <attr name="layout">
-                <string>65 17 158 45</string>
+                <string>65 30 125 54</string>
             </attr>
         </node>
-        <edge to="n17211" from="n17211">
+        <node id="n0">
+            <attr name="layout">
+                <string>144 123 167 18</string>
+            </attr>
+        </node>
+        <edge from="n17211" to="n17211">
             <attr name="label">
                 <string>new:</string>
             </attr>
         </edge>
-        <edge to="n17211" from="n17211">
+        <edge from="n17211" to="n17211">
             <attr name="label">
                 <string>type:Cell</string>
             </attr>
         </edge>
-        <edge to="n17211" from="n17211">
+        <edge from="n17211" to="n17211">
             <attr name="label">
-                <string>let:order = int:add(int:b.length, int:1)</string>
+                <string>let:order = newLength</string>
             </attr>
         </edge>
-        <edge to="n17205" from="n17205">
+        <edge from="n17205" to="n17205">
             <attr name="label">
                 <string>id:b</string>
             </attr>
         </edge>
-        <edge to="n17205" from="n17205">
+        <edge from="n17205" to="n17205">
             <attr name="label">
                 <string>type:Buffer</string>
             </attr>
         </edge>
-        <edge to="n17205" from="n17205">
+        <edge from="n17205" to="n17205">
             <attr name="label">
-                <string>let:length = int:add(int:self.length, int:1)</string>
+                <string>let:length = newLength</string>
             </attr>
         </edge>
-        <edge to="n17205" from="n17205">
+        <edge from="n17205" to="n17205">
             <attr name="label">
                 <string>test:int:lt(int:self.length, int:5)</string>
             </attr>
         </edge>
-        <edge to="n17211" from="n17205">
+        <edge from="n17205" to="n17211">
             <attr name="label">
                 <string>entry</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>id:newLength</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>int:b.length+1</string>
             </attr>
         </edge>
     </graph>
