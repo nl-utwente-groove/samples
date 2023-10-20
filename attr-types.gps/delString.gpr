@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph edgemode="directed" edgeids="false" role="rule" id="delString">
-        <attr name="transitionLabel">
-            <string></string>
-        </attr>
-        <attr name="enabled">
-            <string>true</string>
-        </attr>
+    <graph role="rule" edgeids="false" edgemode="directed" id="delString">
         <attr name="printFormat">
             <string></string>
-        </attr>
-        <attr name="priority">
-            <string>0</string>
         </attr>
         <attr name="remark">
             <string>Deletes a string-typed x-attribute</string>
@@ -19,42 +10,41 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
+        <attr name="priority">
+            <string>0</string>
+        </attr>
+        <attr name="enabled">
+            <string>true</string>
+        </attr>
+        <attr name="transitionLabel">
+            <string></string>
+        </attr>
         <node id="n0">
             <attr name="layout">
-                <string>86 59 29 31</string>
-            </attr>
-        </node>
-        <node id="n4">
-            <attr name="layout">
-                <string>204 62 64 33</string>
+                <string>86 56 81 36</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>56 114 257 31</string>
+                <string>58 120 253 18</string>
             </attr>
         </node>
-        <edge to="n0" from="n0">
+        <edge from="n0" to="n0">
             <attr name="label">
                 <string>type:A</string>
             </attr>
         </edge>
-        <edge to="n4" from="n0">
+        <edge from="n0" to="n0">
             <attr name="label">
-                <string>del:x</string>
+                <string>del:string:x</string>
             </attr>
         </edge>
-        <edge to="n4" from="n4">
-            <attr name="label">
-                <string>string:</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
+        <edge from="n1" to="n1">
             <attr name="label">
                 <string>rem:</string>
             </attr>
         </edge>
-        <edge to="n1" from="n1">
+        <edge from="n1" to="n1">
             <attr name="label">
                 <string>rem:Deletes an x-edge only if it goes to a string</string>
             </attr>
