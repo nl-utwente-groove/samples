@@ -1,0 +1,29 @@
+name: GROOVE samples release
+
+on:
+  push:
+    branches: [ "master" ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout rule systems
+        uses: actions/checkout@v4
+
+      - name: Create zips
+        run: zip-all.sh
+        
+      - name: Retrieve GROOVE version from file
+        run: echo "VERSION=$(<src/main/resources/nl/utwente/groove/resource/version/GROOVE_VERSION) | tr '.' '_'" >> $GITHUB_ENV
+
+      - name: Deploy release
+        uses: ncipollo/release-action@v1.14.0
+        with:
+          artifacts: "code/release/target/*.zip"
+          draft: false
+          prerelease: true
+          tag: release-${{ env.VERSION }}
