@@ -8,17 +8,23 @@ on:
 
 jobs:
   build:
+    name: Zip and deploy release
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout rule systems
         uses: actions/checkout@v4
 
+      - name: Check out GROOVE code for version number
+        uses: actions/checkout@v4
+        with:
+          path: 'code'
+
       - name: Create zips
         run: ./zip-all.sh
         
       - name: Retrieve GROOVE version from file
-        run: echo "VERSION=`cat src/main/resources/nl/utwente/groove/resource/version/GROOVE_VERSION | tr '.' '_'`" >> $GITHUB_ENV
+        run: echo "VERSION=`cat code/src/main/resources/nl/utwente/groove/resource/version/GROOVE_VERSION | tr '.' '_'`" >> $GITHUB_ENV
 
       - name: Deploy release
         uses: ncipollo/release-action@v1.14.0
@@ -26,4 +32,4 @@ jobs:
           artifacts: "code/release/target/*.zip"
           draft: false
           prerelease: true
-          tag: release-${{ env.VERSION }}
+          tag: release${{ env.VERSION }}
