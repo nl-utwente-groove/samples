@@ -1,32 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph role="rule" edgeids="false" edgemode="directed" id="delString">
-        <attr name="printFormat">
-            <string></string>
-        </attr>
-        <attr name="remark">
-            <string>Deletes a string-typed x-attribute</string>
-        </attr>
+    <graph role="rule" edgeids="false" edgemode="directed" id="newInt">
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <attr name="priority">
-            <string>0</string>
-        </attr>
-        <attr name="enabled">
-            <string>true</string>
-        </attr>
-        <attr name="transitionLabel">
-            <string></string>
-        </attr>
         <node id="n0">
             <attr name="layout">
-                <string>86 56 81 36</string>
+                <string>83 94 66 36</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>58 120 253 18</string>
+                <string>85 190 264 18</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
@@ -36,7 +21,7 @@
         </edge>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>del:string:x</string>
+                <string>new:let:x=x+1</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
@@ -46,7 +31,7 @@
         </edge>
         <edge from="n1" to="n1">
             <attr name="label">
-                <string>rem:Deletes an x-edge only if it goes to a string</string>
+                <string>rem:Creates a new int-valued attribute x</string>
             </attr>
         </edge>
     </graph>
