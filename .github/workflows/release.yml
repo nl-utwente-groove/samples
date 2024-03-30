@@ -26,4 +26,4 @@ jobs:
           artifacts: "code/release/target/*.zip"
           draft: false
           prerelease: true
-          tag: ${{ env.VERSION }}
+          tag: release-${{ env.VERSION }}
