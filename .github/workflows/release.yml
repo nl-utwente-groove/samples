@@ -34,5 +34,5 @@ jobs:
         with:
           artifacts: "samples/*.zip"
           draft: false
-          prerelease: true
+          prerelease: false
           tag: release-${{ env.VERSION }}
