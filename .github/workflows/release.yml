@@ -15,7 +15,7 @@ jobs:
       - name: Checkout sample rule systems
         uses: actions/checkout@v4
         with:
-          path: 'code'
+          path: 'samples'
 
       - name: Check out GROOVE code for version number
         uses: actions/checkout@v4
