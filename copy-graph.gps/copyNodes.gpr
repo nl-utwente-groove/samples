@@ -1,88 +1,115 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph edgemode="directed" edgeids="false" role="rule" id="copyNodes">
+    <graph role="rule" edgeids="false" edgemode="directed" id="copyNodes">
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <attr name="$version">
-            <string>curly</string>
-        </attr>
-        <node id="n16824">
+        <node id="n0">
             <attr name="layout">
-                <string>236 122 15 15</string>
+                <string>52 43 386 36</string>
             </attr>
         </node>
-        <node id="n16825">
+        <node id="n1">
             <attr name="layout">
-                <string>93 194 34 15</string>
-            </attr>
-        </node>
-        <node id="n16826">
-            <attr name="layout">
-                <string>94 122 29 15</string>
+                <string>211 275 334 36</string>
             </attr>
         </node>
         <node id="n16823">
             <attr name="layout">
-                <string>192 182 28 15</string>
+                <string>231 207 19 19</string>
             </attr>
         </node>
-        <node id="n16827">
+        <node id="n16824">
             <attr name="layout">
-                <string>312 254 23 15</string>
+                <string>234 120 19 19</string>
             </attr>
         </node>
-        <edge to="n16823" from="n16824">
+        <node id="n16825">
+            <attr name="layout">
+                <string>106 206 8 18</string>
+            </attr>
+        </node>
+        <node id="n16826">
+            <attr name="layout">
+                <string>96 117 25 24</string>
+            </attr>
+        </node>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>rem:The use of the non-vacuous quantifier forallx: ensures that the rule</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>rem:is only applicable if there is a node without copy</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n16826">
+            <attr name="label">
+                <string>rem:this</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>rem:The conditional creator cnew: ensures that a node cannot</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>rem:get a copy if it already has one</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n16823">
+            <attr name="label">
+                <string>rem:this</string>
+            </attr>
+        </edge>
+        <edge from="n16823" to="n16823">
+            <attr name="label">
+                <string>cnew:</string>
+            </attr>
+        </edge>
+        <edge from="n16823" to="n16825">
+            <attr name="label">
+                <string>nested:@</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 240 216 110 215 12</string>
+            </attr>
+        </edge>
+        <edge from="n16824" to="n16826">
+            <attr name="label">
+                <string>nested:@</string>
+            </attr>
+        </edge>
+        <edge from="n16824" to="n16823">
             <attr name="label">
                 <string>copy</string>
             </attr>
         </edge>
-        <edge to="n16827" from="n16824">
-            <attr name="label">
-                <string>copy</string>
-            </attr>
-        </edge>
-        <edge to="n16826" from="n16824">
-            <attr name="label">
-                <string>nested:at</string>
-            </attr>
-        </edge>
-        <edge to="n16826" from="n16826">
-            <attr name="label">
-                <string>forall:</string>
-            </attr>
-        </edge>
-        <edge to="n16825" from="n16827">
-            <attr name="label">
-                <string>nested:at</string>
-            </attr>
-        </edge>
-        <edge to="n16825" from="n16823">
-            <attr name="label">
-                <string>nested:at</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 192 194 135 201 12</string>
-            </attr>
-        </edge>
-        <edge to="n16823" from="n16823">
-            <attr name="label">
-                <string>new:</string>
-            </attr>
-        </edge>
-        <edge to="n16826" from="n16825">
-            <attr name="label">
-                <string>nested:in</string>
-            </attr>
-        </edge>
-        <edge to="n16825" from="n16825">
+        <edge from="n16825" to="n16825">
             <attr name="label">
                 <string>exists:</string>
             </attr>
         </edge>
-        <edge to="n16827" from="n16827">
+        <edge from="n16825" to="n16826">
             <attr name="label">
-                <string>not:</string>
+                <string>nested:in</string>
+            </attr>
+        </edge>
+        <edge from="n16826" to="n16826">
+            <attr name="label">
+                <string>forallx:</string>
             </attr>
         </edge>
     </graph>

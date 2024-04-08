@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph role="rule" edgeids="false" edgemode="directed" id="copyEdges">
+        <attr name="remark">
+            <string>Copies al edges between original nodes to their copies</string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n0">
+            <attr name="layout">
+                <string>31 40 386 36</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>543 126 410 18</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>546 188 350 18</string>
+            </attr>
+        </node>
+        <node id="n16818">
+            <attr name="layout">
+                <string>458 80 19 19</string>
+            </attr>
+        </node>
+        <node id="n16819">
+            <attr name="layout">
+                <string>391 197 19 19</string>
+            </attr>
+        </node>
+        <node id="n16820">
+            <attr name="layout">
+                <string>394 128 19 19</string>
+            </attr>
+        </node>
+        <node id="n16821">
+            <attr name="layout">
+                <string>154 157 25 24</string>
+            </attr>
+        </node>
+        <node id="n16822">
+            <attr name="layout">
+                <string>454 248 19 19</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>269 161 11 18</string>
+            </attr>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>61 288 377 18</string>
+            </attr>
+        </node>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>rem:The use of the non-vacuous quantifier forallx: ensures that the rule</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>rem:is only applicable if there is a node with a copy</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n16821">
+            <attr name="label">
+                <string>rem:this</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>rem:?x is a label variable that may match any (non-flag and non-type) label</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n16818">
+            <attr name="label">
+                <string>rem:target</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n16820">
+            <attr name="label">
+                <string>rem:source</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>rem:?x as a creator takes the value from the matched edge label</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n16819">
+            <attr name="label">
+                <string>rem:source</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n16822">
+            <attr name="label">
+                <string>rem:target</string>
+            </attr>
+        </edge>
+        <edge from="n16818" to="n16821">
+            <attr name="label">
+                <string>nested:@</string>
+            </attr>
+        </edge>
+        <edge from="n16818" to="n16822">
+            <attr name="label">
+                <string>del:copy</string>
+            </attr>
+        </edge>
+        <edge from="n16818" to="n16820">
+            <attr name="label">
+                <string>?x</string>
+            </attr>
+        </edge>
+        <edge from="n16819" to="n3">
+            <attr name="label">
+                <string>nested:@</string>
+            </attr>
+        </edge>
+        <edge from="n16820" to="n3">
+            <attr name="label">
+                <string>nested:@</string>
+            </attr>
+        </edge>
+        <edge from="n16820" to="n16819">
+            <attr name="label">
+                <string>copy</string>
+            </attr>
+        </edge>
+        <edge from="n16821" to="n16821">
+            <attr name="label">
+                <string>forallx:</string>
+            </attr>
+        </edge>
+        <edge from="n16822" to="n16821">
+            <attr name="label">
+                <string>nested:@</string>
+            </attr>
+            <attr name="layout">
+                <string>540 -2 463 257 222 168 11</string>
+            </attr>
+        </edge>
+        <edge from="n16822" to="n16819">
+            <attr name="label">
+                <string>new:?x</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>forall:</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n16821">
+            <attr name="label">
+                <string>in</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>rem:This nested universal ensures that all outgoing edges</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>rem:of the already matched outer node are copied</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n3">
+            <attr name="label">
+                <string>this</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

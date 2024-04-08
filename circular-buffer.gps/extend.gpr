@@ -1,86 +1,110 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph edgemode="directed" edgeids="false" role="rule" id="extend">
+    <graph role="rule" edgeids="false" edgemode="directed" id="extend">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <attr name="enabled">
             <string>false</string>
         </attr>
-        <attr name="$version">
-            <string>curly</string>
-        </attr>
-        <attr name="$version">
-            <string>curly</string>
-        </attr>
-        <node id="n6704">
+        <node id="n16796">
             <attr name="layout">
-                <string>226 153 31 21</string>
+                <string>132 132 23 18</string>
             </attr>
         </node>
-        <node id="n6705">
+        <node id="n16797">
             <attr name="layout">
-                <string>65 231 48 21</string>
+                <string>197 75 23 18</string>
             </attr>
         </node>
-        <node id="n6703">
+        <node id="n16798">
             <attr name="layout">
-                <string>70 152 31 21</string>
+                <string>124 15 38 18</string>
             </attr>
         </node>
-        <node id="n6706">
+        <node id="n16799">
             <attr name="layout">
-                <string>145 75 35 25</string>
+                <string>60 132 40 18</string>
             </attr>
         </node>
-        <edge to="n6706" from="n6706">
-            <attr name="label">
-                <string>type:Cell</string>
-            </attr>
-        </edge>
-        <edge to="n6703" from="n6705">
-            <attr name="label">
-                <string>last</string>
-            </attr>
-        </edge>
-        <edge to="n6704" from="n6706">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n6704" from="n6705">
-            <attr name="label">
-                <string>first</string>
-            </attr>
+        <node id="n16800">
             <attr name="layout">
-                <string>500 0 86 241 240 163 12</string>
+                <string>69 74 23 18</string>
             </attr>
-        </edge>
-        <edge to="n6705" from="n6705">
-            <attr name="label">
-                <string>type:Buffer</string>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>21 190 336 18</string>
             </attr>
-        </edge>
-        <edge to="n6706" from="n6706">
+        </node>
+        <edge from="n16796" to="n16796">
             <attr name="label">
                 <string>new:</string>
             </attr>
         </edge>
-        <edge to="n6704" from="n6703">
-            <attr name="label">
-                <string>del:next</string>
-            </attr>
-        </edge>
-        <edge to="n6703" from="n6703">
+        <edge from="n16796" to="n16796">
             <attr name="label">
                 <string>type:Cell</string>
             </attr>
         </edge>
-        <edge to="n6706" from="n6703">
+        <edge from="n16796" to="n16797">
             <attr name="label">
                 <string>next</string>
             </attr>
         </edge>
-        <edge to="n6704" from="n6704">
+        <edge from="n16797" to="n16797">
             <attr name="label">
                 <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge from="n16798" to="n16798">
+            <attr name="label">
+                <string>type:Buffer</string>
+            </attr>
+        </edge>
+        <edge from="n16798" to="n16800">
+            <attr name="label">
+                <string>last</string>
+            </attr>
+        </edge>
+        <edge from="n16798" to="n16797">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge from="n16799" to="n16799">
+            <attr name="label">
+                <string>type:Object</string>
+            </attr>
+        </edge>
+        <edge from="n16800" to="n16800">
+            <attr name="label">
+                <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge from="n16800" to="n16797">
+            <attr name="label">
+                <string>del:next</string>
+            </attr>
+        </edge>
+        <edge from="n16800" to="n16799">
+            <attr name="label">
+                <string>val</string>
+            </attr>
+        </edge>
+        <edge from="n16800" to="n16796">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>Inserts an empty cell in case the buffer is completely filled</string>
             </attr>
         </edge>
     </graph>

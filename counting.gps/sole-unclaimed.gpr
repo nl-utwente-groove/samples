@@ -1,68 +1,80 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph edgemode="directed" edgeids="false" role="rule" id="sole-unclaimed">
+    <graph role="rule" edgeids="false" edgemode="directed" id="sole-unclaimed">
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <attr name="$version">
-            <string>curly</string>
-        </attr>
-        <node id="n42">
-            <attr name="layout">
-                <string>143 88 51 31</string>
-            </attr>
-        </node>
         <node id="n41">
             <attr name="layout">
-                <string>278 88 43 46</string>
+                <string>283 96 9 18</string>
+            </attr>
+        </node>
+        <node id="n42">
+            <attr name="layout">
+                <string>154 94 29 18</string>
             </attr>
         </node>
         <node id="n43">
             <attr name="layout">
-                <string>198 171 29 31</string>
+                <string>208 177 9 18</string>
             </attr>
         </node>
-        <edge to="n42" from="n42">
-            <attr name="label">
-                <string>type:Root</string>
-            </attr>
-        </edge>
-        <edge to="n41" from="n42">
-            <attr name="label">
-                <string>!mine</string>
-            </attr>
-        </edge>
-        <edge to="n41" from="n41">
-            <attr name="label">
-                <string>type:A</string>
-            </attr>
-        </edge>
-        <edge to="n43" from="n43">
-            <attr name="label">
-                <string>type:A</string>
-            </attr>
-        </edge>
-        <edge to="n43" from="n42">
-            <attr name="label">
-                <string>new:mine</string>
-            </attr>
+        <node id="n0">
             <attr name="layout">
-                <string>229 37 158 97 114 174 206 180 11</string>
+                <string>122 235 460 18</string>
             </attr>
-        </edge>
-        <edge to="n43" from="n42">
-            <attr name="label">
-                <string>!mine</string>
-            </attr>
-        </edge>
-        <edge to="n41" from="n41">
+        </node>
+        <edge from="n41" to="n41">
             <attr name="label">
                 <string>not:</string>
             </attr>
         </edge>
-        <edge to="n43" from="n41">
+        <edge from="n41" to="n41">
+            <attr name="label">
+                <string>type:A</string>
+            </attr>
+        </edge>
+        <edge from="n41" to="n43">
             <attr name="label">
                 <string>!=</string>
+            </attr>
+        </edge>
+        <edge from="n42" to="n42">
+            <attr name="label">
+                <string>type:Root</string>
+            </attr>
+        </edge>
+        <edge from="n42" to="n43">
+            <attr name="label">
+                <string>!mine</string>
+            </attr>
+        </edge>
+        <edge from="n42" to="n43">
+            <attr name="label">
+                <string>new:mine</string>
+            </attr>
+            <attr name="layout">
+                <string>229 37 161 116 125 185 203 185 11</string>
+            </attr>
+        </edge>
+        <edge from="n42" to="n41">
+            <attr name="label">
+                <string>!mine</string>
+            </attr>
+        </edge>
+        <edge from="n43" to="n43">
+            <attr name="label">
+                <string>type:A</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>Claims an A-node as "mine" if it is the only A-node not already claimed as such</string>
             </attr>
         </edge>
     </graph>

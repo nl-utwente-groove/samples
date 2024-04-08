@@ -1,0 +1,8 @@
+alap {
+  // step 1: entering
+  alap { exit; }
+  // step 2: exiting
+  alap { enter; }
+  // step 3: a single move
+  move; 
+}

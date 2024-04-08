@@ -1,78 +1,95 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph edgemode="directed" edgeids="false" role="rule" id="get">
-        <attr name="$version">
-            <string>curly</string>
-        </attr>
+    <graph role="rule" edgeids="false" edgemode="directed" id="get">
         <attr name="remark">
             <string>Removes the first element from the circular buffer</string>
         </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n1">
+        <node id="n0">
             <attr name="layout">
-                <string>137 180 31 21</string>
+                <string>230 67 40 18</string>
             </attr>
         </node>
-        <node id="n3">
+        <node id="n1">
             <attr name="layout">
-                <string>42 131 48 21</string>
+                <string>141 181 23 18</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>134 74 31 21</string>
+                <string>138 75 23 18</string>
             </attr>
         </node>
-        <node id="n0">
+        <node id="n3">
             <attr name="layout">
-                <string>225 66 50 21</string>
+                <string>47 132 38 18</string>
             </attr>
         </node>
-        <edge to="n1" from="n3">
-            <attr name="label">
-                <string>new:first</string>
+        <node id="n4">
+            <attr name="layout">
+                <string>326 69 116 18</string>
             </attr>
-        </edge>
-        <edge to="n1" from="n2">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
+        </node>
+        <edge from="n0" to="n0">
             <attr name="label">
                 <string>del:</string>
             </attr>
         </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>type:Cell</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>type:Cell</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n2">
-            <attr name="label">
-                <string>val</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n3">
-            <attr name="label">
-                <string>type:Buffer</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
+        <edge from="n0" to="n0">
             <attr name="label">
                 <string>type:Object</string>
             </attr>
         </edge>
-        <edge to="n2" from="n3">
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n1">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n0">
+            <attr name="label">
+                <string>val</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>type:Buffer</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n1">
+            <attr name="label">
+                <string>new:first</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n2">
             <attr name="label">
                 <string>del:first</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>Node to be deleted</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n0">
+            <attr name="label">
+                <string>this</string>
             </attr>
         </edge>
     </graph>

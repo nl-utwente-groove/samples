@@ -4,6 +4,11 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
+        <node id="n16823">
+            <attr name="layout">
+                <string>237 194 13 18</string>
+            </attr>
+        </node>
         <node id="n16824">
             <attr name="layout">
                 <string>237 120 13 18</string>
@@ -19,16 +24,24 @@
                 <string>103 120 11 18</string>
             </attr>
         </node>
-        <node id="n16823">
-            <attr name="layout">
-                <string>199 180 13 18</string>
+        <edge from="n16823" to="n16823">
+            <attr name="label">
+                <string>cnew:</string>
             </attr>
-        </node>
-        <node id="n16827">
-            <attr name="layout">
-                <string>314 252 19 19</string>
+        </edge>
+        <edge from="n16823" to="n16823">
+            <attr name="label">
+                <string>type:?x</string>
             </attr>
-        </node>
+        </edge>
+        <edge from="n16823" to="n16825">
+            <attr name="label">
+                <string>nested:@</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 205 189 110 201 12</string>
+            </attr>
+        </edge>
         <edge from="n16824" to="n16824">
             <attr name="label">
                 <string>type:?x</string>
@@ -40,11 +53,6 @@
             </attr>
         </edge>
         <edge from="n16824" to="n16823">
-            <attr name="label">
-                <string>copy</string>
-            </attr>
-        </edge>
-        <edge from="n16824" to="n16827">
             <attr name="label">
                 <string>copy</string>
             </attr>
@@ -61,40 +69,7 @@
         </edge>
         <edge from="n16826" to="n16826">
             <attr name="label">
-                <string>forall:</string>
-            </attr>
-        </edge>
-        <edge from="n16823" to="n16823">
-            <attr name="label">
-                <string>new:</string>
-            </attr>
-        </edge>
-        <edge from="n16823" to="n16823">
-            <attr name="label">
-                <string>type:?x</string>
-            </attr>
-        </edge>
-        <edge from="n16823" to="n16825">
-            <attr name="label">
-                <string>nested:@</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 192 194 110 201 12</string>
-            </attr>
-        </edge>
-        <edge from="n16827" to="n16827">
-            <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge from="n16827" to="n16827">
-            <attr name="label">
-                <string>type:?x</string>
-            </attr>
-        </edge>
-        <edge from="n16827" to="n16825">
-            <attr name="label">
-                <string>nested:@</string>
+                <string>forallx:</string>
             </attr>
         </edge>
     </graph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph role="type" edgeids="false" edgemode="directed" id="type">
+    <graph role="type" edgeids="false" edgemode="directed" id="copy">
         <attr name="$version">
             <string>curly</string>
         </attr>
@@ -11,7 +11,12 @@
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>280 107 14 36</string>
+                <string>283 116 8 18</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>206 40 24 18</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
@@ -19,22 +24,9 @@
                 <string>type:A</string>
             </attr>
         </edge>
-        <edge from="n0" to="n0">
+        <edge from="n0" to="n2">
             <attr name="label">
-                <string>flag:aa</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n1">
-            <attr name="label">
-                <string>a2b</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>a</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 168 125 95 122 167 125 11</string>
+                <string>sub:</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
@@ -42,22 +34,22 @@
                 <string>type:B</string>
             </attr>
         </edge>
-        <edge from="n1" to="n1">
+        <edge from="n1" to="n2">
             <attr name="label">
-                <string>flag:bb</string>
+                <string>sub:</string>
             </attr>
         </edge>
-        <edge from="n1" to="n1">
+        <edge from="n2" to="n2">
             <attr name="label">
-                <string>b</string>
+                <string>type:Top</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>copy</string>
             </attr>
             <attr name="layout">
-                <string>500 0 287 125 354 121 287 125 11</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n0">
-            <attr name="label">
-                <string>b2a</string>
+                <string>500 0 218 49 266 49 218 49 11</string>
             </attr>
         </edge>
     </graph>

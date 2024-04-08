@@ -1,63 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph edgemode="directed" edgeids="false" role="type" id="typegraph">
-        <attr name="$version">
-            <string>curly</string>
-        </attr>
+    <graph role="type" edgeids="false" edgemode="directed" id="typegraph">
         <attr name="$version">
             <string>curly</string>
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>360 92 50 21</string>
+                <string>365 93 40 18</string>
             </attr>
         </node>
         <node id="n6">
             <attr name="layout">
-                <string>232 90 31 21</string>
+                <string>236 91 23 18</string>
             </attr>
         </node>
         <node id="n7">
             <attr name="layout">
-                <string>225 193 48 21</string>
+                <string>230 194 38 18</string>
             </attr>
         </node>
-        <edge to="n6" from="n7">
+        <edge from="n0" to="n0">
             <attr name="label">
-                <string>first</string>
+                <string>type:Object</string>
             </attr>
         </edge>
-        <edge to="n6" from="n6">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-            <attr name="layout">
-                <string>89 2 248 90 248 59 199 59 199 100 232 100 11</string>
-            </attr>
-        </edge>
-        <edge to="n6" from="n6">
+        <edge from="n6" to="n6">
             <attr name="label">
                 <string>type:Cell</string>
             </attr>
         </edge>
-        <edge to="n7" from="n7">
+        <edge from="n6" to="n0">
+            <attr name="label">
+                <string>out=0..1:val</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n6">
+            <attr name="label">
+                <string>in=1:out=1:next</string>
+            </attr>
+            <attr name="layout">
+                <string>128 22 248 88 248 59 199 59 199 100 231 100 11</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n7">
             <attr name="label">
                 <string>type:Buffer</string>
             </attr>
         </edge>
-        <edge to="n0" from="n6">
+        <edge from="n7" to="n6">
             <attr name="label">
-                <string>val</string>
+                <string>in=0..1:out=1:first</string>
             </attr>
         </edge>
-        <edge to="n6" from="n7">
+        <edge from="n7" to="n6">
             <attr name="label">
-                <string>last</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>type:Object</string>
+                <string>in=0..1:out=1:last</string>
             </attr>
         </edge>
     </graph>

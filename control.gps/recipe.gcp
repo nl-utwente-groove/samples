@@ -1,0 +1,6 @@
+recipe step() {
+   // interleaved enter and exit
+   alap { enter| exit; }
+   // a single move
+   move;
+}

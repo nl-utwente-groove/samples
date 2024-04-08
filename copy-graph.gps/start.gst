@@ -1,40 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph edgemode="directed" edgeids="false" role="graph" id="start">
+    <graph role="graph" edgeids="false" edgemode="directed" id="start">
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <attr name="$version">
-            <string>curly</string>
-        </attr>
+        <node id="n16828">
+            <attr name="layout">
+                <string>324 103 6 18</string>
+            </attr>
+        </node>
         <node id="n16829">
             <attr name="layout">
-                <string>252 128 8 16</string>
+                <string>197 101 19 19</string>
             </attr>
         </node>
         <node id="n16830">
             <attr name="layout">
-                <string>115 105 7 16</string>
+                <string>115 104 7 18</string>
             </attr>
         </node>
-        <node id="n16828">
+        <node id="n0">
             <attr name="layout">
-                <string>334 135 7 16</string>
+                <string>421 102 19 19</string>
             </attr>
         </node>
-        <edge to="n16829" from="n16829">
+        <node id="n1">
+            <attr name="layout">
+                <string>231 173 19 19</string>
+            </attr>
+        </node>
+        <edge from="n16828" to="n16828">
+            <attr name="label">
+                <string>c</string>
+            </attr>
+        </edge>
+        <edge from="n16828" to="n0">
             <attr name="label">
                 <string>b</string>
             </attr>
         </edge>
-        <edge to="n16830" from="n16830">
+        <edge from="n16829" to="n16828">
             <attr name="label">
-                <string>a</string>
+                <string>b</string>
             </attr>
         </edge>
-        <edge to="n16828" from="n16828">
+        <edge from="n16830" to="n16830">
             <attr name="label">
-                <string>c</string>
+                <string>a</string>
             </attr>
         </edge>
     </graph>
