@@ -8,25 +8,31 @@ on:
 
 jobs:
   build:
+    name: Zip and deploy release
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout rule systems
+      - name: Checkout sample rule systems
         uses: actions/checkout@v4
+        with:
+          path: 'samples'
+
+      - name: Check out GROOVE code for version number
+        uses: actions/checkout@v4
+        with:
+          repository: 'nl-utwente-groove/code'
+          path: 'code'
 
       - name: Create zips
-        run: |
-          ls
-          cat zip-all.sh
-          ./zip-all.sh
+        run: cd samples; ./zip-all.sh
         
       - name: Retrieve GROOVE version from file
-        run: echo "VERSION=$(<src/main/resources/nl/utwente/groove/resource/version/GROOVE_VERSION) | tr '.' '_'" >> $GITHUB_ENV
+        run: echo "VERSION=`cat code/src/main/resources/nl/utwente/groove/resource/version/GROOVE_VERSION | tr '.' '_'`" >> $GITHUB_ENV
 
       - name: Deploy release
         uses: ncipollo/release-action@v1.14.0
         with:
-          artifacts: "code/release/target/*.zip"
+          artifacts: "samples/*.zip"
           draft: false
-          prerelease: true
+          prerelease: false
           tag: release-${{ env.VERSION }}
